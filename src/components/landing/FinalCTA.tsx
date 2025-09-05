@@ -11,7 +11,7 @@ export const FinalCTA = () => {
         <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-8">
           The AI Appointment Engine™ books qualified appointments into your calendar - while you sleep.
         </p>
-        <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6">
+        <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6 transition-transform duration-200 hover:scale-105">
           <Link to="/booking">Book a Free Demo</Link>
         </Button>
       </div>

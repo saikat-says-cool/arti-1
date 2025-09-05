@@ -30,7 +30,7 @@ export const Pricing = () => {
             <p className="mb-8 font-semibold">
               After these 5 spots are filled, pricing doubles.
             </p>
-            <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6 w-full md:w-auto">
+            <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6 w-full md:w-auto transition-transform duration-200 hover:scale-105">
               <Link to="/booking">Book a Free Demo</Link>
             </Button>
           </CardContent>

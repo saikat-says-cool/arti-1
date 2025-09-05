@@ -28,7 +28,7 @@ export const SocialProof = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
-            <Card key={index} className="flex flex-col justify-between text-left">
+            <Card key={index} className="flex flex-col justify-between text-left transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
               <CardHeader>
                 <div className="flex items-center mb-2">
                   {[...Array(5)].map((_, i) => (

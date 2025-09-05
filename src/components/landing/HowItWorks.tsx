@@ -28,7 +28,7 @@ export const HowItWorks = () => {
         </h2>
         <div className="grid md:grid-cols-3 gap-8">
           {steps.map((step, index) => (
-            <Card key={index} className="text-center">
+            <Card key={index} className="text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
               <CardHeader>
                 <div className="mx-auto bg-blue-100 rounded-full p-4 w-fit mb-4">
                   {step.icon}
