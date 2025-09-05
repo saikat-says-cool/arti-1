@@ -12,7 +12,7 @@ export const Header = () => {
         <a href="#about" className="text-gray-600 hover:text-primary transition-colors">About</a>
       </nav>
       <Button asChild className="transition-transform duration-200 hover:scale-105">
-        <Link to="/booking">Book a Free Demo</Link>
+        <Link to="/booking">Book a Strategy Call</Link>
       </Button>
     </header>
   );

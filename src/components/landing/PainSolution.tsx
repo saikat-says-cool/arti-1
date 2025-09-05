@@ -35,12 +35,12 @@ export const PainSolution = () => {
             <CardHeader>
               <CardTitle className="flex items-center text-blue-800">
                 <CheckCircle className="w-6 h-6 mr-2 text-blue-600" />
-                The Solution
+                The Solution: A Custom-Built AI
               </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-lg text-blue-900">
-                The AI Appointment Engine™ responds instantly across phone, web chat, and social DMs - and books directly into your calendar.
+                We'll build you a custom AI Appointment Engine™ that responds instantly across phone, web chat, and social DMs - and books directly into your calendar.
               </p>
             </CardContent>
           </Card>

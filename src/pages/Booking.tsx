@@ -9,21 +9,21 @@ const Booking = () => {
   return (
     <>
       <Helmet>
-        <title>Book a Free Demo | ThynkNext</title>
-        <meta name="description" content="Schedule your free, no-obligation demo to see how the ThynkNext AI Appointment Engine can revolutionize your real estate agency's lead conversion." />
+        <title>Book a Free AI Strategy Call | ThynkNext</title>
+        <meta name="description" content="Schedule your free strategy call. Our CEO, Saikat, will personally design a custom AI Appointment Engine for your real estate agency." />
         <link rel="canonical" href={pageUrl} />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:title" content="Book a Free Demo | ThynkNext" />
-        <meta property="og:description" content="Schedule your free demo to see how our AI can revolutionize your real estate agency's lead conversion." />
+        <meta property="og:title" content="Book a Free AI Strategy Call | ThynkNext" />
+        <meta property="og:description" content="Schedule your free strategy call and get a custom AI Appointment Engine designed for your agency." />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={pageUrl} />
-        <meta property="twitter:title" content="Book a Free Demo | ThynkNext" />
-        <meta property="twitter:description" content="Schedule your free demo to see how our AI can revolutionize your real estate agency's lead conversion." />
+        <meta property="twitter:title" content="Book a Free AI Strategy Call | ThynkNext" />
+        <meta property="twitter:description" content="Schedule your free strategy call and get a custom AI Appointment Engine designed for your agency." />
       </Helmet>
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">
         <div className="w-full max-w-4xl">
@@ -35,10 +35,10 @@ const Booking = () => {
           </Button>
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-2">
-              Book Your Free Demo
+              Book Your Free AI Strategy Call
             </h1>
             <p className="text-lg text-gray-600">
-              Choose a time that works for you. I look forward to speaking with you!
+              On this call, our CEO Saikat will personally design a custom AI Appointment Engine™ for your real estate agency. Choose a time that works for you.
             </p>
           </div>
           <div className="rounded-lg shadow-xl border overflow-hidden">
