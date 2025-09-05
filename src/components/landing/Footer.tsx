@@ -8,11 +8,13 @@ export const Footer = () => {
           <h3 className="text-xl font-bold text-white">ThynkNext</h3>
           <p>AI Growth Systems for Real Estate</p>
         </div>
-        <div className="flex justify-center space-x-6 mb-6">
-          <a href="#" className="hover:text-white">Demo</a>
-          <a href="#" className="hover:text-white">Case Studies</a>
-          <a href="#" className="hover:text-white">Privacy Policy</a>
-          <a href="mailto:saikat@thynknext.in" className="hover:text-white">Contact</a>
+        <div className="mb-6">
+          <p>
+            Contact the CEO (Saikat Dutta Chowdhury) by email directly:{" "}
+            <a href="mailto:saikat@thynknext.in" className="text-primary hover:underline">
+              saikat@thynknext.in
+            </a>
+          </p>
         </div>
         <div className="flex justify-center space-x-6 mb-8">
           <a href="https://x.com/saikat_scales" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white">

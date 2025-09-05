@@ -13,8 +13,13 @@ export const Hero = () => {
         <Button size="lg" className="text-lg px-8 py-6">
           Book a Free Demo
         </Button>
-        <div className="mt-12 max-w-4xl mx-auto">
-          <img src="/placeholder.svg" alt="AI Appointment Engine in action" className="rounded-lg shadow-xl border" />
+        <div className="mt-12 max-w-4xl mx-auto rounded-lg shadow-xl border overflow-hidden">
+          <iframe
+            src="https://cal.com/saikat-dutta-chowdhury-udgx5a/15min"
+            style={{ width: "100%", height: "700px" }}
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
         </div>
       </div>
     </section>
