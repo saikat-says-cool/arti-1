@@ -37,7 +37,7 @@ const AIDemo = () => {
                 <div className="bg-white p-6 rounded-lg shadow-lg border mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-2">Want One Custom-Built For You?</h2>
                     <p className="text-gray-700 mb-4 max-w-2xl mx-auto">
-                        If you like what you see, book a free strategy call. Our CEO, Saikat, will personally design an AI appointment setter exclusively for your agency.
+                        If you like what you see, book a free strategy call. Our CEO, Saikat, will personally design an AI appointment setter exclusively for your real estate agency.
                     </p>
                     <Button asChild size="lg" className="transition-transform duration-200 hover:scale-105">
                         <Link to="/booking">Book My Free Strategy Call</Link>

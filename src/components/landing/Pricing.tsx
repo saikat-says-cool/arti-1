@@ -12,7 +12,7 @@ export const Pricing = () => {
               👉 Beta Offer - We'll Build Your Custom AI
             </CardTitle>
             <CardDescription className="text-blue-200 text-lg pt-2">
-              We’re onboarding our first 5 agencies at a special price to personally build their custom AI appointment setters.
+              We’re onboarding our first 5 real estate agencies at a special price to personally build their custom AI appointment setters.
             </CardDescription>
           </CardHeader>
           <CardContent className="text-center">

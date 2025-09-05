@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className="py-20 md:py-32 text-center bg-gray-50">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
-          👉 Get a Custom AI Appointment Setter Built For Your Agency
+          👉 Get a Custom AI Appointment Setter Built For Your Real Estate Agency
         </h1>
         <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700 delay-150">
           On your free strategy call, our CEO Saikat will personally design an AI appointment engine tailored to your agency's exact needs—so you never miss a client again.

@@ -37,10 +37,10 @@ const Index = () => {
         <main>
           <Hero />
           <PainSolution />
+          <SocialProof />
           <HowItWorks />
           <Offer />
           <Pricing />
-          <SocialProof />
           <About />
           <FinalCTA />
         </main>
