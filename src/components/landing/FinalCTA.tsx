@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export const FinalCTA = () => {
   return (
@@ -10,8 +11,8 @@ export const FinalCTA = () => {
         <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-8">
           The AI Appointment Engine™ books qualified appointments into your calendar - while you sleep.
         </p>
-        <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
-          Book a Free Demo
+        <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6">
+          <Link to="/booking">Book a Free Demo</Link>
         </Button>
       </div>
     </section>

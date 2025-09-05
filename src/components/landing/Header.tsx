@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
@@ -10,7 +11,9 @@ export const Header = () => {
         <a href="#pricing" className="text-gray-600 hover:text-primary">Pricing</a>
         <a href="#about" className="text-gray-600 hover:text-primary">About</a>
       </nav>
-      <Button>Book a Free Demo</Button>
+      <Button asChild>
+        <Link to="/booking">Book a Free Demo</Link>
+      </Button>
     </header>
   );
 };

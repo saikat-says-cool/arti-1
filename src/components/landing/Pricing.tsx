@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 export const Pricing = () => {
   return (
@@ -29,8 +30,8 @@ export const Pricing = () => {
             <p className="mb-8 font-semibold">
               After these 5 spots are filled, pricing doubles.
             </p>
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-6 w-full md:w-auto">
-              Book a Free Demo
+            <Button asChild size="lg" variant="secondary" className="text-lg px-8 py-6 w-full md:w-auto">
+              <Link to="/booking">Book a Free Demo</Link>
             </Button>
           </CardContent>
         </Card>
