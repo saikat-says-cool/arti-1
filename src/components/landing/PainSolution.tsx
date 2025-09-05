@@ -31,15 +31,15 @@ export const PainSolution = () => {
               The result? Lost commissions and wasted marketing spend.
             </p>
           </div>
-          <Card className="bg-green-50 border-green-200 text-left">
+          <Card className="bg-blue-50 border-blue-200 text-left">
             <CardHeader>
-              <CardTitle className="flex items-center text-green-800">
-                <CheckCircle className="w-6 h-6 mr-2 text-green-600" />
+              <CardTitle className="flex items-center text-blue-800">
+                <CheckCircle className="w-6 h-6 mr-2 text-blue-600" />
                 The Solution
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-lg text-green-900">
+              <p className="text-lg text-blue-900">
                 The AI Appointment Engine™ responds instantly across phone, web chat, and social DMs - and books directly into your calendar.
               </p>
             </CardContent>

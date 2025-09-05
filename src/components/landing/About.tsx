@@ -15,13 +15,13 @@ export const About = () => {
             Follow my journey on:
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-gray-500 hover:text-green-600">
+            <a href="https://x.com/saikat_scales" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-primary">
               <Twitter className="w-8 h-8" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-pink-600">
+            <a href="https://www.instagram.com/saikat.scales/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pink-600">
               <Instagram className="w-8 h-8" />
             </a>
-            <a href="#" className="text-gray-500 hover:text-red-600">
+            <a href="https://www.youtube.com/@saikat-scales_withAI" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-red-600">
               <Youtube className="w-8 h-8" />
             </a>
           </div>

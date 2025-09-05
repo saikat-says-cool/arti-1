@@ -12,16 +12,16 @@ export const Footer = () => {
           <a href="#" className="hover:text-white">Demo</a>
           <a href="#" className="hover:text-white">Case Studies</a>
           <a href="#" className="hover:text-white">Privacy Policy</a>
-          <a href="#" className="hover:text-white">Contact</a>
+          <a href="mailto:saikat@thynknext.in" className="hover:text-white">Contact</a>
         </div>
         <div className="flex justify-center space-x-6 mb-8">
-          <a href="#" className="text-gray-500 hover:text-white">
+          <a href="https://x.com/saikat_scales" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white">
             <Twitter className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-500 hover:text-white">
+          <a href="https://www.instagram.com/saikat.scales/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white">
             <Instagram className="w-6 h-6" />
           </a>
-          <a href="#" className="text-gray-500 hover:text-white">
+          <a href="https://www.youtube.com/@saikat-scales_withAI" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-white">
             <Youtube className="w-6 h-6" />
           </a>
         </div>

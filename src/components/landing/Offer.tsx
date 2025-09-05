@@ -25,8 +25,8 @@ export const Offer = () => {
           <ul className="space-y-4">
             {deliverables.map((item, index) => (
               <li key={index} className="flex items-start">
-                <div className="bg-green-100 rounded-full p-1 mr-4">
-                  <Check className="w-5 h-5 text-green-600" />
+                <div className="bg-blue-100 rounded-full p-1 mr-4">
+                  <Check className="w-5 h-5 text-blue-600" />
                 </div>
                 <span className="text-gray-700 text-lg">{item}</span>
               </li>
