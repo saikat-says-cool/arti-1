@@ -14,6 +14,14 @@ export const Hero = () => {
         <Button asChild size="lg" className="text-lg px-8 py-6">
           <Link to="/booking">Book a Free Demo</Link>
         </Button>
+        <div className="mt-12 max-w-4xl mx-auto rounded-lg shadow-xl border overflow-hidden">
+          <iframe
+            src="https://cal.com/saikat-dutta-chowdhury-udgx5a/15min"
+            style={{ width: "100%", height: "700px" }}
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </section>
   );
