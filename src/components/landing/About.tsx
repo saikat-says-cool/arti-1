@@ -9,13 +9,13 @@ export const About = () => {
             👉 Built by Saikat @ ThynkNext
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            I’m Saikat, founder of ThynkNext. I help real estate agencies scale with AI-powered automation — so you can focus on closing deals, not chasing leads.
+            I’m Saikat, founder of ThynkNext. I help real estate agencies scale with AI-powered automation - so you can focus on closing deals, not chasing leads.
           </p>
           <p className="text-lg text-gray-600 mb-8">
             Follow my journey on:
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-gray-500 hover:text-blue-600">
+            <a href="#" className="text-gray-500 hover:text-green-600">
               <Twitter className="w-8 h-8" />
             </a>
             <a href="#" className="text-gray-500 hover:text-pink-600">

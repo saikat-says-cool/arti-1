@@ -3,18 +3,18 @@ import { Phone, Bot, CalendarCheck } from "lucide-react";
 
 const steps = [
   {
-    icon: <Phone className="w-8 h-8 text-blue-600" />,
-    title: "Step 1 — Lead Reaches Out",
-    description: "Phone call, website chat, or social media DM — doesn’t matter.",
+    icon: <Phone className="w-8 h-8 text-green-600" />,
+    title: "Step 1 - Lead Reaches Out",
+    description: "Phone call, website chat, or social media DM - doesn’t matter.",
   },
   {
-    icon: <Bot className="w-8 h-8 text-blue-600" />,
-    title: "Step 2 — AI Responds",
+    icon: <Bot className="w-8 h-8 text-green-600" />,
+    title: "Step 2 - AI Responds",
     description: "Answers questions, qualifies the lead, and offers appointment times instantly.",
   },
   {
-    icon: <CalendarCheck className="w-8 h-8 text-blue-600" />,
-    title: "Step 3 — Appointment Confirmed",
+    icon: <CalendarCheck className="w-8 h-8 text-green-600" />,
+    title: "Step 3 - Appointment Confirmed",
     description: "Lead is booked directly into your Google Calendar (and synced with your CRM).",
   },
 ];
@@ -30,7 +30,7 @@ export const HowItWorks = () => {
           {steps.map((step, index) => (
             <Card key={index} className="text-center">
               <CardHeader>
-                <div className="mx-auto bg-blue-100 rounded-full p-4 w-fit mb-4">
+                <div className="mx-auto bg-green-100 rounded-full p-4 w-fit mb-4">
                   {step.icon}
                 </div>
                 <CardTitle>{step.title}</CardTitle>
