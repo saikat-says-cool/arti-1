@@ -44,7 +44,7 @@ const AIDemo = () => {
                     </Button>
                 </div>
             </div>
-            <div className="w-full max-w-md h-[70vh] rounded-xl shadow-2xl overflow-hidden border-4 border-gray-800 bg-gray-800 mt-8">
+            <div className="w-full max-w-md h-[85vh] rounded-xl shadow-2xl overflow-hidden border-4 border-gray-800 bg-gray-800 mt-8">
                 <iframe
                     src="https://convocore.ai/app/eu/render/1NBpChc5vMmn9unS6hfM/iframe"
                     style={{ width: "100%", height: "100%" }}
