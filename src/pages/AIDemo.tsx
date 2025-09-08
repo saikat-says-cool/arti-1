@@ -26,7 +26,7 @@ const AIDemo = () => {
               </Link>
             </Button>
         </header>
-        <main className="flex-grow flex flex-col items-center justify-center p-4 text-center">
+        <main className="flex-grow flex flex-col items-center p-4 md:py-12 md:px-8 text-center">
             <div className="w-full max-w-4xl mx-auto">
                 <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-2">
                     Experience Our AI in Action
@@ -44,14 +44,14 @@ const AIDemo = () => {
                     </Button>
                 </div>
             </div>
+            <div className="w-full max-w-md h-[70vh] rounded-xl shadow-2xl overflow-hidden border-4 border-gray-800 bg-gray-800 mt-8">
+                <iframe
+                    src="https://convocore.ai/app/eu/render/1NBpChc5vMmn9unS6hfM/iframe"
+                    style={{ width: "100%", height: "100%" }}
+                    frameBorder="0">
+                </iframe>
+            </div>
         </main>
-        <div className="w-full h-[70vh] md:h-screen border-t">
-            <iframe
-                src="https://convocore.ai/app/eu/render/1NBpChc5vMmn9unS6hfM/iframe"
-                style={{ width: "100%", height: "100%" }}
-                frameBorder="0">
-            </iframe>
-        </div>
       </div>
     </>
   );
