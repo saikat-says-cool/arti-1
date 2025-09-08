@@ -5,7 +5,7 @@ export const Footer = () => {
     <footer className="bg-gray-900 text-gray-400 py-12">
       <div className="container mx-auto px-6 text-center">
         <div className="mb-6">
-          <h3 className="text-xl font-bold text-white">ThynkNext</h3>
+          <h3 className="text-xl font-bold text-white">Artificialyze</h3>
           <p>AI Growth Systems for Real Estate</p>
         </div>
         <div className="mb-6">
@@ -27,7 +27,7 @@ export const Footer = () => {
             <Youtube className="w-6 h-6" />
           </a>
         </div>
-        <p className="text-sm">&copy; {new Date().getFullYear()} ThynkNext. All rights reserved.</p>
+        <p className="text-sm">&copy; {new Date().getFullYear()} Artificialyze. All rights reserved.</p>
       </div>
     </footer>
   );

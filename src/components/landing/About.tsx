@@ -6,10 +6,10 @@ export const About = () => {
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            👉 Built by Saikat @ ThynkNext
+            👉 Built by Saikat @ Artificialyze
           </h2>
           <p className="text-lg text-gray-600 mb-6">
-            I’m Saikat, founder of ThynkNext. I help real estate agencies scale with AI-powered automation - so you can focus on closing deals, not chasing leads.
+            I’m Saikat, founder of Artificialyze. I help real estate agencies scale with AI-powered automation - so you can focus on closing deals, not chasing leads.
           </p>
           <p className="text-lg text-gray-600 mb-8">
             Follow my journey on:

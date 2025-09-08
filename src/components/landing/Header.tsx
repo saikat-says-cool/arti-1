@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className="py-4 px-6 md:px-12 flex justify-between items-center bg-white/80 backdrop-blur-sm shadow-sm sticky top-0 z-50 transition-colors">
       <div className="text-2xl font-bold text-gray-800">
-        Thynk<span className="text-primary">Next</span>
+        Artificia<span className="text-primary">lyze</span>
       </div>
       <nav className="hidden md:flex items-center space-x-6">
         <a href="#pricing" className="text-gray-600 hover:text-primary transition-colors">Pricing</a>

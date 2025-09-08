@@ -9,20 +9,20 @@ const Booking = () => {
   return (
     <>
       <Helmet>
-        <title>Book a Free AI Strategy Call | ThynkNext</title>
+        <title>Book a Free AI Strategy Call | Artificialyze</title>
         <meta name="description" content="Schedule your free strategy call. Our CEO, Saikat, will personally design a custom AI Appointment Engine for your real estate agency." />
         <link rel="canonical" href={pageUrl} />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:title" content="Book a Free AI Strategy Call | ThynkNext" />
+        <meta property="og:title" content="Book a Free AI Strategy Call | Artificialyze" />
         <meta property="og:description" content="Schedule your free strategy call and get a custom AI Appointment Engine designed for your agency." />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={pageUrl} />
-        <meta property="twitter:title" content="Book a Free AI Strategy Call | ThynkNext" />
+        <meta property="twitter:title" content="Book a Free AI Strategy Call | Artificialyze" />
         <meta property="twitter:description" content="Schedule your free strategy call and get a custom AI Appointment Engine designed for your agency." />
       </Helmet>
       <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-4">

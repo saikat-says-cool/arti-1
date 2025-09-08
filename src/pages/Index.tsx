@@ -16,21 +16,21 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>ThynkNext | AI Appointment Setter for Real Estate</title>
-        <meta name="description" content="Stop missing leads. ThynkNext's AI Appointment Engine books 30-50% more appointments for real estate agencies by answering calls and chats 24/7. Book your free demo today!" />
+        <title>Artificialyze | AI Appointment Setter for Real Estate</title>
+        <meta name="description" content="Stop missing leads. Artificialyze's AI Appointment Engine books 30-50% more appointments for real estate agencies by answering calls and chats 24/7. Book your free demo today!" />
         <link rel="canonical" href={pageUrl} />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={pageUrl} />
-        <meta property="og:title" content="ThynkNext | AI Appointment Setter for Real Estate" />
-        <meta property="og:description" content="Stop missing leads. ThynkNext's AI Appointment Engine books 30-50% more appointments for real estate agencies." />
+        <meta property="og:title" content="Artificialyze | AI Appointment Setter for Real Estate" />
+        <meta property="og:description" content="Stop missing leads. Artificialyze's AI Appointment Engine books 30-50% more appointments for real estate agencies." />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={pageUrl} />
-        <meta property="twitter:title" content="ThynkNext | AI Appointment Setter for Real Estate" />
-        <meta property="twitter:description" content="Stop missing leads. ThynkNext's AI Appointment Engine books 30-50% more appointments for real estate agencies." />
+        <meta property="twitter:title" content="Artificialyze | AI Appointment Setter for Real Estate" />
+        <meta property="twitter:description" content="Stop missing leads. Artificialyze's AI Appointment Engine books 30-50% more appointments for real estate agencies." />
       </Helmet>
       <div className="bg-white">
         <Header />

@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    quote: "We were losing at least 10 deals a month to missed calls. ThynkNext's AI engine plugged that leak overnight. Our appointment book has never been this full.",
+    quote: "We were losing at least 10 deals a month to missed calls. Artificialyze's AI engine plugged that leak overnight. Our appointment book has never been this full.",
     name: "Sarah K.",
     title: "Principal @ Prestige Properties",
   },

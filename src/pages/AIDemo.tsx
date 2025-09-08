@@ -9,12 +9,12 @@ const AIDemo = () => {
   return (
     <>
       <Helmet>
-        <title>Live AI Demo | ThynkNext</title>
+        <title>Live AI Demo | Artificialyze</title>
         <meta name="description" content="Interact with our AI Appointment Engine™ live. See how it qualifies leads and books meetings 24/7. Get a custom AI built for your agency by booking a free demo." />
         <link rel="canonical" href={pageUrl} />
-        <meta property="og:title" content="Live AI Demo | ThynkNext" />
+        <meta property="og:title" content="Live AI Demo | Artificialyze" />
         <meta property="og:description" content="Interact with our AI Appointment Engine™ live and see how it can revolutionize your agency." />
-        <meta property="twitter:title" content="Live AI Demo | ThynkNext" />
+        <meta property="twitter:title" content="Live AI Demo | Artificialyze" />
         <meta property="twitter:description" content="Interact with our AI Appointment Engine™ live and see how it can revolutionize your agency." />
       </Helmet>
       <div className="min-h-screen bg-gray-50 flex flex-col">
