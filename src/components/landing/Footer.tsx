@@ -11,8 +11,8 @@ export const Footer = () => {
         <div className="mb-6">
           <p>
             Contact the CEO (Saikat Dutta Chowdhury) by email directly:{" "}
-            <a href="mailto:saikat@thynknext.in" className="text-primary hover:underline">
-              saikat@thynknext.in
+            <a href="mailto:saikat@artificialyze.com" className="text-primary hover:underline">
+              saikat@artificialyze.com
             </a>
           </p>
         </div>
