@@ -43,7 +43,7 @@ const Booking = () => {
           </div>
           <div className="rounded-lg shadow-xl border overflow-hidden">
             <iframe
-              src="https://cal.com/saikat-dutta-chowdhury-udgx5a/15min"
+              src="https://cal.com/saikat-artificialyze/15min?overlayCalendar=true"
               style={{ width: "100%", height: "700px" }}
               frameBorder="0"
               allowFullScreen

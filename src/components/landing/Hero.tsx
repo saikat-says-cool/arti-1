@@ -21,7 +21,7 @@ export const Hero = () => {
         </div>
         <div className="mt-12 max-w-4xl mx-auto rounded-lg shadow-xl border overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-700 delay-500">
           <iframe
-            src="https://cal.com/saikat-dutta-chowdhury-udgx5a/15min"
+            src="https://cal.com/saikat-artificialyze/15min?overlayCalendar=true"
             style={{ width: "100%", height: "700px" }}
             frameBorder="0"
             allowFullScreen
