@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Mic } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 
 const AIDemo = () => {
@@ -34,6 +34,28 @@ const AIDemo = () => {
                 <p className="text-lg text-gray-600 mb-6">
                     This is a live demo of our AI Appointment Engine™. Interact with it below.
                 </p>
+
+                <div className="text-left max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-lg border mb-8">
+                    <h2 className="text-2xl font-bold text-gray-800 mb-4">How This AI Works</h2>
+                    <p className="text-gray-700 mb-4">
+                        This AI is designed for seamless, multi-channel communication. The exact same conversational experience you see here can be deployed on:
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 mb-4 text-gray-700">
+                        <li>WhatsApp, Facebook Messenger & Instagram DMs</li>
+                        <li>Any website chat widget (like this one)</li>
+                        <li><span className="font-semibold">Coming Soon:</span> Twitter DMs & Email</li>
+                    </ul>
+                    <div className="bg-blue-50 border-l-4 border-blue-500 text-blue-800 p-4 rounded-md my-6">
+                        <h3 className="font-bold flex items-center"><Mic className="w-5 h-5 mr-2" />Try the Voice Experience!</h3>
+                        <p className="mt-2">
+                            To experience how the AI feels over the phone, click the <span className="font-bold">headphone icon</span> in the chat window. You can speak directly to the AI, and it will respond in voice. This is the exact experience your leads will have when they call.
+                        </p>
+                    </div>
+                    <p className="text-gray-700 mb-4">
+                        <span className="font-bold">Full Customization Available:</span> While this demo shows a standard setup, we can implement any level of customization you need, including multi-tab interfaces, static FAQs, and much more.
+                    </p>
+                </div>
+
                 <div className="bg-white p-6 rounded-lg shadow-lg border mb-8">
                     <h2 className="text-2xl font-bold text-primary mb-2">Want One Custom-Built For You?</h2>
                     <p className="text-gray-700 mb-4 max-w-2xl mx-auto">
