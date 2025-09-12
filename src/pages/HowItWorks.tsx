@@ -1,3 +1,4 @@
+import PageLayout from "@/components/layout/PageLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MessageSquare, Bot, TrendingUp } from "lucide-react";
 
@@ -19,17 +20,17 @@ const steps = [
   },
 ];
 
-const HowItWorks = () => {
+const HowItWorksPage = () => {
   return (
-    <section className="py-16 md:py-24">
-      <div className="container mx-auto px-4 md:px-6">
+    <PageLayout>
+      <div className="container mx-auto px-4 md:px-6 py-24 md:py-32">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">Your Path to Automated Growth</h2>
+          <h1 className="text-4xl md:text-5xl font-bold">Your Path to Automated Growth</h1>
           <p className="mt-4 text-lg text-gray-600">
             Getting started with your AI Sales Assistant is a straightforward, collaborative process.
           </p>
         </div>
-        <div className="mt-12 grid md:grid-cols-3 gap-8">
+        <div className="mt-16 grid md:grid-cols-3 gap-8">
           {steps.map((step) => (
             <Card key={step.title} className="text-center">
               <CardHeader>
@@ -45,8 +46,8 @@ const HowItWorks = () => {
           ))}
         </div>
       </div>
-    </section>
+    </PageLayout>
   );
 };
 
-export default HowItWorks;
+export default HowItWorksPage;

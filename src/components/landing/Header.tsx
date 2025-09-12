@@ -15,6 +15,12 @@ const Header = () => {
           <Link to="/who-we-help" className="text-sm font-medium hover:text-primary transition-colors">
             Who We Help
           </Link>
+          <Link to="/how-it-works" className="text-sm font-medium hover:text-primary transition-colors">
+            How It Works
+          </Link>
+          <Link to="/what-you-get" className="text-sm font-medium hover:text-primary transition-colors">
+            What You Get
+          </Link>
         </nav>
         <Button asChild>
           <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">
