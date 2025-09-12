@@ -80,13 +80,13 @@ const WhatYouGetPage = () => {
                 {kpiCategories.map((cat) => (
                     <div key={cat.category}>
                         <h3 className="text-2xl font-semibold mb-4">{cat.category}</h3>
-                        <div className="border rounded-lg">
+                        <div className="border rounded-lg overflow-x-auto">
                             <Table>
                                 <TableHeader>
                                     <TableRow>
-                                        <TableHead className="w-[25%]">KPI</TableHead>
-                                        <TableHead className="w-[20%]">Conservative Estimate</TableHead>
-                                        <TableHead>Description</TableHead>
+                                        <TableHead className="w-[25%] min-w-[150px]">KPI</TableHead>
+                                        <TableHead className="w-[20%] min-w-[150px]">Conservative Estimate</TableHead>
+                                        <TableHead className="min-w-[300px]">Description</TableHead>
                                     </TableRow>
                                 </TableHeader>
                                 <TableBody>
