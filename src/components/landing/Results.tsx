@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const results = [
     { value: "70-90%", label: "First Contact Resolution" },
     { value: "10-25%", label: "Conversion Rate Improvement" },
@@ -22,6 +24,13 @@ const Results = () => {
               <p className="mt-2 text-gray-600 font-medium">{result.label}</p>
             </div>
           ))}
+        </div>
+        <div className="mt-16 text-center">
+            <Button size="lg" asChild>
+                <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">
+                    Ready to See These Results? Book a Call
+                </a>
+            </Button>
         </div>
       </div>
     </section>

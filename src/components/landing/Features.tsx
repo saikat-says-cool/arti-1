@@ -1,5 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Bot, Database, Headphones, BarChart, Mic, Users, Wrench } from "lucide-react";
+import { Bot, Database, Headphones, BarChart, Mic, Users } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const features = [
   {
@@ -56,6 +58,13 @@ const Features = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+        <div className="mt-16 text-center">
+            <Button size="lg" variant="outline" asChild>
+                <Link to="/features">
+                    See All Features & Integrations
+                </Link>
+            </Button>
         </div>
       </div>
     </section>

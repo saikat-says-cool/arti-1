@@ -1,6 +1,7 @@
 import PageLayout from "@/components/layout/PageLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Bot, Database, Headphones, BarChart, Mic, Users, Wrench, Zap, GitBranch } from "lucide-react";
+import { Bot, Database, Headphones, BarChart, Mic, Users, Wrench, Zap } from "lucide-react";
+import FinalCTA from "@/components/landing/FinalCTA";
 
 const features = [
   {
@@ -100,6 +101,7 @@ const FeaturesPage = () => {
           ))}
         </div>
       </div>
+      <FinalCTA />
     </PageLayout>
   );
 };

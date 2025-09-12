@@ -8,6 +8,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { CheckCircle2 } from "lucide-react";
+import FinalCTA from "@/components/landing/FinalCTA";
 
 const deliverables = [
   "A Custom-Trained AI Assistant that acts as your #1 salesperson.",
@@ -104,6 +105,7 @@ const WhatYouGetPage = () => {
             </div>
         </div>
       </div>
+      <FinalCTA />
     </PageLayout>
   );
 };

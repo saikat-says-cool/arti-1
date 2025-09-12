@@ -9,6 +9,7 @@ import FeaturesPage from "./pages/Features";
 import WhoWeHelpPage from "./pages/WhoWeHelp";
 import HowItWorksPage from "./pages/HowItWorks";
 import WhatYouGetPage from "./pages/WhatYouGet";
+import ScrollToTop from "./components/utils/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/features" element={<FeaturesPage />} />

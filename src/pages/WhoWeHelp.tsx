@@ -1,6 +1,7 @@
 import PageLayout from "@/components/layout/PageLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Dumbbell, HeartPulse, Shirt, Apple, BrainCircuit, Sparkles } from "lucide-react";
+import FinalCTA from "@/components/landing/FinalCTA";
 
 const targetSectors = [
   {
@@ -63,6 +64,7 @@ const WhoWeHelpPage = () => {
           ))}
         </div>
       </div>
+      <FinalCTA />
     </PageLayout>
   );
 };

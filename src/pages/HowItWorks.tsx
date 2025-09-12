@@ -1,6 +1,7 @@
 import PageLayout from "@/components/layout/PageLayout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MessageSquare, Bot, TrendingUp } from "lucide-react";
+import FinalCTA from "@/components/landing/FinalCTA";
 
 const steps = [
   {
@@ -27,7 +28,7 @@ const HowItWorksPage = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold">Your Path to Automated Growth</h1>
           <p className="mt-4 text-lg text-gray-600">
-            Getting started with your AI Sales Assistant is a straightforward, collaborative process.
+            Getting started with your AI Sales Assistant is a straightforward, collaborative process designed for clarity and maximum impact. We handle the technical heavy lifting so you can focus on what you do best—running your business.
           </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
@@ -46,6 +47,7 @@ const HowItWorksPage = () => {
           ))}
         </div>
       </div>
+      <FinalCTA />
     </PageLayout>
   );
 };
