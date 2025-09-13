@@ -1,4 +1,5 @@
 import PageLayout from "@/components/layout/PageLayout";
+import FinalCTA from "@/components/landing/FinalCTA";
 
 const WhatWeBuiltPage = () => {
   return (
@@ -17,7 +18,7 @@ const WhatWeBuiltPage = () => {
         </div>
 
         <div className="mt-12 flex justify-center">
-          <div className="w-full max-w-md h-[70vh] bg-white rounded-2xl shadow-2xl p-2 border">
+          <div className="w-full max-w-md h-[80vh] bg-white rounded-2xl shadow-2xl p-2 border">
             <div className="w-full h-full rounded-xl overflow-hidden">
               <iframe
                 src="https://convocore.ai/app/eu/render/xv5oHvEna9SfwDPJtUk0/iframe"
@@ -29,6 +30,7 @@ const WhatWeBuiltPage = () => {
           </div>
         </div>
       </div>
+      <FinalCTA />
     </PageLayout>
   );
 };
