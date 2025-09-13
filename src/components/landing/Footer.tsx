@@ -1,4 +1,4 @@
-import { Twitter } from "lucide-react";
+import { Twitter, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -15,6 +15,15 @@ const Footer = () => {
               className="hover:text-primary transition-colors"
             >
               <Twitter className="w-6 h-6" />
+            </a>
+            <a 
+              href="https://www.instagram.com/the.ecomautomation.guy/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="Artificialyze on Instagram"
+              className="hover:text-primary transition-colors"
+            >
+              <Instagram className="w-6 h-6" />
             </a>
           </div>
           <p>
