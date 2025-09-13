@@ -8,6 +8,7 @@ const navLinks = [
   { to: "/who-we-help", label: "Who We Help" },
   { to: "/how-it-works", label: "How It Works" },
   { to: "/what-you-get", label: "What You Get" },
+  { to: "/what-we-built", label: "What We've Built" },
 ];
 
 const Header = () => {
