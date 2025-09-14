@@ -34,7 +34,18 @@ const WhatWeBuiltPage = () => {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold">Live Client Dashboard</h2>
             <p className="mt-4 text-lg text-gray-600">
-              Here's a live look at the powerful dashboard our clients use to monitor analytics, track conversations, and gain insights into customer interactions.
+              This is the exact dashboard used by the team behind the Thenx assistant shown above. You can log in to see how our clients monitor analytics, track conversations, and gain insights into customer interactions.
+            </p>
+            <div className="mt-6 text-left inline-block bg-gray-100 p-4 rounded-lg border">
+                <p className="font-semibold">To log in, use the following credentials:</p>
+                <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li><strong>Email:</strong> admin@artificialyze.com</li>
+                    <li><strong>Password:</strong> admin@1234</li>
+                </ul>
+                <p className="mt-2">Then, click "Sign In".</p>
+            </div>
+            <p className="mt-6 text-lg text-gray-600">
+              <strong>Pro Tip:</strong> For the best experience, interact with the Thenx chatbot above and watch the dashboard update in real-time. This will give you a hands-on feel for the entire system.
             </p>
           </div>
           <div className="mt-12 max-w-6xl mx-auto">
