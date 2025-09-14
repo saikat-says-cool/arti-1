@@ -29,6 +29,25 @@ const WhatWeBuiltPage = () => {
             </div>
           </div>
         </div>
+
+        <div className="mt-24">
+          <div className="text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold">Live Client Dashboard</h2>
+            <p className="mt-4 text-lg text-gray-600">
+              Here's a live look at the powerful dashboard our clients use to monitor analytics, track conversations, and gain insights into customer interactions.
+            </p>
+          </div>
+          <div className="mt-12 max-w-6xl mx-auto">
+            <div className="w-full h-[80vh] bg-white rounded-2xl shadow-2xl p-2 border">
+              <iframe
+                src="https://artificialyze.convocore.ai/app/eu/client"
+                className="w-full h-full rounded-xl"
+                frameBorder="0"
+                title="Client Dashboard Preview"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
       <FinalCTA />
     </PageLayout>
