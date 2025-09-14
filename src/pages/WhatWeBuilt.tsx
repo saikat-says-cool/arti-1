@@ -9,9 +9,9 @@ const WhatWeBuiltPage = () => {
           <h1 className="text-4xl md:text-5xl font-bold">What We've Built for Our Clients</h1>
           <p className="mt-4 text-lg text-gray-600">
             We built the following AI-powered demo for one of our clients,{" "}
-            <a href="https://thenx.com/" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">
+            <span className="font-semibold text-primary">
               Thenx
-            </a>
+            </span>
             , the world's largest calisthenics community, founded by Chris Heria and Stefan Heria.
           </p>
           <p className="mt-2 text-gray-500">Interact with the demo below to see our AI in action.</p>
