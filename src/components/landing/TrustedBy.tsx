@@ -8,7 +8,7 @@ const TrustedBy = () => {
   return (
     <section className="py-16 md:py-24">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold h-12">
+        <h2 className="text-3xl md:text-4xl font-bold h-24">
           <TypeAnimation
             sequence={['Proven Systems, ']}
             wrapper="span"

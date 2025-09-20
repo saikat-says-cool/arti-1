@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <section className="container mx-auto flex flex-col items-center py-24 md:py-32 text-center">
-      <h1 className="text-4xl md:text-6xl font-bold tracking-tighter h-24 md:h-40">
+      <h1 className="text-4xl md:text-6xl font-bold tracking-tighter h-36 md:h-40">
         <TypeAnimation
           sequence={['We Build AI Systems That Save You Time and ']}
           wrapper="span"
