@@ -33,7 +33,7 @@ const Header = () => {
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <Button asChild className="hidden md:inline-flex">
-            <Link to="/book">Book a Free Consultation</Link>
+            <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
           </Button>
           <Sheet>
             <SheetTrigger asChild className="md:hidden">
@@ -58,7 +58,7 @@ const Header = () => {
                   </NavLink>
                 ))}
                 <Button asChild className="mt-4">
-                  <Link to="/book">Book a Free Consultation</Link>
+                  <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
                 </Button>
               </nav>
             </SheetContent>

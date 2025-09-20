@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const CaseStudies = () => {
   return (
@@ -9,7 +8,7 @@ const CaseStudies = () => {
         We are currently compiling our public case studies. In the meantime, we'd be happy to show you live demos of our systems in action.
       </p>
       <Button asChild size="lg" className="mt-8">
-        <Link to="/book">See Our Demo Systems</Link>
+        <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">See Our Demo Systems</a>
       </Button>
     </div>
   );

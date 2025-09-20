@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -11,7 +10,7 @@ const Hero = () => {
         From customer support to lead generation, appointment setting to social media — we design and deploy custom AI automations for your business.
       </p>
       <Button asChild size="lg" className="mt-8">
-        <Link to="/book">Book a Free Consultation</Link>
+        <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
       </Button>
     </section>
   );
