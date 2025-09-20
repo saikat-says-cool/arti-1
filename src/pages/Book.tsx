@@ -35,6 +35,12 @@ const Book = () => {
           <Button size="lg" className="mt-8" asChild>
             <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
           </Button>
+          <p className="mt-8 text-muted-foreground">
+            Or, email our CEO directly at{' '}
+            <a href="mailto:saikat@artificialyze.com" className="font-medium text-foreground underline-offset-4 hover:underline">
+              saikat@artificialyze.com
+            </a>
+          </p>
         </div>
       </div>
     </>
