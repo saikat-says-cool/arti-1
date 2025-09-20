@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 import { Helmet } from "react-helmet-async";
 
 const reasons = [
-  { icon: <Zap className="h-8 w-8 text-accent" />, title: "All-in-One Expertise", description: "We master every major automation platform (Make, Zapier, n8n, Voiceflow, Supabase, APIs), so you get the best tool for the job, every time. No need to juggle multiple agencies or freelancers." },
+  { icon: <Zap className="h-8 w-8 text-accent" />, title: "All-in-One Expertise", description: "We master a wide range of leading automation platforms, APIs, and cloud infrastructure, so you get the best tool for the job, every time. No need to juggle multiple agencies or freelancers." },
   { icon: <Wrench className="h-8 w-8 text-accent" />, title: "Custom Solutions, Not Templates", description: "Your business is unique. We build tailored automations designed specifically for your workflow, ensuring seamless integration and maximum impact. We don't do one-size-fits-all." },
   { icon: <BarChart className="h-8 w-8 text-accent" />, title: "Revenue & Efficiency Focused", description: "We don't just build bots; we build business assets. Every system is designed with a clear ROI in mind, whether it's increasing sales, reducing operational costs, or saving you hundreds of hours." },
   { icon: <ShieldCheck className="h-8 w-8 text-accent" />, title: "Full Ownership & Transparency", description: "You own everything we build. We provide full documentation and training, so you're never locked into a service. You have complete control and transparency over your systems." },

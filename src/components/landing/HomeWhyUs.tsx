@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
 const reasons = [
-  { icon: <Zap className="h-8 w-8 text-accent" />, title: "All-in-One Expertise", description: "We master every major automation platform (Make, Zapier, n8n, Voiceflow) so you get the best tool for the job, every time." },
+  { icon: <Zap className="h-8 w-8 text-accent" />, title: "All-in-One Expertise", description: "We master a wide range of leading automation platforms, ensuring you get the best tool for the job, every time." },
   { icon: <Wrench className="h-8 w-8 text-accent" />, title: "Fully Custom Solutions", description: "Your business is unique. We build tailored automations designed specifically for your workflow, ensuring seamless integration and maximum impact." },
   { icon: <BarChart className="h-8 w-8 text-accent" />, title: "Revenue & Efficiency Focused", description: "We don't just build bots; we build business assets. Every system is designed to increase sales, reduce costs, or save you hundreds of hours." },
 ];
