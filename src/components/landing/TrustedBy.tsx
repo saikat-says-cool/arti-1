@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 
 const clients = ["Thenx", "Pilgrim", "Zouk"];
 
@@ -7,8 +8,23 @@ const TrustedBy = () => {
   return (
     <section className="py-16 md:py-24">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold">
-          Proven Systems, <span className="text-accent">Trusted By Brands</span>
+        <h2 className="text-3xl md:text-4xl font-bold h-12">
+          <TypeAnimation
+            sequence={['Proven Systems, ']}
+            wrapper="span"
+            speed={50}
+            repeat={0}
+            cursor={false}
+          />
+          <span className="text-accent">
+            <TypeAnimation
+              sequence={[800, 'Trusted By Brands']}
+              wrapper="span"
+              speed={50}
+              repeat={0}
+              cursor={true}
+            />
+          </span>
         </h2>
         <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
           We've had the privilege of building automation solutions for innovative companies.

@@ -2,6 +2,7 @@ import { Bot, CalendarDays, Target } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { TypeAnimation } from "react-type-animation";
 
 const services = [
   { icon: <Bot className="h-8 w-8 text-accent" />, title: "AI Customer Support", description: "Resolve customer queries instantly, 24/7, without human intervention." },
@@ -13,7 +14,24 @@ const HomeServices = () => {
   return (
     <section className="py-16 md:py-24 bg-secondary/20">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold">AI-Powered Automation, <span className="text-accent">Done For You</span></h2>
+        <h2 className="text-3xl md:text-4xl font-bold h-12">
+          <TypeAnimation
+            sequence={['AI-Powered Automation, ']}
+            wrapper="span"
+            speed={50}
+            repeat={0}
+            cursor={false}
+          />
+          <span className="text-accent">
+            <TypeAnimation
+              sequence={[1200, 'Done For You']}
+              wrapper="span"
+              speed={50}
+              repeat={0}
+              cursor={true}
+            />
+          </span>
+        </h2>
         <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">
           We replace manual, repetitive work with intelligent AI systems that work around the clock. Whether you need to close more sales, support customers faster, or scale outreach—we build the solution.
         </p>

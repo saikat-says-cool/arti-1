@@ -1,10 +1,28 @@
 import { Button } from "@/components/ui/button";
+import { TypeAnimation } from "react-type-animation";
 
 const HomeCTA = () => {
   return (
     <section className="py-16 md:py-24 bg-secondary/20">
       <div className="container mx-auto text-center max-w-3xl">
-        <h2 className="text-3xl md:text-4xl font-bold">Ready to <span className="text-accent">Automate?</span></h2>
+        <h2 className="text-3xl md:text-4xl font-bold h-12">
+          <TypeAnimation
+            sequence={['Ready to ']}
+            wrapper="span"
+            speed={50}
+            repeat={0}
+            cursor={false}
+          />
+          <span className="text-accent">
+            <TypeAnimation
+              sequence={[500, 'Automate?']}
+              wrapper="span"
+              speed={50}
+              repeat={0}
+              cursor={true}
+            />
+          </span>
+        </h2>
         <p className="mt-4 text-lg text-muted-foreground">
           Stop wasting time on manual work. Let AI do the heavy lifting while you focus on what you do best: growing your business. Schedule a free, no-obligation consultation to see how much you could save.
         </p>

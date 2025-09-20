@@ -1,6 +1,7 @@
 import { Bot, CalendarDays, Target, Send, Phone, Users, BrainCircuit } from "lucide-react";
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { TypeAnimation } from "react-type-animation";
 
 const services = [
   { icon: <Bot className="h-8 w-8 text-accent" />, title: "AI-Powered Customer Support Agents", description: "Deploy intelligent, 24/7 AI agents that resolve customer queries instantly across chat, email, and social media, reducing your support tickets by up to 80%." },
@@ -16,9 +17,26 @@ const Services = () => {
   return (
     <div className="container mx-auto py-16 md:py-24">
       <div className="text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold">AI-Powered Automation, <span className="text-accent">Done For You</span></h1>
+        <h1 className="text-4xl md:text-5xl font-bold h-24">
+          <TypeAnimation
+            sequence={['AI-Powered Automation, ']}
+            wrapper="span"
+            speed={50}
+            repeat={0}
+            cursor={false}
+          />
+          <span className="text-accent">
+            <TypeAnimation
+              sequence={[1200, 'Done For You']}
+              wrapper="span"
+              speed={50}
+              repeat={0}
+              cursor={true}
+            />
+          </span>
+        </h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          We help businesses replace manual, repetitive work with AI-driven systems that work 24/7. Whether you’re looking to close more sales, support your customers faster, or scale outreach — we’ve got the tech to make it happen.
+          We help businesses replace manual, repetitive work with AI-driven systems that work 24/7. Whether you’re looking to close more sales, support your customers faster, or scale outreach, we’ve got the tech to make it happen.
         </p>
       </div>
       <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">

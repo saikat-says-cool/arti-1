@@ -1,6 +1,7 @@
 import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Zap, Wrench, BarChart, ShieldCheck, Users, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { TypeAnimation } from "react-type-animation";
 
 const reasons = [
   { icon: <Zap className="h-8 w-8 text-accent" />, title: "All-in-One Expertise", description: "We master every major automation platform (Make, Zapier, n8n, Voiceflow, Supabase, APIs), so you get the best tool for the job, every time. No need to juggle multiple agencies or freelancers." },
@@ -15,7 +16,24 @@ const WhyUs = () => {
   return (
     <div className="container mx-auto py-16 md:py-24">
       <div className="text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold">Your Partner in <span className="text-accent">Intelligent Automation</span></h1>
+        <h1 className="text-4xl md:text-5xl font-bold h-24">
+          <TypeAnimation
+            sequence={['Your Partner in ']}
+            wrapper="span"
+            speed={50}
+            repeat={0}
+            cursor={false}
+          />
+          <span className="text-accent">
+            <TypeAnimation
+              sequence={[800, 'Intelligent Automation']}
+              wrapper="span"
+              speed={50}
+              repeat={0}
+              cursor={true}
+            />
+          </span>
+        </h1>
         <p className="mt-4 text-lg text-muted-foreground">
           Choosing an automation partner is a big decision. Here’s why top-performing businesses choose Artificialyze to build their AI-powered future.
         </p>
