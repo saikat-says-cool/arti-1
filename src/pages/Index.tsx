@@ -1,19 +1,8 @@
-import PageLayout from "@/components/layout/PageLayout";
-import Hero from "@/components/landing/Hero";
-import PainSolution from "@/components/landing/PainSolution";
-import Features from "@/components/landing/Features";
-import Results from "@/components/landing/Results";
-import FinalCTA from "@/components/landing/FinalCTA";
-
 const Index = () => {
   return (
-    <PageLayout>
-      <Hero />
-      <PainSolution />
-      <Features />
-      <Results />
-      <FinalCTA />
-    </PageLayout>
+    <div className="flex items-center justify-center h-screen">
+      <h1 className="text-4xl font-bold">My New Website</h1>
+    </div>
   );
 };
 
