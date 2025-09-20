@@ -7,6 +7,7 @@ const navLinks = [
   { to: "/services", text: "What We Do" },
   { to: "/why-us", text: "Why Us" },
   { to: "/case-studies", text: "Case Studies" },
+  { to: "/blog", text: "Blog" },
 ];
 
 const Header = () => {

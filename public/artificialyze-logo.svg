@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <style>
+    .text {
+      font-family: 'Comfortaa', sans-serif;
+      font-size: 24px;
+      fill: #E0E1DD;
+    }
+  </style>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text">Artificialyze</text>
+</svg>

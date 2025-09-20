@@ -9,6 +9,8 @@ import Services from "./pages/Services";
 import WhyUs from "./pages/WhyUs";
 import CaseStudies from "./pages/CaseStudies";
 import Book from "./pages/Book";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
 
@@ -28,6 +30,8 @@ const App = () => (
             <Route path="/why-us" element={<WhyUs />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/book" element={<Book />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

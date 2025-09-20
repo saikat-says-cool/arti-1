@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { CheckCircle2 } from "lucide-react";
 import { TypeAnimation } from "react-type-animation";
+import { Helmet } from "react-helmet-async";
 
 const caseStudies = [
   {
@@ -53,82 +54,88 @@ const caseStudies = [
 
 const CaseStudies = () => {
   return (
-    <div className="container mx-auto py-16 md:py-24">
-      <div className="text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold h-24">
-          <TypeAnimation
-            sequence={['Proven Systems, ']}
-            wrapper="span"
-            speed={50}
-            repeat={0}
-            cursor={false}
-          />
-          <span className="text-accent">
+    <>
+      <Helmet>
+        <title>Case Studies - Proven AI Automation Results - Artificialyze</title>
+        <meta name="description" content="See how we've helped brands like Thenx, Zouk, and Pilgrim achieve real results with our custom AI automation solutions. Read our success stories." />
+      </Helmet>
+      <div className="container mx-auto py-16 md:py-24">
+        <div className="text-center max-w-3xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-bold h-24">
             <TypeAnimation
-              sequence={[800, 'Real Results', 2000, 'Proven Success', 2000, 'Tangible Impact']}
+              sequence={['Proven Systems, ']}
               wrapper="span"
               speed={50}
-              repeat={Infinity}
-              cursor={true}
+              repeat={0}
+              cursor={false}
             />
-          </span>
-        </h1>
-        <p className="mt-6 text-lg text-muted-foreground">
-          We don't just build automations; we build growth engines. See how we've helped innovative brands save time, reduce costs, and scale faster.
-        </p>
-      </div>
+            <span className="text-accent">
+              <TypeAnimation
+                sequence={[800, 'Real Results', 2000, 'Proven Success', 2000, 'Tangible Impact']}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+                cursor={true}
+              />
+            </span>
+          </h1>
+          <p className="mt-6 text-lg text-muted-foreground">
+            We don't just build automations; we build growth engines. See how we've helped innovative brands save time, reduce costs, and scale faster.
+          </p>
+        </div>
 
-      <div className="mt-16 grid gap-8 md:gap-12">
-        {caseStudies.map((study) => (
-          <Card key={study.client} className="bg-secondary/20 border-secondary/40 overflow-hidden">
-            <CardHeader>
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-                <CardTitle className="text-3xl">{study.client}</CardTitle>
-                <Badge variant="outline" className="w-fit">{study.industry}</Badge>
-              </div>
-            </CardHeader>
-            <CardContent className="grid md:grid-cols-3 gap-8">
-              <div className="md:col-span-1">
-                <h3 className="font-bold text-lg text-accent mb-2">The Challenge</h3>
-                <p className="text-muted-foreground">{study.challenge}</p>
-              </div>
-              <div className="md:col-span-2 grid gap-6">
-                <div>
-                  <h3 className="font-bold text-lg text-accent mb-2">The Solution</h3>
-                  <ul className="space-y-2">
-                    {study.solution.map((item, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <CheckCircle2 className="h-5 w-5 mt-1 text-green-400 flex-shrink-0" />
-                        <span className="text-muted-foreground">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
+        <div className="mt-16 grid gap-8 md:gap-12">
+          {caseStudies.map((study) => (
+            <Card key={study.client} className="bg-secondary/20 border-secondary/40 overflow-hidden">
+              <CardHeader>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+                  <CardTitle className="text-3xl">{study.client}</CardTitle>
+                  <Badge variant="outline" className="w-fit">{study.industry}</Badge>
                 </div>
-                <div>
-                  <h3 className="font-bold text-lg text-accent mb-2">The Impact</h3>
-                  <ul className="space-y-2">
-                    {study.impact.map((item, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <CheckCircle2 className="h-5 w-5 mt-1 text-green-400 flex-shrink-0" />
-                        <span className="text-muted-foreground">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
+              </CardHeader>
+              <CardContent className="grid md:grid-cols-3 gap-8">
+                <div className="md:col-span-1">
+                  <h3 className="font-bold text-lg text-accent mb-2">The Challenge</h3>
+                  <p className="text-muted-foreground">{study.challenge}</p>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+                <div className="md:col-span-2 grid gap-6">
+                  <div>
+                    <h3 className="font-bold text-lg text-accent mb-2">The Solution</h3>
+                    <ul className="space-y-2">
+                      {study.solution.map((item, index) => (
+                        <li key={index} className="flex items-start gap-3">
+                          <CheckCircle2 className="h-5 w-5 mt-1 text-green-400 flex-shrink-0" />
+                          <span className="text-muted-foreground">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-lg text-accent mb-2">The Impact</h3>
+                    <ul className="space-y-2">
+                      {study.impact.map((item, index) => (
+                        <li key={index} className="flex items-start gap-3">
+                          <CheckCircle2 className="h-5 w-5 mt-1 text-green-400 flex-shrink-0" />
+                          <span className="text-muted-foreground">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
 
-      <div className="text-center mt-20">
-        <h2 className="text-3xl font-bold">Ready to Write Your Success Story?</h2>
-        <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">Let's discuss how our AI solutions can be tailored to your specific needs.</p>
-        <Button asChild size="lg" className="mt-8">
-          <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Strategy Call</a>
-        </Button>
+        <div className="text-center mt-20">
+          <h2 className="text-3xl font-bold">Ready to Write Your Success Story?</h2>
+          <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">Let's discuss how our AI solutions can be tailored to your specific needs.</p>
+          <Button asChild size="lg" className="mt-8">
+            <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Strategy Call</a>
+          </Button>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
