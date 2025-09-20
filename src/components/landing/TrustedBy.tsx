@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+
 const clients = ["Thenx", "Pilgrim", "Zouk"];
 
 const TrustedBy = () => {
@@ -17,6 +20,9 @@ const TrustedBy = () => {
             </div>
           ))}
         </div>
+        <Button asChild size="lg" variant="outline" className="mt-12">
+          <Link to="/case-studies">See How We Helped Them</Link>
+        </Button>
       </div>
     </section>
   );
