@@ -16,10 +16,10 @@ const Partners = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[600, 'World-Class Technology']}
+              sequence={[600, 'World-Class Technology', 2000, 'Industry-Leading AI', 2000, 'The Best Tools']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>

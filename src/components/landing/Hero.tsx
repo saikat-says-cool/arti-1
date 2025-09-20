@@ -14,10 +14,10 @@ const Hero = () => {
         />
         <span className="text-accent">
           <TypeAnimation
-            sequence={[2400, 'Grow Your Revenue']}
+            sequence={[2400, 'Grow Your Revenue', 2000, 'Save You Money', 2000, 'Boost Efficiency']}
             wrapper="span"
             speed={50}
-            repeat={0}
+            repeat={Infinity}
             cursor={true}
           />
         </span>

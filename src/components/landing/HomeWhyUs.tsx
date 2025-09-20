@@ -23,10 +23,10 @@ const HomeWhyUs = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[800, 'Artificialyze?']}
+              sequence={[800, 'Artificialyze?', 2000, 'The Experts?', 2000, 'Your Partner?']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>

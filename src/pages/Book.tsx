@@ -15,10 +15,10 @@ const Book = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[500, 'Automate?']}
+              sequence={[500, 'Automate?', 2000, 'Get Started?', 2000, 'Transform?']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>

@@ -26,10 +26,10 @@ const WhyUs = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[800, 'Intelligent Automation']}
+              sequence={[800, 'Intelligent Automation', 2000, 'Sustainable Growth', 2000, 'Operational Excellence']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>

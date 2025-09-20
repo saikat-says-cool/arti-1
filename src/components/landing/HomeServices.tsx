@@ -24,10 +24,10 @@ const HomeServices = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[1200, 'Done For You']}
+              sequence={[1200, 'Done For You', 2000, 'Built To Scale', 2000, 'Always On']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>

@@ -27,10 +27,10 @@ const Services = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[1200, 'Done For You']}
+              sequence={[1200, 'Done For You', 2000, 'For Your Business', 2000, 'To Drive Growth']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>

@@ -65,10 +65,10 @@ const CaseStudies = () => {
           />
           <span className="text-accent">
             <TypeAnimation
-              sequence={[800, 'Real Results']}
+              sequence={[800, 'Real Results', 2000, 'Proven Success', 2000, 'Tangible Impact']}
               wrapper="span"
               speed={50}
-              repeat={0}
+              repeat={Infinity}
               cursor={true}
             />
           </span>
