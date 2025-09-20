@@ -22,7 +22,7 @@ const WhyUs = () => {
       </Helmet>
       <div className="container mx-auto py-16 md:py-24">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold h-36">
+          <h1 className="text-4xl md:text-5xl font-bold h-40 md:h-36">
             <TypeAnimation
               sequence={['Your Partner in ']}
               wrapper="span"
