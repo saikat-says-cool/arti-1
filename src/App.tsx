@@ -11,6 +11,7 @@ import CaseStudies from "./pages/CaseStudies";
 import Book from "./pages/Book";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import ForRealtors from "./pages/ForRealtors";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
 
@@ -32,6 +33,7 @@ const App = () => (
             <Route path="/book" element={<Book />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/for-realtors" element={<ForRealtors />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
