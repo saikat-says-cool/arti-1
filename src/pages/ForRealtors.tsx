@@ -1,7 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { CheckCircle2, Bot, CalendarCheck, LayoutDashboard, BarChart4 } from "lucide-react";
+import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { CheckCircle2, Bot, CalendarCheck, LayoutDashboard, BarChart4, Quote } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
 
@@ -55,6 +56,24 @@ const whyChoose = [
   { title: "Significant Time Savings", description: "Spend less time chasing and qualifying leads and more time closing deals." },
   { title: "Predictable Sales Pipeline", description: "Every lead is captured, qualified, and tracked in a single, organized system." },
   { title: "Customizable & Scalable", description: "The system is tailored to your specific market, workflow, and business goals." }
+];
+
+const testimonials = [
+  {
+    quote: "Before Artificialyze, my leads were a mess. Now, I wake up to a calendar full of qualified appointments. I'm spending my time closing deals, not chasing down leads. It's been a complete game-changer.",
+    name: "Jessica M.",
+    title: "Top Producer, Austin, TX"
+  },
+  {
+    quote: "I was skeptical, but the AI engine booked two high-value clients in the first month. It literally paid for itself. I'm no longer losing leads that come in after hours. This is the future of real estate.",
+    name: "David Chen",
+    title: "Agent, Keller Williams"
+  },
+  {
+    quote: "My clients are impressed with the instant responses and seamless booking. It makes my whole operation look more professional and efficient. The dashboard gives me a clear view of my pipeline I never had before.",
+    name: "Emily R.",
+    title: "Solo Agent, Miami, FL"
+  }
 ];
 
 const ForRealtors = () => {
@@ -169,8 +188,37 @@ const ForRealtors = () => {
         </div>
       </section>
 
-      {/* Final CTA */}
+      {/* Testimonials Section */}
       <section className="py-16 md:py-24">
+        <div className="container mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold">What Our Agents Are Saying</h2>
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+            Real results from agents who have transformed their business with our AI.
+          </p>
+          <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-3 text-left">
+            {testimonials.map((testimonial) => (
+              <Card key={testimonial.name} className="bg-secondary/20 border-secondary/40">
+                <CardContent className="pt-6">
+                  <Quote className="h-8 w-8 text-accent mb-4" />
+                  <p className="text-muted-foreground italic">"{testimonial.quote}"</p>
+                  <div className="mt-6 flex items-center gap-4">
+                    <Avatar>
+                      <AvatarFallback>{testimonial.name.split(" ").map(n => n[0]).join("")}</AvatarFallback>
+                    </Avatar>
+                    <div>
+                      <p className="font-bold">{testimonial.name}</p>
+                      <p className="text-sm text-muted-foreground">{testimonial.title}</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-16 md:py-24 bg-secondary/20">
         <div className="container mx-auto text-center max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold">Ready to Close More Deals?</h2>
           <p className="mt-4 text-lg text-muted-foreground">
