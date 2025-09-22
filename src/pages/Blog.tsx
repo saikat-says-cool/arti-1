@@ -77,7 +77,7 @@ const Blog = () => {
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {filteredPosts?.map(post => (
               <Link to={`/blog/${post.slug}`} key={post.id}>
-                <Card className="h-full bg-secondary/20 border-secondary/40 hover:border-accent transition-colors">
+                <Card className="h-full bg-secondary/20 border-secondary/40 hover:border-accent transition-all duration-300 hover:-translate-y-1">
                   <CardHeader>
                     <img src="/artificialyze-logo.svg" alt="Artificialyze Logo" className="w-full h-40 object-cover rounded-t-lg bg-muted p-4" />
                     <CardTitle className="mt-4">{post.title}</CardTitle>

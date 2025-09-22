@@ -37,7 +37,7 @@ const HomeServices = () => {
         </p>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
-            <Card key={service.title} className="bg-background/50 border-secondary/40 text-left">
+            <Card key={service.title} className="bg-background/50 border-secondary/40 text-left transition-transform duration-300 hover:-translate-y-1">
               <CardHeader>
                 {service.icon}
                 <CardTitle className="mt-4">{service.title}</CardTitle>

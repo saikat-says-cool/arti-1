@@ -86,7 +86,7 @@ const CaseStudies = () => {
 
         <div className="mt-16 grid gap-8 md:gap-12">
           {caseStudies.map((study) => (
-            <Card key={study.client} className="bg-secondary/20 border-secondary/40 overflow-hidden">
+            <Card key={study.client} className="bg-secondary/20 border-secondary/40 overflow-hidden transition-transform duration-300 hover:-translate-y-1">
               <CardHeader>
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
                   <CardTitle className="text-3xl">{study.client}</CardTitle>
