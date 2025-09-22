@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { supabase } from "@/integrations/supabase/client";
 import { Helmet } from "react-helmet-async";
 import { Card } from "@/components/ui/card";
+import ReactMarkdown from "react-markdown";
 
 const fetchPost = async (slug: string) => {
   const { data, error } = await supabase.from("blogs").select("*").eq("slug", slug).single();
@@ -34,9 +35,9 @@ const BlogPost = () => {
             Published on {new Date(post.created_at).toLocaleDateString()} in {post.category}
           </p>
           <img src="/artificialyze-logo.svg" alt="Artificialyze Logo" className="w-full h-64 object-cover rounded-lg my-8 bg-muted p-8" />
-          <Card className="prose prose-invert max-w-none bg-transparent border-none p-0">
-            <div dangerouslySetInnerHTML={{ __html: post.content || "" }} />
-          </Card>
+          <div className="prose prose-invert max-w-none">
+            <ReactMarkdown>{post.content || ""}</ReactMarkdown>
+          </div>
         </article>
       </div>
     </>
