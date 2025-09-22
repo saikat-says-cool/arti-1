@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
+import { ThemeToggle } from "@/components/utils/ThemeToggle";
 
 const navLinks = [
   { to: "/services", text: "What We Do" },
@@ -34,9 +35,12 @@ const Header = () => {
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4">
-          <Button asChild className="hidden md:inline-flex">
-            <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
-          </Button>
+          <div className="hidden md:flex items-center space-x-4">
+            <ThemeToggle />
+            <Button asChild>
+              <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
+            </Button>
+          </div>
           <Sheet>
             <SheetTrigger asChild className="md:hidden">
               <Button variant="outline" size="icon">
@@ -59,9 +63,12 @@ const Header = () => {
                     {link.text}
                   </NavLink>
                 ))}
-                <Button asChild className="mt-4">
-                  <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
-                </Button>
+                <div className="flex items-center gap-4 mt-4">
+                  <Button asChild className="flex-1">
+                    <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
+                  </Button>
+                  <ThemeToggle />
+                </div>
               </nav>
             </SheetContent>
           </Sheet>
