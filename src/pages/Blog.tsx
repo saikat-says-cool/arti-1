@@ -79,7 +79,11 @@ const Blog = () => {
               <Link to={`/blog/${post.slug}`} key={post.id}>
                 <Card className="h-full bg-secondary/20 border-secondary/40 hover:border-accent transition-all duration-300 hover:-translate-y-1">
                   <CardHeader>
-                    <img src="/artificialyze-logo.svg" alt="Artificialyze Logo" className="w-full h-40 object-cover rounded-t-lg bg-muted p-4" />
+                    <img 
+                      src={post.cover_image_url || "/artificialyze-logo.svg"} 
+                      alt={post.title} 
+                      className={`w-full h-40 rounded-t-lg bg-muted ${post.cover_image_url ? 'object-cover' : 'object-contain p-4'}`} 
+                    />
                     <CardTitle className="mt-4">{post.title}</CardTitle>
                   </CardHeader>
                   <CardContent>

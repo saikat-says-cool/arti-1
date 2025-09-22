@@ -33,7 +33,11 @@ const BlogPost = () => {
           <p className="text-center text-muted-foreground mt-4">
             Published on {new Date(post.created_at).toLocaleDateString()} in {post.category}
           </p>
-          <img src="/artificialyze-logo.svg" alt="Artificialyze Logo" className="w-full h-64 object-cover rounded-lg my-8 bg-muted p-8" />
+          <img 
+            src={post.cover_image_url || "/artificialyze-logo.svg"} 
+            alt={post.title} 
+            className={`w-full h-64 rounded-lg my-8 bg-muted ${post.cover_image_url ? 'object-cover' : 'object-contain p-8'}`} 
+          />
           <div className="prose dark:prose-invert max-w-none">
             <ReactMarkdown>{post.content || ""}</ReactMarkdown>
           </div>
