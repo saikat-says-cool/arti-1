@@ -8,6 +8,7 @@ import OfferPage from '@/pages/OfferPage';
 import { offers } from './data/offers';
 import { AnimatePresence } from 'framer-motion';
 import AnimatedPage from '@/components/AnimatedPage';
+import ScrollToTop from '@/components/utils/ScrollToTop';
 
 function AppRoutes() {
   const location = useLocation();
@@ -31,6 +32,7 @@ function AppRoutes() {
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Layout>
         <AppRoutes />
       </Layout>

@@ -4,6 +4,7 @@ import TrustedBy from "@/components/landing/TrustedBy";
 import Partners from "@/components/landing/Partners";
 import HomeCTA from "@/components/landing/HomeCTA";
 import { Helmet } from "react-helmet-async";
+import HomeServices from "@/components/landing/HomeServices";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
       </Helmet>
       <Hero />
       <HomeWhyUs />
+      <HomeServices />
       <TrustedBy />
       <Partners />
       <HomeCTA />

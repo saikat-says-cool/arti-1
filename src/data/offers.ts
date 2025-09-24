@@ -2,7 +2,7 @@ export const offers = [
   {
     slug: "appointment-engine",
     title: "AI-Powered Appointment Engine",
-    headline: "Turn Every Lead Into a Booked Appointment—",
+    headline: "Turn Every Lead Into a Booked Appointment-",
     animatedHeadline: ["Automatically", "24/7"],
     description: "Every missed call, delayed email, or slow DM is a lost opportunity. Our AI-powered Appointment Engine is your 24/7 front desk, capturing leads the moment they show interest. It intelligently qualifies them, answers their questions, and books them directly into your calendar. Smart, personalized reminders ensure they show up, freeing your team to focus on what they do best: delivering exceptional service.",
     for: "For Dentists, Chiropractors, Med Spas, Salons, Realtors, Plumbers, HVAC, and more.",
@@ -35,7 +35,7 @@ export const offers = [
     title: "AI-Powered Customer Support",
     headline: "24/7 AI Support That Converts Visitors Into",
     animatedHeadline: ["Happy Customers", "Loyal Fans"],
-    description: "A slow or unavailable support team doesn't just frustrate customers—it costs you sales. Our AI system acts as your brand's most knowledgeable and tireless agent. It's trained on your product data to handle everything from FAQs and order tracking to returns and personalized recommendations. By providing instant, accurate support 24/7, you'll boost satisfaction, increase conversions, and build lasting loyalty.",
+    description: "A slow or unavailable support team doesn't just frustrate customers-it costs you sales. Our AI system acts as your brand's most knowledgeable and tireless agent. It's trained on your product data to handle everything from FAQs and order tracking to returns and personalized recommendations. By providing instant, accurate support 24/7, you'll boost satisfaction, increase conversions, and build lasting loyalty.",
     for: "For E-Commerce & D2C Brands.",
     benefitsTitle: "Support That Sells",
     benefitsDescription: "Go beyond basic support. Our AI is a revenue-generating asset for your brand.",

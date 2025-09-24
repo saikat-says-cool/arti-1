@@ -4,12 +4,6 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 import { offers } from "../../data/offers";
 import { motion } from "framer-motion";
 
@@ -27,17 +21,16 @@ export function Header() {
                     <Link to="/" className="mr-6 flex items-center space-x-2">
                         <span className="hidden font-bold sm:inline-block">Artificialyze</span>
                     </Link>
-                    <nav className="flex items-center gap-6 text-sm">
-                        <DropdownMenu>
-                            <DropdownMenuTrigger className="text-muted-foreground hover:text-foreground transition-colors">What We Do</DropdownMenuTrigger>
-                            <DropdownMenuContent>
-                                {offers.map((offer) => (
-                                    <DropdownMenuItem key={offer.slug} asChild>
-                                        <Link to={`/offer/${offer.slug}`}>{offer.title}</Link>
-                                    </DropdownMenuItem>
-                                ))}
-                            </DropdownMenuContent>
-                        </DropdownMenu>
+                    <nav className="flex items-center gap-4 text-sm">
+                        {offers.map((offer) => (
+                            <Link
+                                key={offer.slug}
+                                to={`/offer/${offer.slug}`}
+                                className="text-muted-foreground hover:text-foreground transition-colors"
+                            >
+                                {offer.title}
+                            </Link>
+                        ))}
                         <Link
                             to="/why-us"
                             className="text-muted-foreground hover:text-foreground transition-colors"
@@ -70,16 +63,15 @@ export function Header() {
                             <Link to="/" className="flex items-center gap-2 text-lg font-semibold">
                                 <span className="sr-only">Artificialyze</span>
                             </Link>
-                            <DropdownMenu>
-                                <DropdownMenuTrigger className="text-muted-foreground hover:text-foreground transition-colors text-left">What We Do</DropdownMenuTrigger>
-                                <DropdownMenuContent>
-                                    {offers.map((offer) => (
-                                        <DropdownMenuItem key={offer.slug} asChild>
-                                            <Link to={`/offer/${offer.slug}`}>{offer.title}</Link>
-                                        </DropdownMenuItem>
-                                    ))}
-                                </DropdownMenuContent>
-                            </DropdownMenu>
+                            {offers.map((offer) => (
+                                <Link
+                                    key={offer.slug}
+                                    to={`/offer/${offer.slug}`}
+                                    className="text-muted-foreground hover:text-foreground transition-colors"
+                                >
+                                    {offer.title}
+                                </Link>
+                            ))}
                             <Link to="/why-us" className="text-muted-foreground hover:text-foreground transition-colors">
                                 Why Us
                             </Link>
