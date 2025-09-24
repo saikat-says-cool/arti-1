@@ -5,12 +5,14 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import PageLayout from "./components/layout/PageLayout";
 import Index from "./pages/Index";
-import Services from "./pages/Services";
 import WhyUs from "./pages/WhyUs";
 import CaseStudies from "./pages/CaseStudies";
 import Book from "./pages/Book";
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import AppointmentEngine from "./pages/AppointmentEngine";
+import CustomerSupport from "./pages/CustomerSupport";
+import LeadGeneration from "./pages/LeadGeneration";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
 
@@ -26,7 +28,9 @@ const App = () => (
         <Routes>
           <Route element={<PageLayout />}>
             <Route path="/" element={<Index />} />
-            <Route path="/services" element={<Services />} />
+            <Route path="/appointment-engine" element={<AppointmentEngine />} />
+            <Route path="/customer-support" element={<CustomerSupport />} />
+            <Route path="/lead-generation" element={<LeadGeneration />} />
             <Route path="/why-us" element={<WhyUs />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/book" element={<Book />} />
