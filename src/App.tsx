@@ -14,6 +14,7 @@ import Blog from '@/pages/Blog';
 import BlogPost from '@/pages/BlogPost';
 import Book from '@/pages/Book';
 import NotFound from '@/pages/NotFound';
+import Branding from '@/pages/Branding';
 
 function AppRoutes() {
   const location = useLocation();
@@ -26,6 +27,7 @@ function AppRoutes() {
         <Route path="/blog" element={<AnimatedPage><Blog /></AnimatedPage>} />
         <Route path="/blog/:slug" element={<AnimatedPage><BlogPost /></AnimatedPage>} />
         <Route path="/book" element={<AnimatedPage><Book /></AnimatedPage>} />
+        <Route path="/branding" element={<AnimatedPage><Branding /></AnimatedPage>} />
         {offers.map((offer) => (
           <Route 
             key={offer.slug} 
