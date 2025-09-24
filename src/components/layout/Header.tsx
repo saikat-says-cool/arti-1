@@ -8,7 +8,6 @@ const navLinks = [
   { to: "/services", text: "What We Do" },
   { to: "/why-us", text: "Why Us" },
   { to: "/case-studies", text: "Case Studies" },
-  { to: "/for-realtors", text: "For Realtors" },
   { to: "/blog", text: "Blog" },
 ];
 
