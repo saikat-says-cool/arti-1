@@ -10,7 +10,7 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { offers } from "@/data/offers";
+import { offers } from "../../data/offers";
 import { motion } from "framer-motion";
 
 

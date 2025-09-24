@@ -1,5 +1,4 @@
 import Hero from "@/components/landing/Hero";
-import HomeServices from "@/components/landing/HomeServices";
 import HomeWhyUs from "@/components/landing/HomeWhyUs";
 import TrustedBy from "@/components/landing/TrustedBy";
 import Partners from "@/components/landing/Partners";
@@ -14,7 +13,6 @@ const Index = () => {
         <meta name="description" content="We build custom AI systems that save you time and grow your revenue. AI-powered customer support, lead generation, and workflow automation." />
       </Helmet>
       <Hero />
-      <HomeServices />
       <HomeWhyUs />
       <TrustedBy />
       <Partners />
