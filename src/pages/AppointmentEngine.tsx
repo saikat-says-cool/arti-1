@@ -33,7 +33,7 @@ const AppointmentEngine = () => {
 
       {/* Hero Section */}
       <section className="container mx-auto flex flex-col items-center py-24 md:py-32 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter h-48 md:h-40">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6">
           Turn Every Lead Into a Booked Appointment—
           <span className="text-accent">
             <TypeAnimation
@@ -48,7 +48,9 @@ const AppointmentEngine = () => {
         <p className="mt-6 max-w-3xl text-lg text-muted-foreground">
           Every missed call, delayed email, or slow DM is a lost opportunity. Our AI-powered Appointment Engine is your 24/7 front desk, capturing leads the moment they show interest. It intelligently qualifies them, answers their questions, and books them directly into your calendar. Smart, personalized reminders ensure they show up, freeing your team to focus on what they do best: delivering exceptional service.
         </p>
-        <p className="mt-4 font-bold text-muted-foreground">For Dentists, Chiropractors, Med Spas, Salons, Realtors, Plumbers, HVAC, and more.</p>
+        <div className="mt-8 inline-block bg-secondary/30 text-secondary-foreground py-2 px-4 rounded-full text-sm font-medium">
+          For Dentists, Chiropractors, Med Spas, Salons, Realtors, Plumbers, HVAC, and more.
+        </div>
       </section>
 
       {/* Key Benefits Section */}

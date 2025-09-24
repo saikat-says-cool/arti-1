@@ -33,7 +33,7 @@ const LeadGenerationAndOutreach = () => {
 
       {/* Hero Section */}
       <section className="container mx-auto flex flex-col items-center py-24 md:py-32 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter h-48 md:h-40">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6">
           Fill Your Sales Pipeline 
           <span className="text-accent">
             <TypeAnimation
@@ -49,7 +49,9 @@ const LeadGenerationAndOutreach = () => {
         <p className="mt-6 max-w-3xl text-lg text-muted-foreground">
           Manual prospecting is a numbers game that burns time and energy. Our AI-powered system transforms lead generation into a predictable, automated engine for growth. It finds your ideal clients, enriches their data for deep personalization, and launches outreach campaigns at scale. Your calendar fills with qualified prospects, allowing your sales team to focus purely on closing deals.
         </p>
-        <p className="mt-4 font-bold text-muted-foreground">For Marketing, Design, PPC, Consulting, and other Agencies.</p>
+        <div className="mt-8 inline-block bg-secondary/30 text-secondary-foreground py-2 px-4 rounded-full text-sm font-medium">
+          For Marketing, Design, PPC, Consulting, and other Agencies.
+        </div>
       </section>
 
       {/* Key Benefits Section */}

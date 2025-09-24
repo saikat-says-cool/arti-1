@@ -22,7 +22,7 @@ const WhyUs = () => {
       </Helmet>
       <div className="container mx-auto py-16 md:py-24">
         <div className="text-center max-w-3xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold h-40 md:h-36">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">
             <TypeAnimation
               sequence={['Your Partner in ']}
               wrapper="span"
@@ -50,6 +50,7 @@ const WhyUs = () => {
               <CardHeader className="items-center">
                 {reason.icon}
                 <CardTitle className="mt-4">{reason.title}</CardTitle>
+
                 <CardDescription className="mt-2">{reason.description}</CardDescription>
               </CardHeader>
             </Card>

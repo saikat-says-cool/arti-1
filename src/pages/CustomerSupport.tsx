@@ -33,7 +33,7 @@ const CustomerSupport = () => {
 
       {/* Hero Section */}
       <section className="container mx-auto flex flex-col items-center py-24 md:py-32 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter h-48 md:h-40">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-6">
           24/7 AI Support That Converts Visitors Into 
           <span className="text-accent">
             <TypeAnimation
@@ -48,7 +48,9 @@ const CustomerSupport = () => {
         <p className="mt-6 max-w-3xl text-lg text-muted-foreground">
           A slow or unavailable support team doesn't just frustrate customers—it costs you sales. Our AI system acts as your brand's most knowledgeable and tireless agent. It's trained on your product data to handle everything from FAQs and order tracking to returns and personalized recommendations. By providing instant, accurate support 24/7, you'll boost satisfaction, increase conversions, and build lasting loyalty.
         </p>
-        <p className="mt-4 font-bold text-muted-foreground">For E-Commerce & D2C Brands.</p>
+        <div className="mt-8 inline-block bg-secondary/30 text-secondary-foreground py-2 px-4 rounded-full text-sm font-medium">
+          For E-Commerce & D2C Brands.
+        </div>
       </section>
 
       {/* Key Benefits Section */}
