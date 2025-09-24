@@ -27,8 +27,8 @@ const services: { title: string; href: string; description: string }[] = [
     description: "For e-commerce brands to provide 24/7 support that converts visitors into customers.",
   },
   {
-    title: "AI Lead Generation",
-    href: "/lead-generation",
+    title: "AI Lead Generation & Mass Personalized Outreach",
+    href: "/lead-generation-outreach",
     description: "For agencies to fill their sales pipeline with automated scraping and outreach.",
   },
 ];

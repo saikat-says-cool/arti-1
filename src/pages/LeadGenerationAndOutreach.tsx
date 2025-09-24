@@ -11,11 +11,11 @@ const benefits = [
   "Optional appointment scheduling integration"
 ];
 
-const LeadGeneration = () => {
+const LeadGenerationAndOutreach = () => {
   return (
     <>
       <Helmet>
-        <title>AI-Powered Lead Generation & Outreach - Artificialyze</title>
+        <title>AI Lead Generation & Mass Personalized Outreach - Artificialyze</title>
         <meta name="description" content="Fill Your Sales Pipeline Automatically—No Manual Work Required. For Agencies." />
       </Helmet>
 
@@ -70,4 +70,4 @@ const LeadGeneration = () => {
   );
 };
 
-export default LeadGeneration;
+export default LeadGenerationAndOutreach;

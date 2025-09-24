@@ -12,7 +12,7 @@ import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import AppointmentEngine from "./pages/AppointmentEngine";
 import CustomerSupport from "./pages/CustomerSupport";
-import LeadGeneration from "./pages/LeadGeneration";
+import LeadGenerationAndOutreach from "./pages/LeadGenerationAndOutreach";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/utils/ScrollToTop";
 
@@ -30,7 +30,7 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/appointment-engine" element={<AppointmentEngine />} />
             <Route path="/customer-support" element={<CustomerSupport />} />
-            <Route path="/lead-generation" element={<LeadGeneration />} />
+            <Route path="/lead-generation-outreach" element={<LeadGenerationAndOutreach />} />
             <Route path="/why-us" element={<WhyUs />} />
             <Route path="/case-studies" element={<CaseStudies />} />
             <Route path="/book" element={<Book />} />
