@@ -28,8 +28,10 @@ export function Footer() {
                     .
                 </p>
                 <nav className="flex items-center gap-4">
+                    <Link to="/case-studies" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Case Studies</Link>
+                    <Link to="/blog" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Blog</Link>
                     <Link to="/why-us" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Why Us</Link>
-                    <a href="mailto:saikat@artificialyze.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+                    <Link to="/book" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</Link>
                 </nav>
             </div>
         </footer>

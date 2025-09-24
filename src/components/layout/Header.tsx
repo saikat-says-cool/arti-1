@@ -32,6 +32,18 @@ export function Header() {
                             </Link>
                         ))}
                         <Link
+                            to="/case-studies"
+                            className="text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            Case Studies
+                        </Link>
+                        <Link
+                            to="/blog"
+                            className="text-muted-foreground hover:text-foreground transition-colors"
+                        >
+                            Blog
+                        </Link>
+                        <Link
                             to="/why-us"
                             className="text-muted-foreground hover:text-foreground transition-colors"
                         >
@@ -40,20 +52,16 @@ export function Header() {
                     </nav>
                 </div>
 
-                {/* Mobile menu */}
-                <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
-                    <div className="w-full flex-1 md:w-auto md:flex-none">
-                        {/* You can add a search bar here if you want */}
-                    </div>
+                <div className="flex flex-1 items-center justify-end">
                     <nav className="hidden md:flex items-center">
                         <Button asChild>
-                            <a href="mailto:saikat@artificialyze.com">Contact Us</a>
+                            <Link to="/book">Book a Call</Link>
                         </Button>
                     </nav>
                 </div>
 
                 <Sheet>
-                    <SheetTrigger asChild className="md:hidden">
+                    <SheetTrigger asChild className="md:hidden ml-4">
                         <Button variant="outline" size="icon">
                             <Menu className="h-5 w-5" />
                         </Button>
@@ -72,12 +80,18 @@ export function Header() {
                                     {offer.title}
                                 </Link>
                             ))}
+                             <Link to="/case-studies" className="text-muted-foreground hover:text-foreground transition-colors">
+                                Case Studies
+                            </Link>
+                            <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors">
+                                Blog
+                            </Link>
                             <Link to="/why-us" className="text-muted-foreground hover:text-foreground transition-colors">
                                 Why Us
                             </Link>
-                            <a href="mailto:saikat@artificialyze.com" className="text-muted-foreground hover:text-foreground transition-colors">
-                                Contact
-                            </a>
+                            <Link to="/book" className="text-muted-foreground hover:text-foreground transition-colors">
+                                Book a Call
+                            </Link>
                         </nav>
                     </SheetContent>
                 </Sheet>
