@@ -1,14 +1,26 @@
 import { Button } from "@/components/ui/button";
-import { Card, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
 import { Helmet } from "react-helmet-async";
 import { TypeAnimation } from "react-type-animation";
 
 const benefits = [
-  "Instant, accurate responses across multiple channels",
-  "Track orders, manage returns, and assist refunds",
-  "Personalized upsells and product guidance",
-  "Reduce support team workload without sacrificing quality"
+  {
+    title: "Instant, Accurate Responses",
+    description: "Our AI integrates with your knowledge base to provide 24/7, immediate answers to customer questions across your website, email, and social media."
+  },
+  {
+    title: "Automated Order Management",
+    description: "Empower customers to track orders, initiate returns, and process refunds on their own, freeing up your human agents for high-value interactions."
+  },
+  {
+    title: "Personalized Upsells",
+    description: "The AI analyzes customer queries and browsing history to offer relevant product recommendations and upsells, turning support chats into sales opportunities."
+  },
+  {
+    title: "Reduce Support Workload",
+    description: "Automate up to 80% of common inquiries, allowing your support team to focus on complex issues and deliver a superior customer experience."
+  }
 ];
 
 const CustomerSupport = () => {
@@ -34,7 +46,7 @@ const CustomerSupport = () => {
           </span>
         </h1>
         <p className="mt-6 max-w-3xl text-lg text-muted-foreground">
-          Never let a customer inquiry slip through the cracks. Our AI handles FAQs, order tracking, returns, and even product recommendations—instantly and automatically. Provide a seamless customer experience while increasing conversions and reducing support costs.
+          A slow or unavailable support team doesn't just frustrate customers—it costs you sales. Our AI system acts as your brand's most knowledgeable and tireless agent. It's trained on your product data to handle everything from FAQs and order tracking to returns and personalized recommendations. By providing instant, accurate support 24/7, you'll boost satisfaction, increase conversions, and build lasting loyalty.
         </p>
         <p className="mt-4 font-bold text-muted-foreground">For E-Commerce & D2C Brands.</p>
       </section>
@@ -42,13 +54,17 @@ const CustomerSupport = () => {
       {/* Key Benefits Section */}
       <section className="py-16 md:py-24 bg-secondary/20">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Key Benefits</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Support That Sells</h2>
+          <p className="mt-4 max-w-2xl mx-auto text-lg text-muted-foreground">
+            Go beyond basic support. Our AI is a revenue-generating asset for your brand.
+          </p>
           <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-left">
-            {benefits.map((benefit, index) => (
-              <Card key={index} className="bg-background/50 border-secondary/40">
+            {benefits.map((benefit) => (
+              <Card key={benefit.title} className="bg-background/50 border-secondary/40">
                 <CardHeader>
                   <CheckCircle2 className="h-8 w-8 text-accent" />
-                  <CardTitle className="mt-4">{benefit}</CardTitle>
+                  <CardTitle className="mt-4">{benefit.title}</CardTitle>
+                  <CardDescription className="mt-2">{benefit.description}</CardDescription>
                 </CardHeader>
               </Card>
             ))}
@@ -60,6 +76,7 @@ const CustomerSupport = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto text-center max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold">Ready for Effortless Customer Support?</h2>
+          <p className="mt-4 text-lg text-muted-foreground">Discover how our AI can handle the majority of your customer inquiries, so you can focus on growing your brand.</p>
           <Button asChild size="lg" className="mt-8 text-center">
             <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Demo to See How AI Can Handle Your Customer Support</a>
           </Button>
