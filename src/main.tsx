@@ -6,7 +6,7 @@ import { ThemeProvider } from "@/components/utils/ThemeProvider";
 
 createRoot(document.getElementById("root")!).render(
   <HelmetProvider>
-    <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+    <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
       <App />
     </ThemeProvider>
   </HelmetProvider>
