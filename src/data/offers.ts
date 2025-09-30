@@ -66,7 +66,7 @@ export const offers = [
     title: "AI Lead Generation & Outreach",
     headline: "Your Sales Pipeline, on Autopilot.",
     animatedHeadline: ["Predictable", "Scalable"],
-    description: "Stop wasting time on manual prospecting. Our AI Lead Generation Engine is a predictable growth machine. It finds your ideal clients, crafts hyper-personalized outreach at scale, and fills your calendar with qualified meetings. Your sales team can finally stop hunting for leads and focus on what they do best: closing deals.",
+    description: "We find your ideal clients and launch mass personalized outreach campaigns to fill your sales pipeline, automatically. Stop wasting time on manual prospecting and let your team focus on closing deals.",
     for: "For B2B SaaS, Agencies, Financial Services, Real Estate, and Recruitment Firms.",
     benefitsTitle: "A Smarter Way to Scale Outreach",
     benefitsDescription: "Our end-to-end system handles the entire top-of-funnel process, so you can focus on closing.",
@@ -76,7 +76,7 @@ export const offers = [
         description: "Our AI scours the web to build a high-quality, targeted prospect list, so you're always talking to the right people."
       },
       {
-        title: "Personalized Outreach at Scale",
+        title: "Mass Personalized Outreach",
         description: "Launch hyper-personalized email and social campaigns that get replies, not ignored. Stand out in any inbox."
       },
       {
