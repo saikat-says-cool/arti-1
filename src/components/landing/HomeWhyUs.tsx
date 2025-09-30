@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
 const reasons = [
-  { icon: <Zap className="h-8 w-8 text-accent" />, title: "All-in-One Expertise", description: "We master a wide range of leading automation platforms, ensuring you get the best tool for the job, every time." },
-  { icon: <Wrench className="h-8 w-8 text-accent" />, title: "Fully Custom Solutions", description: "Your business is unique. We build tailored automations designed specifically for your workflow, ensuring seamless integration and maximum impact." },
-  { icon: <BarChart className="h-8 w-8 text-accent" />, title: "Revenue & Efficiency Focused", description: "We don't just build bots; we build business assets. Every system is designed to increase sales, reduce costs, or save you hundreds of hours." },
+  { icon: <Zap className="h-8 w-8 text-accent" />, title: "Total AI Expertise", description: "We master the entire AI stack, from leading platforms to custom code, ensuring you get the perfect solution, not just the convenient one." },
+  { icon: <Wrench className="h-8 w-8 text-accent" />, title: "Custom-Built for You", description: "No templates. We design bespoke automations that fit your exact workflow for maximum impact and seamless integration." },
+  { icon: <BarChart className="h-8 w-8 text-accent" />, title: "Focused on Your Bottom Line", description: "We don't just build tech; we build revenue engines. Every system is designed to increase sales, cut costs, and save you time." },
 ];
 
 const HomeWhyUs = () => {
@@ -14,16 +14,10 @@ const HomeWhyUs = () => {
     <section className="py-16 md:py-24">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6">
-          <TypeAnimation
-            sequence={['Why Work With ']}
-            wrapper="span"
-            speed={50}
-            repeat={0}
-            cursor={false}
-          />
+          The Partner You Need for{' '}
           <span className="text-accent">
             <TypeAnimation
-              sequence={[800, 'Artificialyze?', 2000, 'The Experts?', 2000, 'Your Partner?']}
+              sequence={['Real Results', 2000, 'Smarter Growth', 2000, 'Effortless Scale']}
               wrapper="span"
               speed={50}
               repeat={Infinity}

@@ -62,16 +62,10 @@ const CaseStudies = () => {
       <div className="container mx-auto py-16 md:py-24">
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            <TypeAnimation
-              sequence={['Proven Systems, ']}
-              wrapper="span"
-              speed={50}
-              repeat={0}
-              cursor={false}
-            />
+            Proven Systems.{' '}
             <span className="text-accent">
               <TypeAnimation
-                sequence={[800, 'Real Results', 2000, 'Proven Success', 2000, 'Tangible Impact']}
+                sequence={['Real Results.', 2000, 'Tangible Impact.', 2000, 'Verifiable Growth.']}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
@@ -80,7 +74,7 @@ const CaseStudies = () => {
             </span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground">
-            We don't just build automations; we build growth engines. See how we've helped innovative brands save time, reduce costs, and scale faster.
+            We don't just talk about automation; we deliver it. See how we've helped innovative brands save time, slash costs, and scale faster.
           </p>
         </div>
 

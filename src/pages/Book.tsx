@@ -12,16 +12,10 @@ const Book = () => {
       <div className="container mx-auto py-16 md:py-24 text-center">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            <TypeAnimation
-              sequence={['Ready to ']}
-              wrapper="span"
-              speed={50}
-              repeat={0}
-              cursor={false}
-            />
+            Ready to{' '}
             <span className="text-accent">
               <TypeAnimation
-                sequence={[500, 'Automate?', 2000, 'Get Started?', 2000, 'Transform?']}
+                sequence={['Automate?', 2000, 'Scale?', 2000, 'Grow?']}
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
@@ -30,10 +24,10 @@ const Book = () => {
             </span>
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Stop wasting time on manual work. Let AI do the heavy lifting while you focus on what you do best: growing your business. Schedule a free, no-obligation consultation to discover how much time and money you could be saving.
+            Stop wasting time on manual work. Let's build an AI engine that does the heavy lifting, so you can focus on what you do best. Schedule a free, no-obligation strategy call to discover how much time and money you could be saving.
           </p>
           <Button size="lg" className="mt-8" asChild>
-            <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Consultation</a>
+            <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book Your Free Strategy Call</a>
           </Button>
           <p className="mt-8 text-muted-foreground">
             Or, email our CEO directly at{' '}

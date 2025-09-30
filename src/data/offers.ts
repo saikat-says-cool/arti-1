@@ -1,95 +1,95 @@
 export const offers = [
   {
     slug: "appointment-engine",
-    title: "AI-Powered Appointment Engine",
-    headline: "Turn Every Lead Into a Booked Appointment-",
-    animatedHeadline: ["Automatically", "24/7"],
-    description: "Every missed call, delayed email, or slow DM is a lost opportunity. Our AI-powered Appointment Engine is your 24/7 front desk, capturing leads the moment they show interest. It intelligently qualifies them, answers their questions, and books them directly into your calendar. Smart, personalized reminders ensure they show up, freeing your team to focus on what they do best: delivering exceptional service.",
-    for: "For Dentists, Chiropractors, Med Spas, Salons, Realtors, Plumbers, HVAC, and more.",
+    title: "AI Appointment Engine",
+    headline: "Your Calendar, Filled Automatically.",
+    animatedHeadline: ["While You Sleep", "24/7"],
+    description: "Stop losing clients to missed calls and slow replies. Our AI Appointment Engine is your always-on receptionist, instantly capturing, qualifying, and booking leads directly into your calendar. It even sends smart reminders to eliminate no-shows, so your team can focus on delivering amazing service-not playing phone tag.",
+    for: "For Service Businesses That Run on Appointments.",
     benefitsTitle: "Never Miss a Client Again",
     benefitsDescription: "Our system is designed to maximize your booking rate and operational efficiency from day one.",
     benefits: [
       { 
-        title: "Capture & Qualify Leads 24/7", 
-        description: "Our AI works around the clock, engaging potential clients on your website, social media, and Google Business Profile the moment they show interest." 
+        title: "Never Miss a Lead", 
+        description: "Our AI works 24/7 across your website, social media, and Google Business Profile, engaging leads the second they show interest." 
       },
       { 
-        title: "Automated Scheduling", 
-        description: "The system intelligently finds open slots in your calendar and books qualified appointments in real-time, eliminating phone tag and back-and-forth emails." 
+        title: "Fill Your Calendar, Hands-Free", 
+        description: "The AI finds open slots and books qualified appointments in real-time. No more back-and-forth emails." 
       },
       { 
-        title: "Reduce No-Shows", 
-        description: "Send smart, personalized appointment reminders via SMS and email, dramatically increasing attendance rates and protecting your revenue." 
+        title: "Eliminate No-Shows", 
+        description: "Automated, personalized reminders via SMS and email ensure clients show up, protecting your revenue." 
       },
       { 
-        title: "Custom Workflows", 
-        description: "We tailor the AI's script and logic to your specific business needs, ensuring it asks the right questions and represents your brand perfectly." 
+        title: "Perfectly On-Brand", 
+        description: "We tailor the AI's script and logic to your exact business needs, so it sounds and acts like your best employee." 
       }
     ],
-    ctaTitle: "Ready to Stop Missing Appointments?",
-    ctaDescription: "Let us show you how our AI can fill your calendar while you sleep. The consultation is free, and the insights are invaluable.",
-    ctaButtonText: "Book a Free Consultation and See How Many Appointments You Could Be Missing"
+    ctaTitle: "Ready to Automate Your Bookings?",
+    ctaDescription: "See how our AI can fill your calendar and free up your team. The strategy call is free, the potential is priceless.",
+    ctaButtonText: "Claim Your Free Strategy Call"
   },
   {
     slug: "customer-support",
-    title: "AI-Powered Customer Support",
-    headline: "24/7 AI Support That Converts Visitors Into",
-    animatedHeadline: ["Happy Customers", "Loyal Fans"],
-    description: "A slow or unavailable support team doesn't just frustrate customers-it costs you sales. Our AI system acts as your brand's most knowledgeable and tireless agent. It's trained on your product data to handle everything from FAQs and order tracking to returns and personalized recommendations. By providing instant, accurate support 24/7, you'll boost satisfaction, increase conversions, and build lasting loyalty.",
-    for: "For E-Commerce & D2C Brands.",
+    title: "AI Customer Support",
+    headline: "Deliver Instant Support That Sells.",
+    animatedHeadline: ["Builds Loyalty", "Drives Revenue"],
+    description: "Slow support doesn't just frustrate-it kills sales. Our AI is your most knowledgeable agent, trained on your data to provide instant, 24/7 answers. It handles everything from order tracking to personalized recommendations, turning routine questions into revenue and first-time buyers into lifelong fans.",
+    for: "For High-Growth E-Commerce & D2C Brands.",
     benefitsTitle: "Support That Sells",
     benefitsDescription: "Go beyond basic support. Our AI is a revenue-generating asset for your brand.",
     benefits: [
       {
-        title: "Instant, Accurate Responses",
-        description: "Our AI integrates with your knowledge base to provide 24/7, immediate answers to customer questions across your website, email, and social media."
+        title: "Instant, 24/7 Resolutions",
+        description: "Provide immediate, accurate answers to customer questions across your website, email, and social media, day or night."
       },
       {
-        title: "Automated Order Management",
-        description: "Empower customers to track orders, initiate returns, and process refunds on their own, freeing up your human agents for high-value interactions."
+        title: "Automate Order Management",
+        description: "Let customers track orders, start returns, and get updates on their own, freeing your team for high-impact conversations."
       },
       {
-        title: "Personalized Upsells",
-        description: "The AI analyzes customer queries and browsing history to offer relevant product recommendations and upsells, turning support chats into sales opportunities."
+        title: "Turn Support into Sales",
+        description: "The AI analyzes customer needs to offer smart upsells and cross-sells, converting support tickets into sales."
       },
       {
-        title: "Reduce Support Workload",
-        description: "Automate up to 80% of common inquiries, allowing your support team to focus on complex issues and deliver a superior customer experience."
+        title: "Slash Support Workload",
+        description: "Automate up to 80% of common inquiries, letting your team focus on complex issues that build true customer loyalty."
       }
     ],
-    ctaTitle: "Ready for Effortless Customer Support?",
-    ctaDescription: "Discover how our AI can handle the majority of your customer inquiries, so you can focus on growing your brand.",
-    ctaButtonText: "Book a Free Demo to See How AI Can Handle Your Customer Support"
+    ctaTitle: "Ready for Effortless Customer Loyalty?",
+    ctaDescription: "Discover how our AI can delight your customers and drive sales, 24/7. Let's build your support engine.",
+    ctaButtonText: "Book Your Free AI Support Demo"
   },
   {
     slug: "lead-generation",
-    title: "AI Lead Generation & Outreach",
-    headline: "Fill Your Sales Pipeline",
-    animatedHeadline: ["Automatically", "On Autopilot"],
-    description: "Manual prospecting is a numbers game that burns time and energy. Our AI-powered system transforms lead generation into a predictable, automated engine for growth. It finds your ideal clients, enriches their data for deep personalization, and launches outreach campaigns at scale. Your calendar fills with qualified prospects, allowing your sales team to focus purely on closing deals.",
+    title: "AI Lead Generation",
+    headline: "Your Sales Pipeline, on Autopilot.",
+    animatedHeadline: ["Predictable", "Scalable"],
+    description: "Stop wasting time on manual prospecting. Our AI Lead Generation Engine is a predictable growth machine. It finds your ideal clients, crafts hyper-personalized outreach at scale, and fills your calendar with qualified meetings. Your sales team can finally stop hunting for leads and focus on what they do best: closing deals.",
     for: "For B2B SaaS, Agencies, Financial Services, Real Estate, and Recruitment Firms.",
     benefitsTitle: "A Smarter Way to Scale Outreach",
     benefitsDescription: "Our end-to-end system handles the entire top-of-funnel process, so you can focus on closing.",
     benefits: [
       {
-        title: "Automated Lead Scraping",
-        description: "Our AI tirelessly scours LinkedIn, directories, and the web to find your ideal clients, building a high-quality prospect list automatically."
+        title: "Find Your Ideal Clients",
+        description: "Our AI scours the web to build a high-quality, targeted prospect list, so you're always talking to the right people."
       },
       {
-        title: "Mass Personalized Outreach",
-        description: "Launch hyper-personalized email and social media campaigns at scale. Our AI crafts messages that resonate, boosting reply rates and avoiding spam filters."
+        title: "Personalized Outreach at Scale",
+        description: "Launch hyper-personalized email and social campaigns that get replies, not ignored. Stand out in any inbox."
       },
       {
-        title: "Performance & Optimization",
-        description: "Track key metrics like open rates, reply rates, and conversions. We continuously optimize your campaigns to maximize results and ROI."
+        title: "Data-Driven Optimization",
+        description: "We track every metric and continuously refine your campaigns to maximize reply rates, meetings booked, and ROI."
       },
       {
-        title: "Seamless Appointment Setting",
-        description: "Integrate our Appointment Engine to automatically book meetings with interested leads, creating a seamless pipeline from outreach to sales call."
+        title: "From Outreach to Meeting, Seamlessly",
+        description: "Our system automatically books interested leads into your calendar, creating a frictionless path from prospect to sales call."
       }
     ],
     ctaTitle: "Ready to Fill Your Pipeline?",
-    ctaDescription: "Stop hunting for leads and start closing them. Let's build your automated outreach machine together.",
-    ctaButtonText: "Book a Free Consultation and Start Filling Your Pipeline Automatically"
+    ctaDescription: "Stop the grind of manual prospecting. Let's build your automated outreach machine and start closing more deals.",
+    ctaButtonText: "Book a Free Pipeline Analysis"
   }
 ];
