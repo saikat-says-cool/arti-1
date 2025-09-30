@@ -11,7 +11,7 @@ const Index = () => {
     <>
       <Helmet>
         <title>Artificialyze - AI Automation Agency</title>
-        <meta name="description" content="We build custom AI systems that save you time and grow your revenue. AI-powered customer support, lead generation, and workflow automation." />
+        <meta name="description" content="We build custom AI systems that save you time and grow your revenue. AI-powered customer support, automated client outreach, and workflow automation." />
       </Helmet>
       <Hero />
       <HomeWhyUs />

@@ -17,7 +17,7 @@ const Hero = () => {
         </span>
       </h1>
       <p className="mt-6 max-w-3xl text-lg text-muted-foreground">
-        We design and deploy custom AI automations that handle your repetitive tasks-from lead generation to customer support-so you can focus on growth.
+        We design and deploy custom AI automations that handle your repetitive tasks-from automated client outreach to 24/7 customer support-so you can focus on growth.
       </p>
       <Button asChild size="lg" className="mt-8">
         <a href="https://cal.com/saikat-artificialyze/15min" target="_blank" rel="noopener noreferrer">Book a Free Strategy Call</a>

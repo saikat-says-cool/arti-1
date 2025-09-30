@@ -63,7 +63,7 @@ export const offers = [
   },
   {
     slug: "lead-generation",
-    title: "AI Lead Generation",
+    title: "AI Lead Generation & Outreach",
     headline: "Your Sales Pipeline, on Autopilot.",
     animatedHeadline: ["Predictable", "Scalable"],
     description: "Stop wasting time on manual prospecting. Our AI Lead Generation Engine is a predictable growth machine. It finds your ideal clients, crafts hyper-personalized outreach at scale, and fills your calendar with qualified meetings. Your sales team can finally stop hunting for leads and focus on what they do best: closing deals.",
