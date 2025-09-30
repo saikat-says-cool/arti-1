@@ -67,7 +67,7 @@ export const offers = [
     headline: "Fill Your Sales Pipeline",
     animatedHeadline: ["Automatically", "On Autopilot"],
     description: "Manual prospecting is a numbers game that burns time and energy. Our AI-powered system transforms lead generation into a predictable, automated engine for growth. It finds your ideal clients, enriches their data for deep personalization, and launches outreach campaigns at scale. Your calendar fills with qualified prospects, allowing your sales team to focus purely on closing deals.",
-    for: "For Marketing, Design, PPC, Consulting, and other Agencies.",
+    for: "For B2B SaaS, Agencies, Financial Services, Real Estate, and Recruitment Firms.",
     benefitsTitle: "A Smarter Way to Scale Outreach",
     benefitsDescription: "Our end-to-end system handles the entire top-of-funnel process, so you can focus on closing.",
     benefits: [
