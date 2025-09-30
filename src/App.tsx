@@ -10,8 +10,6 @@ import { AnimatePresence } from 'framer-motion';
 import AnimatedPage from '@/components/AnimatedPage';
 import ScrollToTop from '@/components/utils/ScrollToTop';
 import CaseStudies from '@/pages/CaseStudies';
-import Blog from '@/pages/Blog';
-import BlogPost from '@/pages/BlogPost';
 import Book from '@/pages/Book';
 import NotFound from '@/pages/NotFound';
 import Branding from '@/pages/Branding';
@@ -24,8 +22,6 @@ function AppRoutes() {
         <Route path="/" element={<AnimatedPage><Index /></AnimatedPage>} />
         <Route path="/why-us" element={<AnimatedPage><WhyUs /></AnimatedPage>} />
         <Route path="/case-studies" element={<AnimatedPage><CaseStudies /></AnimatedPage>} />
-        <Route path="/blog" element={<AnimatedPage><Blog /></AnimatedPage>} />
-        <Route path="/blog/:slug" element={<AnimatedPage><BlogPost /></AnimatedPage>} />
         <Route path="/book" element={<AnimatedPage><Book /></AnimatedPage>} />
         <Route path="/branding" element={<AnimatedPage><Branding /></AnimatedPage>} />
         {offers.map((offer) => (

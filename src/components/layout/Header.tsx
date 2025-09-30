@@ -38,12 +38,6 @@ export function Header() {
                             Case Studies
                         </Link>
                         <Link
-                            to="/blog"
-                            className="text-muted-foreground hover:text-foreground transition-colors"
-                        >
-                            Blog
-                        </Link>
-                        <Link
                             to="/why-us"
                             className="text-muted-foreground hover:text-foreground transition-colors"
                         >
@@ -82,9 +76,6 @@ export function Header() {
                             ))}
                              <Link to="/case-studies" className="text-muted-foreground hover:text-foreground transition-colors">
                                 Case Studies
-                            </Link>
-                            <Link to="/blog" className="text-muted-foreground hover:text-foreground transition-colors">
-                                Blog
                             </Link>
                             <Link to="/why-us" className="text-muted-foreground hover:text-foreground transition-colors">
                                 Why Us
