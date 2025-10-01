@@ -48,7 +48,7 @@ const FAQ = () => {
               <AccordionTrigger className="text-lg font-medium">{faq.question}</AccordionTrigger>
               <AccordionContent className="text-base text-muted-foreground">
                 {faq.answer}
-              </Content>
+              </AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
