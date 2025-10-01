@@ -1,11 +1,27 @@
+"use client";
+
+import Layout from "@/components/layout/Layout";
+import Hero from "@/components/landing/Hero";
+import ProblemSolution from "@/components/landing/ProblemSolution";
+import Industries from "@/components/landing/Industries";
+import HowItWorks from "@/components/landing/HowItWorks";
+import CaseResults from "@/components/landing/CaseResults";
+import WhyChooseUs from "@/components/landing/WhyChooseUs";
+import FAQ from "@/components/landing/FAQ";
+import StickyCTA from "@/components/landing/StickyCTA";
+
 const Index = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-4xl font-bold">Blank Page</h1>
-      <p className="mt-4 text-lg text-muted-foreground">
-        This is a fresh start. What would you like to build?
-      </p>
-    </div>
+    <Layout>
+      <Hero />
+      <ProblemSolution />
+      <Industries />
+      <HowItWorks />
+      <CaseResults />
+      <WhyChooseUs />
+      <FAQ />
+      <StickyCTA />
+    </Layout>
   );
 };
 
