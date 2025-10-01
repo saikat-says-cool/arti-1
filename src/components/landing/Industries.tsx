@@ -7,7 +7,7 @@ const Industries = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const mainIndustries = [
     { title: "B2B SaaS & Software", description: "From enterprise SaaS to mid-market startups, we fuel pipelines with leads sourced via LinkedIn, directories, and tech signals. Engagement budgets: $5,000–$100,000+." },
-    { title: "Professional Services & Consulting", description: "IT, strategy, HR, marketing consultants-we target C-suite buyers with multi-channel personalized outreach, unlocking 3–5x billable hour recovery." },
+    { title: "Professional Services & Consulting", description: "IT, strategy, HR, marketing consultants—we target C-suite buyers with multi-channel personalized outreach, unlocking 3–5x billable hour recovery." },
     { title: "Financial Services & Wealth Management", description: "Independent advisors and boutique firms benefit from compliance-safe messaging, generating 5–10x ROI in pipeline growth." },
   ];
   const otherIndustries = [
