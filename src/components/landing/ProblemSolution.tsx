@@ -2,8 +2,12 @@
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
+import { motion, useMotionTemplate } from "framer-motion";
+import { useDynamicColor } from "@/context/DynamicColorContext";
 
 const ProblemSolution = () => {
+  const { color } = useDynamicColor();
+  const backgroundImage = useMotionTemplate`radial-gradient(ellipse 80% 50% at 50% -20%, ${color}22, transparent)`;
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const problems = [
     "Manual outreach drains time, budget, and energy.",
@@ -18,7 +22,10 @@ const ProblemSolution = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24">
+    <motion.section
+      style={{ backgroundImage }}
+      className="py-16 md:py-24"
+    >
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg">
@@ -51,7 +58,7 @@ const ProblemSolution = () => {
           </a>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
