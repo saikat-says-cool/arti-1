@@ -7,12 +7,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { motion, useMotionTemplate } from "framer-motion";
-import { useDynamicColor } from "@/context/DynamicColorContext";
 
 const FAQ = () => {
-  const { color } = useDynamicColor();
-  const backgroundImage = useMotionTemplate`radial-gradient(ellipse 80% 50% at 50% -20%, ${color}22, transparent)`;
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const faqs = [
     {
@@ -34,10 +30,7 @@ const FAQ = () => {
   ];
 
   return (
-    <motion.section
-      style={{ backgroundImage }}
-      className="py-16 md:py-24"
-    >
+    <section className="py-16 md:py-24 bg-transparent">
       <div className="container mx-auto px-4 md:px-6 max-w-3xl">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
@@ -58,7 +51,7 @@ const FAQ = () => {
           </a>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 

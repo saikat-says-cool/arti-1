@@ -1,12 +1,8 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { motion, useMotionTemplate } from "framer-motion";
-import { useDynamicColor } from "@/context/DynamicColorContext";
 
 const HowItWorks = () => {
-  const { color } = useDynamicColor();
-  const backgroundImage = useMotionTemplate`radial-gradient(ellipse 80% 50% at 50% -20%, ${color}22, transparent)`;
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const steps = [
     { title: "Ideal Customer Profiling", description: "Zero in on the right decision-makers" },
@@ -17,10 +13,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <motion.section
-      style={{ backgroundImage }}
-      className="py-16 md:py-24"
-    >
+    <section className="py-16 md:py-24 bg-transparent">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
@@ -44,7 +37,7 @@ const HowItWorks = () => {
           </a>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 };
 
