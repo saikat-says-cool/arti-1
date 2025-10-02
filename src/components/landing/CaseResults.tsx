@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import VectorBackground from "./VectorBackground";
 
 const CaseResults = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
@@ -12,7 +13,8 @@ const CaseResults = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-transparent">
+    <section className="relative py-16 md:py-24 bg-transparent">
+      <VectorBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">Proof / Case Results</h2>
