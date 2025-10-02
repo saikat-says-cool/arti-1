@@ -39,10 +39,10 @@ const Hero = () => {
     >
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="max-w-4xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          AI-Powered Outreach That Builds Your Pipeline With Qualified Leads-No SDRs Required
+          AI-Powered Outreach That Builds Your Pipeline With Qualified Leads—No SDRs Required
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          We help B2B SaaS, Professional Services, and mid-market brands scale client acquisition with a fully automated AI outreach system-personalized, high-volume, and built to grow with you.
+          We help B2B SaaS, Professional Services, and mid-market brands scale client acquisition with a fully automated AI outreach system—personalized, high-volume, and built to grow with you.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button

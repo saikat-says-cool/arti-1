@@ -15,7 +15,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How much time does this take from me?",
-      answer: "Barely any. You focus on closing deals-we handle everything else.",
+      answer: "Barely any. You focus on closing deals—we handle everything else.",
     },
     {
       question: "Is this compliant?",

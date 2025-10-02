@@ -9,12 +9,17 @@ const Industries = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const mainIndustries = [
     { title: "B2B SaaS & Software", description: "From enterprise SaaS to mid-market startups, we fuel pipelines with leads sourced via LinkedIn, directories, and tech signals. Engagement budgets: $5,000–$100,000+." },
-    { title: "Professional Services & Consulting", description: "IT, strategy, HR, marketing consultants-we target C-suite buyers with multi-channel personalized outreach, unlocking 3–5x billable hour recovery." },
+    { title: "Professional Services & Consulting", description: "IT, strategy, HR, marketing consultants—we target C-suite buyers with multi-channel personalized outreach, unlocking 3–5x billable hour recovery." },
     { title: "Financial Services & Wealth Management", description: "Independent advisors and boutique firms benefit from compliance-safe messaging, generating 5–10x ROI in pipeline growth." },
   ];
   const otherIndustries = [
-    "Real Estate & Property Services", "Recruitment & Staffing", "Healthcare & Medtech",
-    "Education & Training", "Legal Services", "Manufacturing & Industrial", "B2B E-Commerce & Wholesalers"
+    { title: "Real Estate & Property Services", description: "Smoothing feast-or-famine cycles with steady deal flow" },
+    { title: "Recruitment & Staffing", description: "Multi-channel sourcing that books candidates and clients" },
+    { title: "Healthcare & Medtech", description: "Driving elective care and device adoption through appointment setting" },
+    { title: "Education & Training", description: "Filling enrollment pipelines with executives and professionals" },
+    { title: "Legal Services", description: "Contextual, trust-driven outreach that warms prospects before the first call" },
+    { title: "Manufacturing & Industrial", description: "Automated global B2B outreach at scale" },
+    { title: "B2B E-Commerce & Wholesalers", description: "AI personalization that lands retail buyers" },
   ];
 
   return (
@@ -46,10 +51,11 @@ const Industries = () => {
         </div>
         <div className="mt-12">
           <h3 className="text-2xl font-bold text-center">Other Industries We Empower:</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
             {otherIndustries.map((industry, index) => (
-              <motion.div key={index} whileHover={{ scale: 1.05, y: -5 }} className="p-4 bg-background rounded-lg shadow-sm">
-                <p className="font-medium">{industry}</p>
+              <motion.div key={index} whileHover={{ scale: 1.05, y: -5 }} className="p-4 bg-background rounded-lg shadow-sm text-center">
+                <p className="font-medium">{industry.title}</p>
+                <p className="text-sm text-muted-foreground mt-1">{industry.description}</p>
               </motion.div>
             ))}
           </div>
