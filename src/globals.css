@@ -82,8 +82,10 @@
                       radial-gradient(ellipse 80% 80% at 100% 20%, hsla(210, 100%, 95%, 0.5) 0%, transparent 40%), 
                       /* Cool light from mid-right */
                       radial-gradient(ellipse 120% 100% at 100% 50%, hsla(220, 80%, 70%, 0.25) 0%, transparent 60%),
-                      /* New warm light from mid-left */
-                      radial-gradient(ellipse 100% 100% at 0% 50%, hsla(25, 50%, 40%, 0.3) 0%, transparent 60%);
+                      /* Warm light from mid-left */
+                      radial-gradient(ellipse 100% 100% at 0% 50%, hsla(25, 50%, 40%, 0.3) 0%, transparent 60%),
+                      /* New warm orange conical light from bottom */
+                      radial-gradient(ellipse 60% 80% at 50% 100%, hsla(30, 100%, 50%, 0.2) 0%, transparent 70%);
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
