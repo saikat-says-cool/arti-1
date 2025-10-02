@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import VectorBackground from "./VectorBackground";
 
 const FAQ = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
@@ -31,8 +30,7 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="relative py-16 md:py-24 bg-transparent">
-      <VectorBackground />
+    <section className="py-16 md:py-24 bg-transparent">
       <div className="container mx-auto px-4 md:px-6 max-w-3xl">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
