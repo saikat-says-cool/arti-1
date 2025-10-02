@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
+import ParticlesBackground from "./ParticlesBackground";
 
 const ProblemSolution = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
@@ -18,7 +19,8 @@ const ProblemSolution = () => {
   ];
 
   return (
-    <section className="py-16 md:py-24 bg-transparent">
+    <section className="relative py-16 md:py-24 bg-transparent overflow-hidden">
+      <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <div className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg">
