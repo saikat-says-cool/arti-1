@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const Partners = () => {
   const logos = [
-    { src: "/logos/google.svg", alt: "Google AI" },
-    { src: "/logos/openai.svg", alt: "OpenAI" },
-    { src: "/logos/meta.svg", alt: "Meta AI" },
-    { src: "/logos/anthropic.svg", alt: "Anthropic" },
-    { src: "/logos/perplexity.svg", alt: "Perplexity AI" },
-    { src: "/logos/xai.svg", alt: "xAI" },
+    { name: "Google AI" },
+    { name: "OpenAI" },
+    { name: "Meta AI" },
+    { name: "Anthropic" },
+    { name: "Perplexity AI" },
+    { name: "xAI" },
   ];
 
   return (
@@ -35,11 +35,9 @@ const Partners = () => {
                 whileHover={{ scale: 1.1, y: -5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <img
-                  src={logo.src}
-                  alt={logo.alt}
-                  className="h-10 md:h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
-                />
+                <span className="text-xl md:text-2xl font-bold text-muted-foreground hover:text-foreground transition-colors duration-300">
+                  {logo.name}
+                </span>
               </motion.div>
             ))}
           </div>
