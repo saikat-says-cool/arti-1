@@ -3,9 +3,18 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useIsMobile } from "@/hooks/use-mobile";
 
 const Header = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const isMobile = useIsMobile();
+
+  const navLinks = [
+    { name: "Industries", href: "#industries" },
+    { name: "How It Works", href: "#how-it-works" },
+    { name: "Results", href: "#case-results" },
+    { name: "FAQ", href: "#faq" },
+  ];
 
   return (
     <motion.header 
@@ -20,6 +29,21 @@ const Header = () => {
             <span className="font-bold text-xl">Artificialyze</span>
           </Link>
         </motion.div>
+
+        {!isMobile && (
+          <nav className="flex items-center gap-6">
+            {navLinks.map((link) => (
+              <a 
+                key={link.name} 
+                href={link.href} 
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              >
+                {link.name}
+              </a>
+            ))}
+          </nav>
+        )}
+
         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
           <a href={ctaLink} target="_blank" rel="noopener noreferrer">
             <Button>Book a Consultation</Button>
