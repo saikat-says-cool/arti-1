@@ -12,11 +12,14 @@ import {
   UserCog,
   UserCheck,
   Search,
-  ShieldCheck,
-  Inbox,
-  GitCompareArrows,
-  BarChart,
-  Repeat,
+  Table,
+  ArrowRight,
+  Mail,
+  Sparkles,
+  CalendarDays,
+  LineChart,
+  FileText,
+  MailPlus,
 } from "lucide-react";
 
 const HowItWorks = () => {
@@ -28,26 +31,16 @@ const HowItWorks = () => {
       description: "Zero in on the right decision-makers.",
       graphic: (
         <Card className="bg-slate-50/50 dark:bg-slate-900/50 p-6 h-full flex items-center justify-center">
-          <div className="text-center">
-            <div className="inline-block bg-primary text-primary-foreground p-4 rounded-lg">
-              <Target className="h-8 w-8" />
-            </div>
-            <p className="font-bold mt-2">Your Offering</p>
-            <Share2 className="h-12 w-12 text-muted-foreground mx-auto my-2 rotate-90" />
-            <div className="flex justify-center gap-4">
-              <div className="text-center">
-                <UserCog className="h-8 w-8 mx-auto text-primary" />
-                <p className="text-sm font-semibold">CTOs</p>
-              </div>
-              <div className="text-center">
-                <Users className="h-8 w-8 mx-auto text-primary" />
-                <p className="text-sm font-semibold">CEOs</p>
-              </div>
-              <div className="text-center">
-                <UserCheck className="h-8 w-8 mx-auto text-primary" />
-                <p className="text-sm font-semibold">CMOs</p>
-              </div>
-            </div>
+          <div className="flex items-center gap-4">
+            <Target className="h-12 w-12 text-primary flex-shrink-0" />
+            <Card className="p-4">
+              <h4 className="font-bold text-sm mb-2">Persona: VP of Marketing</h4>
+              <ul className="text-xs text-muted-foreground space-y-1">
+                <li className="flex items-center gap-2"><UserCog className="h-4 w-4" /> Industry: B2B SaaS</li>
+                <li className="flex items-center gap-2"><Users className="h-4 w-4" /> Company Size: 50-200</li>
+                <li className="flex items-center gap-2"><TrendingUp className="h-4 w-4" /> Goal: Increase MQLs</li>
+              </ul>
+            </Card>
           </div>
         </Card>
       ),
@@ -57,22 +50,16 @@ const HowItWorks = () => {
       description: "Verified roles, emails, and firmographic data.",
       graphic: (
         <Card className="bg-slate-50/50 dark:bg-slate-900/50 p-6 h-full flex items-center justify-center">
-          <div className="flex items-center gap-6">
-            <Search className="h-12 w-12 text-primary flex-shrink-0" />
-            <Card>
-              <CardContent className="p-4 space-y-2">
-                <div className="flex items-center gap-2">
-                  <Users className="h-5 w-5 text-muted-foreground" />
-                  <span className="font-mono text-sm">Acme Corp.</span>
-                  <MailCheck className="h-5 w-5 text-green-500" />
-                </div>
-                <div className="flex items-center gap-2">
-                  <UserCog className="h-5 w-5 text-muted-foreground" />
-                  <span className="font-mono text-sm">CTO</span>
-                  <MailCheck className="h-5 w-5 text-green-500" />
-                </div>
-              </CardContent>
-            </Card>
+          <div className="flex items-center gap-3 text-center">
+            <div className="flex flex-col items-center gap-2">
+              <Table className="h-10 w-10 text-primary" />
+              <p className="text-xs font-semibold">Raw Lead List</p>
+            </div>
+            <ArrowRight className="h-8 w-8 text-muted-foreground" />
+            <div className="flex flex-col items-center gap-2">
+              <MailPlus className="h-10 w-10 text-green-500" />
+              <p className="text-xs font-semibold">Enriched & Verified</p>
+            </div>
           </div>
         </Card>
       ),
@@ -81,23 +68,20 @@ const HowItWorks = () => {
       title: "AI Personalization",
       description: "Context-rich messaging crafted for each prospect.",
       graphic: (
-        <Card className="bg-slate-50/50 dark:bg-slate-900/50 p-6 h-full flex items-center justify-center relative overflow-hidden">
-          <Bot className="h-16 w-16 text-primary z-10" />
-          <div className="absolute top-4 right-4 text-center">
-            <Users className="h-8 w-8 mx-auto text-muted-foreground" />
-            <p className="text-xs font-mono mt-1">Prospect A</p>
-          </div>
-          <div className="absolute bottom-4 left-4 text-center">
-            <UserCog className="h-8 w-8 mx-auto text-muted-foreground" />
-            <p className="text-xs font-mono mt-1">Prospect B</p>
-          </div>
-           <div className="absolute bottom-4 right-4 text-center">
-            <UserCheck className="h-8 w-8 mx-auto text-muted-foreground" />
-            <p className="text-xs font-mono mt-1">Prospect C</p>
-          </div>
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-            <div className="w-48 h-48 border-dashed border-2 border-primary/50 rounded-full animate-spin-slow" />
-          </div>
+        <Card className="bg-slate-50/50 dark:bg-slate-900/50 p-6 h-full flex items-center justify-center relative">
+           <div className="flex items-center gap-2">
+            <Card className="p-3 w-40">
+                <p className="text-xs text-muted-foreground">"Hi {"{firstName}"}, love {"{companyName}"}..."</p>
+            </Card>
+            <div className="flex flex-col items-center">
+                <Bot className="h-6 w-6 text-primary" />
+                <ArrowRight className="h-8 w-8 text-muted-foreground" />
+                <Sparkles className="h-6 w-6 text-primary" />
+            </div>
+            <Card className="p-3 w-40 bg-primary/10 border-primary">
+                <p className="text-xs text-foreground">"Hi Jane, saw your recent funding round at Innovate Inc..."</p>
+            </Card>
+           </div>
         </Card>
       ),
     },
@@ -106,12 +90,13 @@ const HowItWorks = () => {
       description: "Sequences, warmups, and inbox health handled.",
       graphic: (
         <Card className="bg-slate-50/50 dark:bg-slate-900/50 p-6 h-full flex items-center justify-center">
-          <div className="flex items-center gap-4 w-full">
-            <MailCheck className="h-8 w-8 text-primary" />
-            <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
-                <div className="h-full bg-green-500 w-3/4" />
+          <div className="flex items-center gap-6">
+            <CalendarDays className="h-12 w-12 text-primary" />
+            <div className="space-y-2">
+                <div className="flex items-center gap-2"><Mail className="h-5 w-5 text-muted-foreground" /> <span className="text-sm font-mono">Day 1: Intro</span></div>
+                <div className="flex items-center gap-2"><Mail className="h-5 w-5 text-muted-foreground" /> <span className="text-sm font-mono">Day 3: Follow-up</span></div>
+                <div className="flex items-center gap-2"><Mail className="h-5 w-5 text-muted-foreground" /> <span className="text-sm font-mono">Day 7: Case Study</span></div>
             </div>
-            <Inbox className="h-8 w-8 text-green-500" />
           </div>
         </Card>
       ),
@@ -121,16 +106,11 @@ const HowItWorks = () => {
       description: "New leads, A/B testing, and performance improvements baked in.",
       graphic: (
         <Card className="bg-slate-50/50 dark:bg-slate-900/50 p-6 h-full flex items-center justify-center">
-          <div className="relative flex items-center justify-center">
-            <Repeat className="h-24 w-24 text-primary/20 animate-spin-slow" />
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
-              <GitCompareArrows className="h-8 w-8 text-primary" />
-            </div>
-            <div className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2">
-              <BarChart className="h-8 w-8 text-primary -rotate-90" />
-            </div>
-            <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2">
-              <TrendingUp className="h-8 w-8 text-primary" />
+          <div className="flex items-center gap-4">
+            <LineChart className="h-12 w-12 text-green-500" />
+            <div className="space-y-2">
+                <p className="font-bold text-green-600 dark:text-green-400">Open Rate: 72% <span className="text-xs">↑</span></p>
+                <p className="font-bold text-green-600 dark:text-green-400">Meetings Booked: 12 <span className="text-xs">↑</span></p>
             </div>
           </div>
         </Card>
