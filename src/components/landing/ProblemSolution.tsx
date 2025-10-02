@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle2 } from "lucide-react";
 import ParticlesBackground from "./ParticlesBackground";
+import { motion } from "framer-motion";
 
 const ProblemSolution = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
@@ -19,11 +20,17 @@ const ProblemSolution = () => {
   ];
 
   return (
-    <section className="relative py-16 md:py-24 bg-transparent overflow-hidden">
+    <motion.section 
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.6 }}
+      className="relative py-16 md:py-24 bg-transparent overflow-hidden"
+    >
       <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg">
+          <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-red-600 dark:text-red-400">The Problem</h2>
             <ul className="mt-6 space-y-4">
               {problems.map((problem, index) => (
@@ -33,8 +40,8 @@ const ProblemSolution = () => {
                 </li>
               ))}
             </ul>
-          </div>
-          <div className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg">
+          </motion.div>
+          <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">The Solution</h2>
             <p className="mt-4 text-muted-foreground">Artificialyze delivers a fully managed AI Outreach Infrastructure that runs 24/7 to:</p>
             <ul className="mt-6 space-y-4">
@@ -45,15 +52,17 @@ const ProblemSolution = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
         </div>
         <div className="text-center mt-12">
-          <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-            <Button variant="outline">See How It Works → Book Your Consultation</Button>
-          </a>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <a href={ctaLink} target="_blank" rel="noopener noreferrer">
+              <Button variant="outline">See How It Works → Book Your Consultation</Button>
+            </a>
+          </motion.div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
