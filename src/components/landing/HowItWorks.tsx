@@ -48,7 +48,7 @@ const HowItWorks = () => {
             <Card className="p-4 shadow-lg w-full max-w-sm">
               <CardHeader className="flex-row items-center gap-4 pb-2">
                 <Avatar className="h-16 w-16">
-                  <AvatarImage src="https://i.pravatar.cc/150?u=a042581f4e29026704d" />
+                  <AvatarImage src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Avatar of a target customer profile" />
                   <AvatarFallback>JD</AvatarFallback>
                 </Avatar>
                 <div>

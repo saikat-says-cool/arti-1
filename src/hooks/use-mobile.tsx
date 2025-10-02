@@ -1,25 +1,25 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-export const useIsMobile = (maxWidth = 768) => {
+export const useIsMobile = (query: string = "(max-width: 768px)") => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Ensure window is defined (for server-side rendering)
-    if (typeof window === 'undefined') {
-      return;
-    }
+    const mediaQuery = window.matchMedia(query);
+    const handleResize = () => setIsMobile(mediaQuery.matches);
 
-    const checkScreenSize = () => {
-      setIsMobile(window.innerWidth < maxWidth);
+    // Set the initial state
+    handleResize();
+
+    // Add event listener for changes
+    mediaQuery.addEventListener("change", handleResize);
+
+    // Cleanup listener on component unmount
+    return () => {
+      mediaQuery.removeEventListener("change", handleResize);
     };
-
-    checkScreenSize();
-    window.addEventListener('resize', checkScreenSize);
-
-    return () => window.removeEventListener('resize', checkScreenSize);
-  }, [maxWidth]);
+  }, [query]);
 
   return isMobile;
 };
