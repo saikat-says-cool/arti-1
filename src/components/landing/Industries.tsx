@@ -8,9 +8,9 @@ import { motion } from "framer-motion";
 const Industries = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const mainIndustries = [
-    { title: "B2B SaaS & Software", description: "From enterprise SaaS to mid-market startups, we fuel pipelines with leads sourced via LinkedIn, directories, and tech signals. Engagement budgets: $5,000–$100,000+." },
-    { title: "Professional Services & Consulting", description: "IT, strategy, HR, marketing consultants—we target C-suite buyers with multi-channel personalized outreach, unlocking 3–5x billable hour recovery." },
-    { title: "Financial Services & Wealth Management", description: "Independent advisors and boutique firms benefit from compliance-safe messaging, generating 5–10x ROI in pipeline growth." },
+    { title: "Marketing & Advertising Agencies", description: "Our core focus. We equip digital, creative, and full-service agencies with the AI infrastructure to predictably land their own high-value clients." },
+    { title: "Consulting & Professional Services", description: "For strategy, IT, and management consultants, we build automated outreach systems that connect them with C-suite decision-makers." },
+    { title: "B2B SaaS Companies", description: "We help SaaS businesses with a high LTV bypass the SDR grind, directly engaging ideal customer profiles to fill demo calendars and drive MRR." },
   ];
   const otherIndustries = [
     { title: "Real Estate & Property Services", description: "Smoothing feast-or-famine cycles with steady deal flow" },
