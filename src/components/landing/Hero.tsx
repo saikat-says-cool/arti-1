@@ -41,7 +41,7 @@ const Hero = () => {
           AI-Powered Outreach That Fills Your Agency’s Pipeline With Clients—No SDRs Required
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          We help B2B marketing agencies scale client acquisition with a fully managed AI outreach system—personalized, automated, and built to deliver new conversations every week.
+          We partner with B2B marketing agencies to build a predictable client acquisition engine. Our fully managed AI outreach system delivers a consistent stream of high-value conversations, letting you focus on strategy and delivery, not prospecting.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button
@@ -57,7 +57,7 @@ const Hero = () => {
             }}
             className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-6 py-3 text-lg text-gray-50 transition-colors hover:bg-gray-950/50"
           >
-            👉 Book Your Free 15-Min Consultation
+            Book Your Free Growth Strategy Call
           </motion.button>
         </a>
       </div>

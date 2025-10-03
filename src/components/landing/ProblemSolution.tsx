@@ -14,10 +14,10 @@ const ProblemSolution = () => {
     "Scaling outreach feels impossible without more headcount",
   ];
   const solutions = [
-    "Identify and enrich decision-makers (your clients’ ICPs)",
-    "Personalize at scale so every prospect feels like a 1-on-1 message",
-    "Automate sending + follow-ups across warm domains with high deliverability",
-    "Optimize continuously — list refreshes, copy tuning, and campaign tweaks baked in",
+    "Tap into a verified stream of ideal decision-makers, enriched with the data needed for true personalization.",
+    "Deploy hyper-personalized messages at scale, referencing context that proves you've done your homework and earns a reply.",
+    "Automate multi-step campaigns and follow-ups from a fully warmed-up infrastructure, ensuring your messages land in the primary inbox.",
+    "Benefit from continuous, data-driven optimization. We constantly refine lists, A/B test copy, and tweak campaigns for peak performance.",
   ];
 
   return (
@@ -33,6 +33,7 @@ const ProblemSolution = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-red-600 dark:text-red-400">The Problem</h2>
+            <p className="mt-4 text-muted-foreground">Sound familiar? Your agency is great at getting results for clients, but your own growth is stuck in a cycle of inconsistency.</p>
             <ul className="mt-6 space-y-4">
               {problems.map((problem, index) => (
                 <li key={index} className="flex items-start">
@@ -44,7 +45,7 @@ const ProblemSolution = () => {
           </motion.div>
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">Artificialyze for Agencies</h2>
-            <p className="mt-4 text-muted-foreground">Artificialyze delivers a done-for-you outreach infrastructure that runs 24/7 so you can focus on closing deals:</p>
+            <p className="mt-4 text-muted-foreground">Artificialyze is your dedicated growth partner, delivering a done-for-you outreach infrastructure that runs 24/7. We handle the entire prospecting lifecycle so you can focus on what you do best: closing deals and serving clients.</p>
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start">
@@ -58,7 +59,7 @@ const ProblemSolution = () => {
         <div className="text-center mt-12">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline">➡️ See How It Works → Book Your Consultation</Button>
+              <Button variant="outline">Discover Your Growth Potential → Book a Consultation</Button>
             </a>
           </motion.div>
         </div>

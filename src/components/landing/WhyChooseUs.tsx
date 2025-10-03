@@ -8,10 +8,10 @@ import { motion } from "framer-motion";
 const WhyChooseUs = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const reasons = [
-    { title: "All-in-One Infrastructure", description: "Replace sales tools + SDR headcount" },
-    { title: "Done-For-You Delivery", description: "We run the system, you handle conversations" },
-    { title: "Deep AI Personalization", description: "Context-driven emails that cut through noise" },
-    { title: "Scales With Your Agency", description: "More meetings without ballooning payroll" },
+    { title: "A Unified Growth Platform", description: "Consolidate your expensive, disjointed sales tools and eliminate the need for a costly internal SDR team." },
+    { title: "Fully Managed Service", description: "We operate as an extension of your team, managing the entire outreach process from strategy to execution. You just take the meetings." },
+    { title: "Authentic Personalization at Scale", description: "Our AI goes beyond mail-merge fields, crafting context-aware messages that resonate with your ideal clients and start genuine conversations." },
+    { title: "Scalable & Predictable Results", description: "Grow your client base and revenue without exponentially increasing your overhead. Our system is built to scale with your ambition." },
   ];
 
   return (
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">Why This Matters for Agencies</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Running an agency means one thing: keep the client pipeline flowing. Growth stalls when your team is too busy serving clients to hunt for new ones.
+            Breaking free from the feast-or-famine cycle is the key to sustainable agency growth. When your team is buried in client work, prospecting stops, and the pipeline dries up. We build the system that keeps your growth engine running, no matter how busy you get.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">

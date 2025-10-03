@@ -12,8 +12,8 @@ import FAQ from "@/components/landing/FAQ";
 import StickyCTA from "@/components/landing/StickyCTA";
 
 const Index = () => {
-  const pageTitle = "Artificialyze | AI Outreach for B2B Marketing Agencies";
-  const pageDescription = "We help B2B marketing agencies scale client acquisition with a fully managed AI outreach system. Fill your pipeline with qualified clients, no SDRs required.";
+  const pageTitle = "Artificialyze | Predictable Client Acquisition for B2B Agencies";
+  const pageDescription = "Stop the client feast-or-famine cycle. Artificialyze builds a predictable client acquisition engine for B2B marketing agencies using a fully managed, AI-powered outreach system.";
   const pageUrl = "https://www.artificialyze.com"; // Replace with your actual domain
 
   const structuredData = {

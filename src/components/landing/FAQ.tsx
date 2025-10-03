@@ -13,19 +13,19 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How much time will my team need to spend on this?",
-      answer: "Almost none—you focus on client pitches & delivery. We run the engine.",
+      answer: "Minimal time is required from you. After a brief onboarding and strategy session, we handle everything. Your only job is to show up to the qualified meetings we book for you.",
     },
     {
       question: "Is this different from other “lead gen” offers?",
-      answer: "Yes, we don’t just scrape & blast lists. We build you a full AI-powered infrastructure with long-term deliverability & personalization baked in.",
+      answer: "Vastly different. We're not a lead list broker. We build and manage a complete, long-term growth asset for your agency, focusing on sustainable results, brand safety, and genuine personalization.",
     },
     {
       question: "Who exactly do you target for us?",
-      answer: "Founders, CMOs, and decision-makers within your chosen niches (e.g. SaaS, e-commerce, professional services). Always enriched + verified.",
+      answer: "We collaborate with you to define a precise Ideal Client Profile. This typically includes Founders, C-suite executives, and VPs at companies that are a perfect match for your agency's services. Every contact is verified.",
     },
     {
       question: "How soon do results come in?",
-      answer: "Most agencies see quality replies and calendars filling within 2–4 weeks.",
+      answer: "While every campaign is unique, most of our agency partners begin seeing qualified replies and booked meetings within the first 2-4 weeks. The system is designed to build momentum and compound results over time.",
     },
   ];
 
