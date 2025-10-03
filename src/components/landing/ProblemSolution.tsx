@@ -8,15 +8,16 @@ import { motion } from "framer-motion";
 const ProblemSolution = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const problems = [
-    "Manual outreach drains time, budget, and energy.",
-    "Sales teams chase leads instead of closing deals.",
-    "Scaling consistently without hiring more SDRs feels impossible.",
+    "Client churn but no predictable replacement pipeline",
+    "SDRs spending hours researching instead of booking meetings",
+    "Ballooning SaaS + tool costs with no reliable ROI",
+    "Scaling outreach feels impossible without more headcount",
   ];
   const solutions = [
-    "Identify and enrich decision-maker leads in your target audience",
-    "Personalize messages at scale so every prospect feels a 1-to-1 connection",
-    "Automate sending, follow-ups, and inbox optimization",
-    "Continuously monitor, test, and improve campaigns for higher ROI",
+    "Identify and enrich decision-makers (your clients’ ICPs)",
+    "Personalize at scale so every prospect feels like a 1-on-1 message",
+    "Automate sending + follow-ups across warm domains with high deliverability",
+    "Optimize continuously — list refreshes, copy tuning, and campaign tweaks baked in",
   ];
 
   return (
@@ -35,15 +36,15 @@ const ProblemSolution = () => {
             <ul className="mt-6 space-y-4">
               {problems.map((problem, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-red-500 mr-3 mt-1">&#10007;</span>
+                  <span className="text-red-500 mr-3 mt-1">✗</span>
                   <span className="text-muted-foreground">{problem}</span>
                 </li>
               ))}
             </ul>
           </motion.div>
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg transition-transform duration-300">
-            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">The Solution</h2>
-            <p className="mt-4 text-muted-foreground">Artificialyze delivers a fully managed AI Outreach Infrastructure that runs 24/7 to:</p>
+            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">Artificialyze for Agencies</h2>
+            <p className="mt-4 text-muted-foreground">Artificialyze delivers a done-for-you outreach infrastructure that runs 24/7 so you can focus on closing deals:</p>
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start">
@@ -57,7 +58,7 @@ const ProblemSolution = () => {
         <div className="text-center mt-12">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline">See How It Works → Book Your Consultation</Button>
+              <Button variant="outline">➡️ See How It Works → Book Your Consultation</Button>
             </a>
           </motion.div>
         </div>

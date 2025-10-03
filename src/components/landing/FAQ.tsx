@@ -6,28 +6,26 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Button } from "@/components/ui/button";
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
 const FAQ = () => {
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const faqs = [
     {
-      question: "How much time does this take from me?",
-      answer: "Barely any. You focus on closing deals—we handle everything else.",
+      question: "How much time will my team need to spend on this?",
+      answer: "Almost none—you focus on client pitches & delivery. We run the engine.",
     },
     {
-      question: "Is this compliant?",
-      answer: "Absolutely. GDPR, CCPA, and India-approved workflows are baked in.",
+      question: "Is this different from other “lead gen” offers?",
+      answer: "Yes, we don’t just scrape & blast lists. We build you a full AI-powered infrastructure with long-term deliverability & personalization baked in.",
     },
     {
-      question: "Who do you target?",
-      answer: "Mid-market companies (1–500 employees) in B2B SaaS, services, and other outreach-heavy industries.",
+      question: "Who exactly do you target for us?",
+      answer: "Founders, CMOs, and decision-makers within your chosen niches (e.g. SaaS, e-commerce, professional services). Always enriched + verified.",
     },
     {
-      question: "How fast are results?",
-      answer: "Expect qualified leads appearing in 2–4 weeks, with your pipeline compounding month after month.",
+      question: "How soon do results come in?",
+      answer: "Most agencies see quality replies and calendars filling within 2–4 weeks.",
     },
   ];
 
@@ -65,13 +63,6 @@ const FAQ = () => {
             </motion.div>
           ))}
         </Accordion>
-        <div className="text-center mt-12">
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button>Book Your Consultation →</Button>
-            </a>
-          </motion.div>
-        </div>
       </div>
     </motion.section>
   );

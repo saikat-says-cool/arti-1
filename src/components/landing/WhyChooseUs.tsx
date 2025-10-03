@@ -8,10 +8,10 @@ import { motion } from "framer-motion";
 const WhyChooseUs = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const reasons = [
-    { title: "All-in-One Outreach Infrastructure", description: "Replace multiple tools + SDR headcount" },
-    { title: "Done-For-You Delivery", description: "While you close deals, we keep your pipeline full" },
-    { title: "Deep AI Personalization", description: "Real conversations, not templates that get ignored" },
-    { title: "Scales As You Grow", description: "Predictable results without ballooning costs" },
+    { title: "All-in-One Infrastructure", description: "Replace sales tools + SDR headcount" },
+    { title: "Done-For-You Delivery", description: "We run the system, you handle conversations" },
+    { title: "Deep AI Personalization", description: "Context-driven emails that cut through noise" },
+    { title: "Scales With Your Agency", description: "More meetings without ballooning payroll" },
   ];
 
   return (
@@ -25,7 +25,10 @@ const WhyChooseUs = () => {
       <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">Why Companies Choose Artificialyze</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Why This Matters for Agencies</h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Running an agency means one thing: keep the client pipeline flowing. Growth stalls when your team is too busy serving clients to hunt for new ones.
+          </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
           {reasons.map((reason, index) => (
@@ -43,13 +46,14 @@ const WhyChooseUs = () => {
             </motion.div>
           ))}
         </div>
-        <div className="text-center mt-12">
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button>Book Your Free 15-Min Consultation</Button>
-            </a>
-          </motion.div>
-        </div>
+        <motion.div 
+          whileHover={{ scale: 1.02 }}
+          className="max-w-3xl mx-auto mt-12 p-6 bg-background/50 rounded-lg border shadow-lg"
+        >
+          <blockquote className="text-center text-lg italic text-foreground">
+            “With Artificialyze, our agency cut prospecting time by 70% and booked more pitches in 30 days than in the previous quarter.”
+          </blockquote>
+        </motion.div>
       </div>
     </motion.section>
   );

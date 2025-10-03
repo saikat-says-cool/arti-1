@@ -7,14 +7,13 @@ import ProblemSolution from "@/components/landing/ProblemSolution";
 import Partners from "@/components/landing/Partners";
 import Industries from "@/components/landing/Industries";
 import HowItWorks from "@/components/landing/HowItWorks";
-import CaseResults from "@/components/landing/CaseResults";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import FAQ from "@/components/landing/FAQ";
 import StickyCTA from "@/components/landing/StickyCTA";
 
 const Index = () => {
-  const pageTitle = "Artificialyze | AI-Powered B2B Outreach & Lead Generation";
-  const pageDescription = "We help B2B SaaS and Professional Services scale client acquisition with a fully automated AI outreach system. No SDRs required. Book your free consultation.";
+  const pageTitle = "Artificialyze | AI Outreach for B2B Marketing Agencies";
+  const pageDescription = "We help B2B marketing agencies scale client acquisition with a fully managed AI outreach system. Fill your pipeline with qualified clients, no SDRs required.";
   const pageUrl = "https://www.artificialyze.com"; // Replace with your actual domain
 
   const structuredData = {
@@ -46,9 +45,8 @@ const Index = () => {
         <ProblemSolution />
         <Partners />
         <Industries />
-        <HowItWorks />
-        <CaseResults />
         <WhyChooseUs />
+        <HowItWorks />
         <FAQ />
         <StickyCTA />
       </Layout>
