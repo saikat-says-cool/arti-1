@@ -9,21 +9,21 @@ const testimonials = [
     name: "Sarah Jenkins",
     title: "Founder, Pixel & Hammer Creative",
     avatar: "SJ",
-    image: "https://i.pravatar.cc/150?u=sarahjenkins",
+    image: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
     quote: "We were stuck in the classic agency feast-or-famine cycle. Artificialyze didn't just get us leads; it built us a predictable pipeline. For the first time, I can actually forecast our growth. The system runs in the background, and we just focus on closing the high-quality meetings that land on our calendar."
   },
   {
     name: "Marcus Holloway",
     title: "Managing Director, ScaleUp Digital",
     avatar: "MH",
-    image: "https://i.pravatar.cc/150?u=marcusholloway",
+    image: "https://i.pravatar.cc/150?u=a042581f4e29026704e",
     quote: "I was hesitant to hire another SDR. The cost, the training, the inevitable burnout... it's a huge drain. Artificialyze replaced that entire function for less than half the cost of a junior hire. The AI personalization is leagues beyond what a human could do at scale. It's been a total game-changer for our operational efficiency."
   },
   {
     name: "Chloe Rivera",
     title: "Partner, BrandTide Marketing",
     avatar: "CR",
-    image: "https://i.pravatar.cc/150?u=chloerivera",
+    image: "https://i.pravatar.cc/150?u=a042581f4e29026704f",
     quote: "We've tried other lead gen services, and it was always a flood of low-quality, poorly-targeted contacts. The difference with Artificialyze is the quality. The AI understands context, so the outreach feels genuinely personal. We're not just getting more meetings; we're getting the *right* meetings with our ideal clients."
   }
 ];
