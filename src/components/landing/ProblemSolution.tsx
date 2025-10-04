@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
+import { Info } from "lucide-react";
 
 const ProblemSolution = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
@@ -41,6 +42,12 @@ const ProblemSolution = () => {
                 </li>
               ))}
             </ul>
+            <div className="mt-6 flex items-start gap-3 text-red-900/80 dark:text-red-300/80">
+              <Info className="h-5 w-5 mt-1 flex-shrink-0" />
+              <p className="text-sm">
+                <strong>Insight:</strong> The average tenure of an SDR is just 1.5 years, making it a costly, high-turnover role for agencies. (Source: The Bridge Group)
+              </p>
+            </div>
           </motion.div>
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">The Solution — Artificialyze for Agencies</h2>

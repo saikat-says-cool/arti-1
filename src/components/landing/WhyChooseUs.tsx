@@ -1,6 +1,6 @@
 "use client";
 
-import { Check } from "lucide-react";
+import { Check, Info } from "lucide-react";
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
@@ -43,6 +43,12 @@ const WhyChooseUs = () => {
               </div>
             </motion.div>
           ))}
+        </div>
+        <div className="mt-8 flex items-start gap-3 text-primary/80 dark:text-primary/70 max-w-4xl mx-auto p-4 bg-primary/5 rounded-lg">
+          <Info className="h-5 w-5 mt-1 flex-shrink-0" />
+          <p className="text-sm">
+            <strong>Insight:</strong> 71% of B2B buyers expect personalized interactions. AI-driven outreach meets this demand at a scale humans can't match, leading to higher engagement. (Source: McKinsey)
+          </p>
         </div>
         <motion.div 
           whileHover={{ scale: 1.02 }}

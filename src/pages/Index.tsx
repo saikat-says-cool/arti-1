@@ -9,6 +9,7 @@ import Credibility from "@/components/landing/Credibility";
 import Industries from "@/components/landing/Industries";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import Testimonials from "@/components/landing/Testimonials";
+import SocialProofTweets from "@/components/landing/SocialProofTweets";
 import HowItWorks from "@/components/landing/HowItWorks";
 import Guarantee from "@/components/landing/Guarantee";
 import Investment from "@/components/landing/Investment";
@@ -52,6 +53,7 @@ const Index = () => {
         <Industries />
         <WhyChooseUs />
         <Testimonials />
+        <SocialProofTweets />
         <HowItWorks />
         <Guarantee />
         <Investment />
