@@ -10,7 +10,7 @@ const Guarantee = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.6 }}
-      className="py-16 md:py-24 bg-transparent"
+      className="py-12 md:py-20 bg-transparent"
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center bg-background/50 p-8 rounded-lg border shadow-lg">
