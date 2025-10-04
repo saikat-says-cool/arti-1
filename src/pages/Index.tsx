@@ -5,6 +5,7 @@ import Layout from "@/components/layout/Layout";
 import Hero from "@/components/landing/Hero";
 import ProblemSolution from "@/components/landing/ProblemSolution";
 import Partners from "@/components/landing/Partners";
+import Credibility from "@/components/landing/Credibility";
 import Industries from "@/components/landing/Industries";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
 import Testimonials from "@/components/landing/Testimonials";
@@ -47,6 +48,7 @@ const Index = () => {
         <Hero />
         <ProblemSolution />
         <Partners />
+        <Credibility />
         <Industries />
         <WhyChooseUs />
         <Testimonials />
