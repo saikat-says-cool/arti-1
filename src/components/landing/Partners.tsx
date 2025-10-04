@@ -22,9 +22,9 @@ const Partners = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">Partnering For You</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Partnering Power Behind Artificialyze</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Leveraging the world's most advanced AI models to drive your results.
+            We build on the world’s most advanced AI ecosystems to drive your results.
           </p>
         </div>
         <div className="mt-12">

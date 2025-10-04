@@ -38,10 +38,10 @@ const Hero = () => {
     >
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="max-w-4xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          AI-Powered Outreach That Fills Your Agency’s Pipeline With Clients—No SDRs Required
+          AI-Powered Outreach That Fills Your Agency’s Pipeline—No SDRs Required
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          We partner with B2B marketing agencies to build a predictable client acquisition engine. Our fully managed AI outreach system delivers a consistent stream of high-value conversations, letting you focus on strategy and delivery, not prospecting.
+          We partner with B2B marketing agencies to build a predictable client-acquisition engine. Your personalized, fully-managed AI outreach system delivers a consistent stream of high-value conversations—so your team can focus on strategy and delivery, not prospecting.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button
@@ -57,7 +57,7 @@ const Hero = () => {
             }}
             className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-6 py-3 text-lg text-gray-50 transition-colors hover:bg-gray-950/50"
           >
-            Book Your Free Growth Strategy Call
+            Book Your Free Growth Strategy Call →
           </motion.button>
         </a>
       </div>

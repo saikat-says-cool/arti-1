@@ -6,22 +6,24 @@ import Hero from "@/components/landing/Hero";
 import ProblemSolution from "@/components/landing/ProblemSolution";
 import Partners from "@/components/landing/Partners";
 import Industries from "@/components/landing/Industries";
-import HowItWorks from "@/components/landing/HowItWorks";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
+import HowItWorks from "@/components/landing/HowItWorks";
+import Guarantee from "@/components/landing/Guarantee";
+import Investment from "@/components/landing/Investment";
 import FAQ from "@/components/landing/FAQ";
-import StickyCTA from "@/components/landing/StickyCTA";
+import FinalCTA from "@/components/landing/FinalCTA";
 
 const Index = () => {
-  const pageTitle = "Artificialyze | Predictable Client Acquisition for B2B Agencies";
-  const pageDescription = "Stop the client feast-or-famine cycle. Artificialyze builds a predictable client acquisition engine for B2B marketing agencies using a fully managed, AI-powered outreach system.";
-  const pageUrl = "https://www.artificialyze.com"; // Replace with your actual domain
+  const pageTitle = "Artificialyze | AI Outreach Infrastructure for B2B Agencies";
+  const pageDescription = "We partner with B2B marketing agencies to build a predictable client-acquisition engine with a fully-managed AI outreach system. Book your free growth strategy call.";
+  const pageUrl = "https://www.artificialyze.com";
 
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Artificialyze",
     "url": pageUrl,
-    "logo": `${pageUrl}/favicon.svg`, // Replace with your logo URL
+    "logo": `${pageUrl}/favicon.svg`,
     "description": pageDescription,
     "contactPoint": {
       "@type": "ContactPoint",
@@ -47,8 +49,10 @@ const Index = () => {
         <Industries />
         <WhyChooseUs />
         <HowItWorks />
+        <Guarantee />
+        <Investment />
         <FAQ />
-        <StickyCTA />
+        <FinalCTA />
       </Layout>
     </>
   );

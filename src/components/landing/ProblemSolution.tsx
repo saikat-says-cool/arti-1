@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { CheckCircle2 } from "lucide-react";
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
@@ -9,22 +8,22 @@ const ProblemSolution = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const problems = [
     "Client churn but no predictable replacement pipeline",
-    "SDRs spending hours researching instead of booking meetings",
-    "Ballooning SaaS + tool costs with no reliable ROI",
+    "SDRs burning hours researching instead of booking meetings",
+    "Tool stacks growing costs with no reliable ROI",
     "Scaling outreach feels impossible without more headcount",
   ];
   const solutions = [
-    "Tap into a verified stream of ideal decision-makers, enriched with the data needed for true personalization.",
-    "Deploy hyper-personalized messages at scale, referencing context that proves you've done your homework and earns a reply.",
-    "Automate multi-step campaigns and follow-ups from a fully warmed-up infrastructure, ensuring your messages land in the primary inbox.",
-    "Benefit from continuous, data-driven optimization. We constantly refine lists, A/B test copy, and tweak campaigns for peak performance.",
+    { emoji: "🔍", title: "Target Exactly the Right Prospects", description: "Tap into a verified stream of decision-makers enriched with every data point needed for true personalization." },
+    { emoji: "💌", title: "Send Messages That Actually Get Replies", description: "Context-aware emails referencing real updates, campaigns, and pain points—crafted by AI." },
+    { emoji: "⚙️", title: "Automate Outreach at Scale", description: "Multi-step sequences and follow-ups delivered from a fully warmed-up infrastructure to land in the primary inbox." },
+    { emoji: "📈", title: "Constant Optimization", description: "Lists refreshed, angles A/B tested, cadences tweaked—your pipeline stays alive and improving." },
   ];
 
   return (
     <motion.section 
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6 }}
       className="relative py-16 md:py-24 bg-transparent overflow-hidden"
     >
@@ -33,7 +32,7 @@ const ProblemSolution = () => {
         <div className="grid md:grid-cols-2 gap-12 items-start">
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-red-600 dark:text-red-400">The Problem</h2>
-            <p className="mt-4 text-muted-foreground">Sound familiar? Your agency is great at getting results for clients, but your own growth is stuck in a cycle of inconsistency.</p>
+            <p className="mt-4 text-muted-foreground">You win results for clients, but your own growth still runs in stop-start cycles.</p>
             <ul className="mt-6 space-y-4">
               {problems.map((problem, index) => (
                 <li key={index} className="flex items-start">
@@ -44,13 +43,16 @@ const ProblemSolution = () => {
             </ul>
           </motion.div>
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg transition-transform duration-300">
-            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">Artificialyze for Agencies</h2>
-            <p className="mt-4 text-muted-foreground">Artificialyze is your dedicated growth partner, delivering a done-for-you outreach infrastructure that runs 24/7. We handle the entire prospecting lifecycle so you can focus on what you do best: closing deals and serving clients.</p>
+            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">The Solution — Artificialyze for Agencies</h2>
+            <p className="mt-4 text-muted-foreground">Artificialyze builds and manages your done-for-you outreach infrastructure that runs 24/7. We handle every stage of prospecting so you can focus on closing and delivery.</p>
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start">
-                  <CheckCircle2 className="h-5 w-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
-                  <span className="text-muted-foreground">{solution}</span>
+                  <span className="text-2xl mr-3 -mt-1 flex-shrink-0">{solution.emoji}</span>
+                  <div>
+                    <h3 className="font-bold">{solution.title}</h3>
+                    <p className="text-muted-foreground">{solution.description}</p>
+                  </div>
                 </li>
               ))}
             </ul>

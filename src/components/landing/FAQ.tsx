@@ -12,20 +12,20 @@ import { motion } from "framer-motion";
 const FAQ = () => {
   const faqs = [
     {
-      question: "How much time will my team need to spend on this?",
-      answer: "Minimal time is required from you. After a brief onboarding and strategy session, we handle everything. Your only job is to show up to the qualified meetings we book for you.",
+      question: "How much time will my team spend?",
+      answer: "Virtually none—we manage everything post-onboarding.",
     },
     {
-      question: "Is this different from other “lead gen” offers?",
-      answer: "Vastly different. We're not a lead list broker. We build and manage a complete, long-term growth asset for your agency, focusing on sustainable results, brand safety, and genuine personalization.",
+      question: "How is this different from other lead-gen offers?",
+      answer: "It’s a permanent system, not a campaign; you own the assets.",
     },
     {
-      question: "Who exactly do you target for us?",
-      answer: "We collaborate with you to define a precise Ideal Client Profile. This typically includes Founders, C-suite executives, and VPs at companies that are a perfect match for your agency's services. Every contact is verified.",
+      question: "Who do you target?",
+      answer: "Decision-makers that match your ideal client profile, verified and enriched by AI.",
     },
     {
-      question: "How soon do results come in?",
-      answer: "While every campaign is unique, most of our agency partners begin seeing qualified replies and booked meetings within the first 2-4 weeks. The system is designed to build momentum and compound results over time.",
+      question: "How soon do results appear?",
+      answer: "System live in 3 days; first qualified replies within 7–14 days.",
     },
   ];
 

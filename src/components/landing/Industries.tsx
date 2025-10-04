@@ -1,26 +1,16 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
 const Industries = () => {
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
   const mainIndustries = [
-    { title: "Marketing & Advertising Agencies", description: "Our core focus. We equip digital, creative, and full-service agencies with the AI infrastructure to predictably land their own high-value clients." },
-    { title: "Consulting & Professional Services", description: "For strategy, IT, and management consultants, we build automated outreach systems that connect them with C-suite decision-makers." },
-    { title: "B2B SaaS Companies", description: "We help SaaS businesses with a high LTV bypass the SDR grind, directly engaging ideal customer profiles to fill demo calendars and drive MRR." },
+    { title: "Marketing & Advertising Agencies", description: "Our core specialization—digital, creative, and full-service agencies ready for predictable, high-value client acquisition." },
+    { title: "Consulting & Professional Services", description: "For strategy, IT, and management consultants seeking more C-suite conversations through automated outreach." },
+    { title: "B2B SaaS Companies", description: "Skip SDR burnout. Fill demo calendars and drive MRR with qualified, context-rich meetings." },
   ];
-  const otherIndustries = [
-    { title: "Real Estate & Property Services", description: "Smoothing feast-or-famine cycles with steady deal flow" },
-    { title: "Recruitment & Staffing", description: "Multi-channel sourcing that books candidates and clients" },
-    { title: "Healthcare & Medtech", description: "Driving elective care and device adoption through appointment setting" },
-    { title: "Education & Training", description: "Filling enrollment pipelines with executives and professionals" },
-    { title: "Legal Services", description: "Contextual, trust-driven outreach that warms prospects before the first call" },
-    { title: "Manufacturing & Industrial", description: "Automated global B2B outreach at scale" },
-    { title: "B2B E-Commerce & Wholesalers", description: "AI personalization that lands retail buyers" },
-  ];
+  const otherIndustries = "Real Estate | Recruitment & Staffing | Healthcare | Education | Legal | Manufacturing | B2B E-Commerce";
 
   return (
     <motion.section 
@@ -50,23 +40,9 @@ const Industries = () => {
             </motion.div>
           ))}
         </div>
-        <div className="mt-12">
-          <h3 className="text-2xl font-bold text-center">Other Industries We Empower:</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-            {otherIndustries.map((industry, index) => (
-              <motion.div key={index} whileHover={{ scale: 1.05, y: -5 }} className="p-4 bg-background rounded-lg shadow-sm text-center">
-                <p className="font-medium">{industry.title}</p>
-                <p className="text-sm text-muted-foreground mt-1">{industry.description}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-        <div className="text-center mt-12">
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-            <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button>Book Your Consultation →</Button>
-            </a>
-          </motion.div>
+        <div className="mt-12 text-center">
+          <h3 className="text-2xl font-bold">Other industries we empower</h3>
+          <p className="mt-4 text-muted-foreground max-w-4xl mx-auto">{otherIndustries}</p>
         </div>
       </div>
     </motion.section>
