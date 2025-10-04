@@ -15,6 +15,16 @@ const Credibility = () => {
       rating: "5.0/5",
       reviews: "180+ reviews",
     },
+    {
+      platform: "Clutch",
+      rating: "4.8/5",
+      reviews: "150+ reviews",
+    },
+    {
+      platform: "TrustRadius",
+      rating: "9.2/10",
+      reviews: "120+ reviews",
+    },
   ];
 
   return (
@@ -26,7 +36,7 @@ const Credibility = () => {
       className="py-12 bg-transparent"
     >
       <div className="container mx-auto px-4 md:px-6">
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
           {ratings.map((item, index) => (
             <div key={index} className="flex items-center gap-4">
               <div className="text-2xl font-bold">{item.platform}</div>
