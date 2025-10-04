@@ -7,11 +7,12 @@ import ProblemSolution from "@/components/landing/ProblemSolution";
 import Partners from "@/components/landing/Partners";
 import Industries from "@/components/landing/Industries";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
+import Testimonials from "@/components/landing/Testimonials";
 import HowItWorks from "@/components/landing/HowItWorks";
 import Guarantee from "@/components/landing/Guarantee";
 import Investment from "@/components/landing/Investment";
 import FAQ from "@/components/landing/FAQ";
-import FinalCTA from "@/components/landing/FinalCTA";
+import StickyCTA from "@/components/landing/StickyCTA";
 
 const Index = () => {
   const pageTitle = "Artificialyze | AI Outreach Infrastructure for B2B Agencies";
@@ -48,11 +49,12 @@ const Index = () => {
         <Partners />
         <Industries />
         <WhyChooseUs />
+        <Testimonials />
         <HowItWorks />
         <Guarantee />
         <Investment />
         <FAQ />
-        <FinalCTA />
+        <StickyCTA />
       </Layout>
     </>
   );
