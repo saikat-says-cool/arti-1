@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 
 const Investment = () => {
   return (
@@ -20,32 +20,34 @@ const Investment = () => {
         </div>
         <Card className="max-w-2xl mx-auto mt-12">
           <CardContent className="p-0">
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead>Component</TableHead>
-                  <TableHead>AUD Range</TableHead>
-                  <TableHead>Details</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                <TableRow>
-                  <TableCell className="font-medium">Setup Fee</TableCell>
-                  <TableCell>$2,500 – $5,000</TableCell>
-                  <TableCell>3-Day Build Process</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="font-medium">Monthly Optimization</TableCell>
-                  <TableCell>$3,000 – $4,500</TableCell>
-                  <TableCell>Full system management</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="font-medium">Performance Bonus (optional)</TableCell>
-                  <TableCell>By results</TableCell>
-                  <TableCell>Shared upside option</TableCell>
-                </TableRow>
-              </TableBody>
-            </Table>
+            <div className="overflow-x-auto">
+              <Table className="min-w-[500px]">
+                <TableHeader>
+                  <TableRow>
+                    <TableHead>Component</TableHead>
+                    <TableHead>AUD Range</TableHead>
+                    <TableHead>Details</TableHead>
+                  </TableRow>
+                </TableHeader>
+                <TableBody>
+                  <TableRow>
+                    <TableCell className="font-medium">Setup Fee</TableCell>
+                    <TableCell>$2,500 – $5,000</TableCell>
+                    <TableCell>3-Day Build Process</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="font-medium">Monthly Optimization</TableCell>
+                    <TableCell>$3,000 – $4,500</TableCell>
+                    <TableCell>Full system management</TableCell>
+                  </TableRow>
+                  <TableRow>
+                    <TableCell className="font-medium">Performance Bonus (optional)</TableCell>
+                    <TableCell>By results</TableCell>
+                    <TableCell>Shared upside option</TableCell>
+                  </TableRow>
+                </TableBody>
+              </Table>
+            </div>
           </CardContent>
         </Card>
         <p className="text-center mt-8 text-lg text-muted-foreground">

@@ -36,11 +36,11 @@ const Credibility = () => {
       className="py-12 bg-transparent"
     >
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-4 justify-items-center">
           {ratings.map((item, index) => (
-            <div key={index} className="flex items-center gap-4">
+            <div key={index} className="flex items-center gap-4 w-full justify-center sm:justify-start md:justify-center">
               <div className="text-2xl font-bold">{item.platform}</div>
-              <div className="flex flex-col">
+              <div>
                 <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className={`h-5 w-5 ${i < 5 ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'}`} />
