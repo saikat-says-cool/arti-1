@@ -14,7 +14,6 @@ import HowItWorks from "@/components/landing/HowItWorks";
 import Guarantee from "@/components/landing/Guarantee";
 import Investment from "@/components/landing/Investment";
 import FAQ from "@/components/landing/FAQ";
-import StickyCTA from "@/components/landing/StickyCTA";
 
 const Index = () => {
   const pageTitle = "Artificialyze | AI Outreach Infrastructure for B2B Agencies";
@@ -58,7 +57,6 @@ const Index = () => {
         <Guarantee />
         <Investment />
         <FAQ />
-        <StickyCTA />
       </Layout>
     </>
   );
