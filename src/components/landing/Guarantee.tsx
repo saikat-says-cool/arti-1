@@ -17,7 +17,7 @@ const Guarantee = () => {
           <ShieldCheck className="h-16 w-16 text-primary mx-auto mb-4" />
           <h2 className="text-3xl md:text-4xl font-bold">Our Guarantee</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Your Outreach Engine goes live within 3 days of onboarding. If not, your setup fee is refunded. And if you don’t see at least seven qualified positive replies within 30 days of activation, we work free until you do.
+            <strong>Live in 3 days or full refund. 7 qualified replies in 30 days or we work free until you do.</strong>
           </p>
           <p className="mt-6 text-sm text-muted-foreground/80">
             (Guarantee assumes onboarding completion and ≈ 2,000 emails sent in the first month.)

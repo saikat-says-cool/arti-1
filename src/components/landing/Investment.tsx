@@ -18,40 +18,40 @@ const Investment = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">Investment</h2>
         </div>
-        <Card className="max-w-2xl mx-auto mt-12">
+        <Card className="max-w-4xl mx-auto mt-12">
           <CardContent className="p-0">
             <div className="overflow-x-auto">
-              <Table className="min-w-[500px]">
+              <Table>
                 <TableHeader>
                   <TableRow>
-                    <TableHead>Component</TableHead>
-                    <TableHead>AUD Range</TableHead>
-                    <TableHead>Details</TableHead>
+                    <TableHead className="font-bold">Component</TableHead>
+                    <TableHead className="font-bold">AUD Range</TableHead>
+                    <TableHead className="font-bold">What It Covers / When It Applies</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   <TableRow>
                     <TableCell className="font-medium">Setup Fee</TableCell>
                     <TableCell>$2,500 – $5,000</TableCell>
-                    <TableCell>3-Day Build Process</TableCell>
+                    <TableCell>Complete 3-Day Build Process. Higher end for multi-domain or multi-brand installs.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell className="font-medium">Monthly Optimization</TableCell>
                     <TableCell>$3,000 – $4,500</TableCell>
-                    <TableCell>Full system management</TableCell>
+                    <TableCell>Full system management, deliverability care, list refresh & AI prompt tuning. Scales with volume.</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell className="font-medium">Performance Bonus (optional)</TableCell>
-                    <TableCell>By results</TableCell>
-                    <TableCell>Shared upside option</TableCell>
+                    <TableCell>Variable</TableCell>
+                    <TableCell>Usually a per-qualified-meeting fee or shared revenue % for closed clients. Details set in advance.</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
             </div>
           </CardContent>
         </Card>
-        <p className="text-center mt-8 text-lg text-muted-foreground">
-          Half the cost of a junior SDR and far more predictable.
+        <p className="text-center mt-8 text-lg text-muted-foreground max-w-3xl mx-auto">
+          Typical agencies launch at ≈ AUD 3k setup + 3k monthly—roughly half the cost of a single in-house SDR.
         </p>
       </div>
     </motion.section>

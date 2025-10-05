@@ -18,7 +18,7 @@ const StickyCTA = () => {
           Ready to Build Your Agency's Growth Engine?
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-          <Button>📅 Book Your Consultation →</Button>
+          <Button>Book Your 3-Day Launch Call →</Button>
         </a>
       </div>
     </motion.div>

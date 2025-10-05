@@ -2,6 +2,8 @@
 
 import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Check } from "lucide-react";
 
 const HowItWorks = () => {
   const steps = [
@@ -22,6 +24,14 @@ const HowItWorks = () => {
     },
   ];
 
+  const deliverables = [
+    "Make automation scenario connecting data, AI prompts, and sending tools",
+    "Integrated Instantly mail setup with warmed, verified domains",
+    "AI prompt library pre‑tuned for your agency niche",
+    "Enrichment & personalization modules using ScrapeNinja + Perplexity",
+    "Dashboard and monitoring sheet for ongoing optimization",
+  ];
+
   return (
     <motion.section 
       id="how-it-works"
@@ -34,7 +44,7 @@ const HowItWorks = () => {
       <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">How It Works</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">The 3-Day Build Process</h2>
           <p className="mt-4 text-lg text-muted-foreground">Our proven 3-Day Build Process launches your self-sustaining client-acquisition machine.</p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
@@ -61,6 +71,26 @@ const HowItWorks = () => {
           ))}
         </div>
         <p className="text-center mt-12 text-muted-foreground">Ongoing Optimization keeps your engine tuned for maximum response rates.</p>
+        
+        <div className="max-w-3xl mx-auto mt-16">
+          <Card className="bg-background/50">
+            <CardHeader>
+              <CardTitle className="text-2xl text-center">🎁 What You’ll Own After 3 Days</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p className="text-center text-muted-foreground mb-6">By the end of Day 3, your agency controls a fully configured Outreach Engine running inside your own accounts:</p>
+              <ul className="space-y-3">
+                {deliverables.map((item, index) => (
+                  <li key={index} className="flex items-start">
+                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
+                    <span className="text-muted-foreground">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-center mt-6 font-semibold">Everything lives in your workspace—you retain full ownership and visibility.</p>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </motion.section>
   );

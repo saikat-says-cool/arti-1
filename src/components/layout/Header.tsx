@@ -48,7 +48,7 @@ const Header = () => {
         <div className="hidden md:block">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button>Book a Consultation</Button>
+              <Button>Book Your 3-Day Launch Call</Button>
             </a>
           </motion.div>
         </div>
@@ -85,7 +85,7 @@ const Header = () => {
                 </nav>
                 <div className="mt-auto">
                    <a href={ctaLink} target="_blank" rel="noopener noreferrer" className="w-full">
-                      <Button size="lg" className="w-full">Book a Consultation</Button>
+                      <Button size="lg" className="w-full">Book Your 3-Day Launch Call</Button>
                    </a>
                 </div>
               </div>

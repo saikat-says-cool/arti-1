@@ -57,7 +57,7 @@ const Hero = () => {
             }}
             className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-6 py-3 text-lg text-gray-50 transition-colors hover:bg-gray-950/50"
           >
-            Book Your Free Growth Strategy Call →
+            Book Your 3-Day Launch Call →
           </motion.button>
         </a>
       </div>
