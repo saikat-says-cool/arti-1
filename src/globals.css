@@ -4,65 +4,65 @@
 
 @layer base {
   :root {
-    --background: 210 17% 98%;
-    --foreground: 215 33% 16%;
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
 
-    --card: 210 17% 98%;
-    --card-foreground: 215 33% 16%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
 
-    --popover: 210 17% 98%;
-    --popover-foreground: 215 33% 16%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 215 48% 11%;
-    --primary-foreground: 210 17% 98%;
+    --primary: 174 100% 33%; /* Darker Teal */
+    --primary-foreground: 210 40% 98%;
 
-    --secondary: 212 26% 36%;
-    --secondary-foreground: 210 17% 98%;
+    --secondary: 355 68% 56%; /* Darker Pink */
+    --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 16% 90%;
-    --muted-foreground: 212 26% 36%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 173 100% 40%;
-    --accent-foreground: 215 48% 11%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 210 14% 83%;
-    --input: 210 14% 83%;
-    --ring: 173 100% 40%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 174 100% 33%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 215 48% 11%;
-    --foreground: 210 17% 98%;
+    --background: 240 10% 3.9%; /* Almost black */
+    --foreground: 210 40% 98%; /* White */
 
-    --card: 215 48% 11%;
-    --card-foreground: 210 17% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 215 48% 11%;
-    --popover-foreground: 210 17% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 210 40% 98%;
 
-    --primary: 173 100% 48%;
-    --primary-foreground: 215 48% 11%;
+    --primary: 174 92% 56%; /* Teal from logo */
+    --primary-foreground: 240 10% 3.9%; /* Black text on teal button */
 
-    --secondary: 215 33% 16%;
-    --secondary-foreground: 210 17% 98%;
+    --secondary: 355 96% 70%; /* Pink from logo */
+    --secondary-foreground: 240 10% 3.9%; /* Black text on pink button */
 
-    --muted: 212 26% 36%;
-    --muted-foreground: 210 17% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
 
-    --accent: 173 100% 48%;
-    --accent-foreground: 215 48% 11%;
+    --accent: 355 96% 70%; /* Pink from logo */
+    --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 212 26% 36%;
-    --input: 212 26% 36%;
-    --ring: 173 100% 48%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 174 92% 56%; /* Teal for focus rings */
   }
 }
 
@@ -78,14 +78,12 @@
   body {
     @apply bg-background text-foreground;
     background-image: 
-                      /* Cool light from top-right */
-                      radial-gradient(ellipse 80% 80% at 100% 20%, hsla(210, 100%, 95%, 0.7) 0%, transparent 40%), 
-                      /* Cool light from mid-right */
-                      radial-gradient(ellipse 120% 100% at 100% 50%, hsla(220, 80%, 70%, 0.45) 0%, transparent 60%),
-                      /* Warm light from mid-left */
-                      radial-gradient(ellipse 100% 100% at 0% 50%, hsla(25, 50%, 40%, 0.5) 0%, transparent 60%),
-                      /* New warm orange conical light from bottom */
-                      radial-gradient(ellipse 60% 80% at 50% 100%, hsla(30, 100%, 50%, 0.4) 0%, transparent 70%);
+                      /* Teal light from top-right */
+                      radial-gradient(ellipse 80% 80% at 100% 20%, hsla(174, 92%, 56%, 0.2) 0%, transparent 40%), 
+                      /* Pink light from mid-left */
+                      radial-gradient(ellipse 100% 100% at 0% 50%, hsla(355, 96%, 70%, 0.2) 0%, transparent 60%),
+                      /* Teal light from bottom */
+                      radial-gradient(ellipse 60% 80% at 50% 100%, hsla(174, 92%, 56%, 0.15) 0%, transparent 70%);
     background-repeat: no-repeat;
     background-attachment: fixed;
   }

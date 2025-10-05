@@ -31,26 +31,26 @@ const ProblemSolution = () => {
       <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-red-50 dark:bg-red-900/20 p-8 rounded-lg transition-transform duration-300">
-            <h2 className="text-3xl font-bold text-red-600 dark:text-red-400">The Problem</h2>
+          <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-secondary/10 p-8 rounded-lg transition-transform duration-300">
+            <h2 className="text-3xl font-bold text-secondary">The Problem</h2>
             <p className="mt-4 text-muted-foreground">You win results for clients, but your own growth still runs in stop-start cycles.</p>
             <ul className="mt-6 space-y-4">
               {problems.map((problem, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-red-500 mr-3 mt-1">✗</span>
+                  <span className="text-secondary mr-3 mt-1">✗</span>
                   <span className="text-muted-foreground">{problem}</span>
                 </li>
               ))}
             </ul>
-            <div className="mt-6 flex items-start gap-3 text-red-900/80 dark:text-red-300/80">
+            <div className="mt-6 flex items-start gap-3 text-secondary/80">
               <Info className="h-5 w-5 mt-1 flex-shrink-0" />
               <p className="text-sm">
                 <strong>Insight:</strong> The average tenure of an SDR is just 1.5 years, making it a costly, high-turnover role for agencies. (Source: The Bridge Group)
               </p>
             </div>
           </motion.div>
-          <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-green-50 dark:bg-green-900/20 p-8 rounded-lg transition-transform duration-300">
-            <h2 className="text-3xl font-bold text-green-600 dark:text-green-400">The Solution — Artificialyze for Agencies</h2>
+          <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-primary/10 p-8 rounded-lg transition-transform duration-300">
+            <h2 className="text-3xl font-bold text-primary">The Solution — Artificialyze for Agencies</h2>
             <p className="mt-4 text-muted-foreground">Artificialyze builds and manages your done-for-you outreach infrastructure that runs 24/7. We handle every stage of prospecting so you can focus on closing and delivery.</p>
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (

@@ -10,7 +10,7 @@ import {
   animate,
 } from "framer-motion";
 
-const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+const COLORS_TOP = ["#2AF5E3", "#FB6A78", "#9747FF"]; // Teal, Pink, and a Purple
 
 const Hero = () => {
   const color = useMotionValue(COLORS_TOP[0]);
@@ -25,7 +25,7 @@ const Hero = () => {
     });
   }, []);
 
-  const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #020617 50%, ${color})`;
+  const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #0A0A0A 50%, ${color})`;
   const border = useMotionTemplate`1px solid ${color}`;
   const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
 
