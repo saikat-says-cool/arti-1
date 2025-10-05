@@ -29,7 +29,7 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
         <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }}>
           <Link to="/" className="flex items-center gap-2">
-            <img src="/logo.png" alt="Artificialyze Logo" className="h-8 w-auto" />
+            <img src="/logo.png" alt="Artificialyze Logo" className="h-10 w-auto" />
           </Link>
         </motion.div>
 
@@ -63,7 +63,7 @@ const Header = () => {
             <SheetContent side="right" className="w-full">
               <div className="flex flex-col h-full">
                 <div className="flex justify-between items-center border-b pb-4">
-                   <img src="/logo.png" alt="Artificialyze Logo" className="h-8 w-auto" />
+                   <img src="/logo.png" alt="Artificialyze Logo" className="h-10 w-auto" />
                    <SheetClose asChild>
                       <Button variant="ghost" size="icon">
                         <X className="h-6 w-6" />
