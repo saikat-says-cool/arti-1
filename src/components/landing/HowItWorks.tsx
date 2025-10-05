@@ -45,7 +45,9 @@ const HowItWorks = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The 3-Day Build Process</h2>
-          <p className="mt-4 text-lg text-muted-foreground">Our proven 3-Day Build Process launches your self-sustaining client-acquisition machine.</p>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Our proven 3-Day Build Process launches your self-sustaining client-acquisition machine. We orchestrate the entire system with our enterprise-level AI engineering layer, creating a cohesive, surgically-engineered infrastructure for mass-personalized outbound automation.
+          </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
           {steps.map((step, index) => (
