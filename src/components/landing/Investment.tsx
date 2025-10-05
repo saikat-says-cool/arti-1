@@ -25,7 +25,7 @@ const Investment = () => {
                 <TableHeader>
                   <TableRow>
                     <TableHead className="font-bold">Component</TableHead>
-                    <TableHead className="font-bold">AUD Range</TableHead>
+                    <TableHead className="font-bold">USD Range</TableHead>
                     <TableHead className="font-bold">What It Covers / When It Applies</TableHead>
                   </TableRow>
                 </TableHeader>
@@ -51,7 +51,7 @@ const Investment = () => {
           </CardContent>
         </Card>
         <p className="text-center mt-8 text-lg text-muted-foreground max-w-3xl mx-auto">
-          Typical agencies launch at ≈ AUD 3k setup + 3k monthly—roughly half the cost of a single in-house SDR.
+          Typical agencies launch at ≈ USD 3k setup + 3k monthly—roughly half the cost of a single in-house SDR.
         </p>
       </div>
     </motion.section>
