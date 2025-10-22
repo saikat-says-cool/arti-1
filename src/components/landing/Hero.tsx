@@ -2,18 +2,13 @@
 
 import { Stars } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React, { useEffect } from "react";
-import {
-  useMotionTemplate,
-  useMotionValue,
-  motion,
-  animate,
-} from "framer-motion";
+import React from "react";
+import { motion } from "framer-motion"; // Added missing import
 
 const Hero = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
 
-  // Static black background for minimalist theme
+  // Static black and white styling for minimalist theme
   const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--foreground)) 100%)`;
   const border = `1px solid hsl(var(--foreground))`;
   const boxShadow = `0px 4px 24px hsl(var(--foreground))`;

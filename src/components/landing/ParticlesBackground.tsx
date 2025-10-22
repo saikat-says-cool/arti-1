@@ -39,10 +39,10 @@ const ParticlesBackground = () => {
     },
     particles: {
       color: {
-        value: "#ffffff",
+        value: "#000000", // Changed to black
       },
       links: {
-        color: "#ffffff",
+        color: "#000000", // Changed to black
         distance: 150,
         enable: true,
         opacity: 0.1,
@@ -97,7 +97,7 @@ const ParticlesBackground = () => {
             outModes: { default: "destroy" },
             speed: 40,
             straight: true,
-            trail: { enable: true, fillColor: "#fff", length: 10 },
+            trail: { enable: true, fillColor: "#000", length: 10 }, // Changed to black
           },
           size: { value: { min: 2, max: 4 } },
           opacity: {
@@ -127,7 +127,7 @@ const ParticlesBackground = () => {
             outModes: { default: "destroy" },
             speed: 40,
             straight: true,
-            trail: { enable: true, fillColor: "#fff", length: 10 },
+            trail: { enable: true, fillColor: "#000", length: 10 }, // Changed to black
           },
           size: { value: { min: 2, max: 4 } },
           opacity: {
