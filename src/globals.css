@@ -4,65 +4,65 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 0%; /* Black */
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 0 0% 0%; /* Black */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 0 0% 0%; /* Black */
 
-    --primary: 174 100% 33%; /* Darker Teal */
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 0% 0%; /* Black */
+    --primary-foreground: 0 0% 100%; /* White */
 
-    --secondary: 355 68% 56%; /* Darker Pink */
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 0 0% 90%; /* Light Gray */
+    --secondary-foreground: 0 0% 0%; /* Black */
 
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+    --muted: 0 0% 95%; /* Very Light Gray */
+    --muted-foreground: 0 0% 40%; /* Dark Gray */
 
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 0 0% 90%; /* Light Gray */
+    --accent-foreground: 0 0% 0%; /* Black */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84.2% 60.2%; /* Red (keeping for errors, but will appear stark) */
+    --destructive-foreground: 0 0% 100%; /* White */
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 174 100% 33%;
+    --border: 0 0% 80%; /* Gray border */
+    --input: 0 0% 90%; /* Light gray input background */
+    --ring: 0 0% 0%; /* Black focus ring */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 240 10% 3.9%; /* Almost black */
-    --foreground: 210 40% 98%; /* White */
+    --background: 0 0% 0%; /* Black */
+    --foreground: 0 0% 100%; /* White */
 
-    --card: 240 10% 3.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 0%; /* Black */
+    --card-foreground: 0 0% 100%; /* White */
 
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 0%; /* Black */
+    --popover-foreground: 0 0% 100%; /* White */
 
-    --primary: 174 92% 56%; /* Teal from logo */
-    --primary-foreground: 240 10% 3.9%; /* Black text on teal button */
+    --primary: 0 0% 100%; /* White */
+    --primary-foreground: 0 0% 0%; /* Black */
 
-    --secondary: 355 96% 70%; /* Pink from logo */
-    --secondary-foreground: 240 10% 3.9%; /* Black text on pink button */
+    --secondary: 0 0% 10%; /* Dark Gray */
+    --secondary-foreground: 0 0% 100%; /* White */
 
-    --muted: 240 3.7% 15.9%;
-    --muted-foreground: 240 5% 64.9%;
+    --muted: 0 0% 15%; /* Darker Gray */
+    --muted-foreground: 0 0% 60%; /* Lighter Gray */
 
-    --accent: 355 96% 70%; /* Pink from logo */
-    --accent-foreground: 240 10% 3.9%;
+    --accent: 0 0% 10%; /* Dark Gray */
+    --accent-foreground: 0 0% 100%; /* White */
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%; /* Darker Red */
+    --destructive-foreground: 0 0% 100%; /* White */
 
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 174 92% 56%; /* Teal for focus rings */
+    --border: 0 0% 20%; /* Dark Gray border */
+    --input: 0 0% 10%; /* Dark gray input background */
+    --ring: 0 0% 100%; /* White focus ring */
   }
 }
 
@@ -77,13 +77,8 @@
 
   body {
     @apply bg-background text-foreground;
-    background-image: 
-                      /* Teal light from top-right */
-                      radial-gradient(ellipse 80% 80% at 100% 20%, hsla(174, 92%, 56%, 0.2) 0%, transparent 40%), 
-                      /* Pink light from mid-left */
-                      radial-gradient(ellipse 100% 100% at 0% 50%, hsla(355, 96%, 70%, 0.2) 0%, transparent 60%),
-                      /* Teal light from bottom */
-                      radial-gradient(ellipse 60% 80% at 50% 100%, hsla(174, 92%, 56%, 0.15) 0%, transparent 70%);
+    /* Removed background-image for minimalist theme */
+    background-image: none; 
     background-repeat: no-repeat;
     background-attachment: fixed;
   }

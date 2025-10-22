@@ -19,7 +19,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Cabin", "sans-serif"],
+        sans: ["Open Sans", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

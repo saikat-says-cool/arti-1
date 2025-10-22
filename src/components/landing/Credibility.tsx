@@ -43,8 +43,8 @@ const Credibility = () => {
               <div>
                 <div className="flex items-center">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className={`h-5 w-5 ${i < 5 ? 'text-yellow-400 fill-yellow-400' : 'text-gray-300'}`} />
-                  ))}
+                    <Star key={i} className={`h-5 w-5 ${i < 5 ? 'text-foreground fill-foreground' : 'text-muted-foreground'}`} />
+                  ))} {/* Changed to black/white */}
                 </div>
                 <p className="text-sm text-muted-foreground">{item.rating} from {item.reviews}</p>
               </div>

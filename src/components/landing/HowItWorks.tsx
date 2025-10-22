@@ -61,7 +61,7 @@ const HowItWorks = () => {
             >
               <motion.div 
                 whileHover={{ scale: 1.1, rotate: 10 }}
-                className="flex-shrink-0 h-16 w-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-4xl mb-4"
+                className="flex-shrink-0 h-16 w-16 bg-foreground text-background rounded-full flex items-center justify-center font-bold text-4xl mb-4"
               >
                 {step.day}
               </motion.div>
@@ -84,7 +84,7 @@ const HowItWorks = () => {
               <ul className="space-y-3">
                 {deliverables.map((item, index) => (
                   <li key={index} className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
+                    <Check className="h-5 w-5 text-foreground mr-3 mt-1 flex-shrink-0" /> {/* Changed to text-foreground */}
                     <span className="text-muted-foreground">{item}</span>
                   </li>
                 ))}

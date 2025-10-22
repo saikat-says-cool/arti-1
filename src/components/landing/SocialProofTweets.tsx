@@ -58,7 +58,7 @@ const SocialProofTweets = () => {
                     <p className="font-bold">{tweet.name}</p>
                     <p className="text-sm text-muted-foreground">{tweet.handle}</p>
                   </div>
-                  <FaTwitter className="ml-auto h-5 w-5 text-sky-500" />
+                  <FaTwitter className="ml-auto h-5 w-5 text-foreground" /> {/* Changed to text-foreground */}
                 </CardHeader>
                 <CardContent className="flex-grow">
                   <p className="text-foreground">{tweet.tweet}</p>

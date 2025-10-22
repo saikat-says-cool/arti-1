@@ -10,34 +10,23 @@ import {
   animate,
 } from "framer-motion";
 
-const COLORS_TOP = ["#2AF5E3", "#FB6A78", "#9747FF"]; // Teal, Pink, and a Purple
-
 const Hero = () => {
-  const color = useMotionValue(COLORS_TOP[0]);
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
 
-  useEffect(() => {
-    animate(color, COLORS_TOP, {
-      ease: "easeInOut",
-      duration: 10,
-      repeat: Infinity,
-      repeatType: "mirror",
-    });
-  }, []);
-
-  const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #0A0A0A 50%, ${color})`;
-  const border = useMotionTemplate`1px solid ${color}`;
-  const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
+  // Static black background for minimalist theme
+  const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--foreground)) 100%)`;
+  const border = `1px solid hsl(var(--foreground))`;
+  const boxShadow = `0px 4px 24px hsl(var(--foreground))`;
 
   return (
     <motion.section
       style={{
         backgroundImage,
       }}
-      className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 px-4 py-20 text-gray-200"
+      className="relative grid min-h-screen place-content-center overflow-hidden bg-background px-4 py-20 text-foreground"
     >
       <div className="relative z-10 flex flex-col items-center">
-        <h1 className="max-w-4xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
+        <h1 className="max-w-4xl bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
           AI-Powered Outreach That Fills Your Agency’s Pipeline—No SDRs Required
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
@@ -55,7 +44,7 @@ const Hero = () => {
             whileTap={{
               scale: 0.985,
             }}
-            className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-6 py-3 text-lg text-gray-50 transition-colors hover:bg-gray-950/50"
+            className="group relative flex w-fit items-center gap-1.5 rounded-full bg-background/10 px-6 py-3 text-foreground transition-colors hover:bg-background/50"
           >
             Book Your 3-Day Launch Call →
           </motion.button>
