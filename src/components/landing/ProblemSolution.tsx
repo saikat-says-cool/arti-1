@@ -14,10 +14,10 @@ const ProblemSolution = () => {
     "Scaling outreach feels impossible without more headcount",
   ];
   const solutions = [
-    { emoji: "🔍", title: "Target Exactly the Right Prospects", description: "Tap into a verified stream of decision-makers enriched with every data point needed for true personalization." },
-    { emoji: "💌", title: "Send Messages That Actually Get Replies", description: "Context-aware emails referencing real updates, campaigns, and pain points—crafted by AI." },
-    { emoji: "⚙️", title: "Automate Outreach at Scale", description: "Multi-step sequences and follow-ups delivered from a fully warmed-up infrastructure to land in the primary inbox." },
-    { emoji: "📈", title: "Constant Optimization", description: "Lists refreshed, angles A/B tested, cadences tweaked—your pipeline stays alive and improving." },
+    { title: "Target Exactly the Right Prospects", description: "Tap into a verified stream of decision-makers enriched with every data point needed for true personalization." },
+    { title: "Send Messages That Actually Get Replies", description: "Context-aware emails referencing real updates, campaigns, and pain points—crafted by AI." },
+    { title: "Automate Outreach at Scale", description: "Multi-step sequences and follow-ups delivered from a fully warmed-up infrastructure to land in the primary inbox." },
+    { title: "Constant Optimization", description: "Lists refreshed, angles A/B tested, cadences tweaked—your pipeline stays alive and improving." },
   ];
 
   return (
@@ -55,7 +55,8 @@ const ProblemSolution = () => {
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-2xl mr-3 -mt-1 flex-shrink-0">{solution.emoji}</span>
+                  {/* Emojis removed for black and white theme */}
+                  <span className="text-foreground mr-3 -mt-1 flex-shrink-0">✓</span> 
                   <div>
                     <h3 className="font-bold">{solution.title}</h3>
                     <p className="text-muted-foreground">{solution.description}</p>

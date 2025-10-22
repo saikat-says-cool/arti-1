@@ -84,7 +84,7 @@ const HowItWorks = () => {
               <ul className="space-y-3">
                 {deliverables.map((item, index) => (
                   <li key={index} className="flex items-start">
-                    <Check className="h-5 w-5 text-foreground mr-3 mt-1 flex-shrink-0" /> {/* Changed to text-foreground */}
+                    <Check className="h-5 w-5 text-foreground mr-3 mt-1 flex-shrink-0" />
                     <span className="text-muted-foreground">{item}</span>
                   </li>
                 ))}
