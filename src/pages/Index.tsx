@@ -8,6 +8,7 @@ import Partners from "@/components/landing/Partners";
 import Credibility from "@/components/landing/Credibility";
 import Industries from "@/components/landing/Industries";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
+import SpotlightTestimonials from "@/components/landing/SpotlightTestimonials"; // New import
 import Testimonials from "@/components/landing/Testimonials";
 import SocialProofTweets from "@/components/landing/SocialProofTweets";
 import HowItWorks from "@/components/landing/HowItWorks";
@@ -51,6 +52,7 @@ const Index = () => {
         <Credibility />
         <Industries />
         <WhyChooseUs />
+        <SpotlightTestimonials /> {/* New component added here */}
         <Testimonials />
         <SocialProofTweets />
         <HowItWorks />
