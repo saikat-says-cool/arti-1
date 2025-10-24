@@ -55,8 +55,7 @@ const ProblemSolution = () => {
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start">
-                  {/* Emojis removed for black and white theme */}
-                  <span className="text-foreground mr-3 -mt-1 flex-shrink-0">✓</span> 
+                  <span className="text-primary mr-3 -mt-1 flex-shrink-0">✓</span> {/* Changed to primary accent */}
                   <div>
                     <h3 className="font-bold">{solution.title}</h3>
                     <p className="text-muted-foreground">{solution.description}</p>

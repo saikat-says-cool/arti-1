@@ -4,65 +4,65 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%; /* White */
+    --background: 30 20% 95%; /* Light Beige */
     --foreground: 0 0% 0%; /* Black */
 
-    --card: 0 0% 100%; /* White */
+    --card: 30 20% 95%; /* Light Beige */
     --card-foreground: 0 0% 0%; /* Black */
 
-    --popover: 0 0% 100%; /* White */
+    --popover: 30 20% 95%; /* Light Beige */
     --popover-foreground: 0 0% 0%; /* Black */
 
-    --primary: 0 0% 0%; /* Black */
-    --primary-foreground: 0 0% 100%; /* White */
+    --primary: 55 100% 50%; /* Neon Yellow */
+    --primary-foreground: 0 0% 0%; /* Black */
 
     --secondary: 0 0% 90%; /* Light Gray */
     --secondary-foreground: 0 0% 0%; /* Black */
 
-    --muted: 0 0% 95%; /* Very Light Gray */
-    --muted-foreground: 0 0% 40%; /* Dark Gray */
+    --muted: 30 10% 90%; /* Slightly darker beige/light gray */
+    --muted-foreground: 0 0% 20%; /* Dark Gray */
 
-    --accent: 0 0% 90%; /* Light Gray */
+    --accent: 55 100% 50%; /* Neon Yellow */
     --accent-foreground: 0 0% 0%; /* Black */
 
-    --destructive: 0 84.2% 60.2%; /* Red (keeping for errors, but will appear stark) */
+    --destructive: 0 84.2% 60.2%; /* Red (keeping for errors) */
     --destructive-foreground: 0 0% 100%; /* White */
 
-    --border: 0 0% 80%; /* Gray border */
+    --border: 0 0% 70%; /* Medium Gray border */
     --input: 0 0% 90%; /* Light gray input background */
-    --ring: 0 0% 0%; /* Black focus ring */
+    --ring: 55 100% 50%; /* Neon Yellow focus ring */
 
     --radius: 0.5rem;
   }
 
   .dark {
     --background: 0 0% 0%; /* Black */
-    --foreground: 0 0% 100%; /* White */
+    --foreground: 30 20% 95%; /* Light Beige */
 
     --card: 0 0% 0%; /* Black */
-    --card-foreground: 0 0% 100%; /* White */
+    --card-foreground: 30 20% 95%; /* Light Beige */
 
     --popover: 0 0% 0%; /* Black */
-    --popover-foreground: 0 0% 100%; /* White */
+    --popover-foreground: 30 20% 95%; /* Light Beige */
 
-    --primary: 0 0% 100%; /* White */
+    --primary: 55 100% 50%; /* Neon Yellow */
     --primary-foreground: 0 0% 0%; /* Black */
 
     --secondary: 0 0% 10%; /* Dark Gray */
-    --secondary-foreground: 0 0% 100%; /* White */
+    --secondary-foreground: 30 20% 95%; /* Light Beige */
 
     --muted: 0 0% 15%; /* Darker Gray */
-    --muted-foreground: 0 0% 60%; /* Lighter Gray */
+    --muted-foreground: 30 10% 70%; /* Lighter beige/gray */
 
-    --accent: 0 0% 10%; /* Dark Gray */
-    --accent-foreground: 0 0% 100%; /* White */
+    --accent: 55 100% 50%; /* Neon Yellow */
+    --accent-foreground: 0 0% 0%; /* Black */
 
     --destructive: 0 62.8% 30.6%; /* Darker Red */
     --destructive-foreground: 0 0% 100%; /* White */
 
     --border: 0 0% 20%; /* Dark Gray border */
     --input: 0 0% 10%; /* Dark gray input background */
-    --ring: 0 0% 100%; /* White focus ring */
+    --ring: 55 100% 50%; /* Neon Yellow focus ring */
   }
 }
 
@@ -77,7 +77,6 @@
 
   body {
     @apply bg-background text-foreground;
-    /* Removed background-image for minimalist theme */
     background-image: none; 
     background-repeat: no-repeat;
     background-attachment: fixed;

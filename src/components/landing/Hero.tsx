@@ -3,15 +3,15 @@
 import { Stars } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React from "react";
-import { motion } from "framer-motion"; // Added missing import
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
 
   // Static black and white styling for minimalist theme
-  const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--foreground)) 100%)`;
+  const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--primary)) 100%)`; // Changed end color to primary accent
   const border = `1px solid hsl(var(--foreground))`;
-  const boxShadow = `0px 4px 24px hsl(var(--foreground))`;
+  const boxShadow = `0px 4px 24px hsl(var(--primary))`; // Changed shadow color to primary accent
 
   return (
     <motion.section

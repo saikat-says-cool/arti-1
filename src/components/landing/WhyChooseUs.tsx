@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
             <motion.div key={index} whileHover={{ x: 5 }} className="flex items-start gap-4">
               <motion.div 
                 whileHover={{ scale: 1.2, rotate: -15 }}
-                className="flex-shrink-0 h-8 w-8 bg-foreground text-background rounded-full flex items-center justify-center"
+                className="flex-shrink-0 h-8 w-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center" // Changed to primary accent
               >
                 <Check className="h-5 w-5" />
               </motion.div>

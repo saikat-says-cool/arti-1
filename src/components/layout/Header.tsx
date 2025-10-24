@@ -38,7 +38,7 @@ const Header = () => {
             <a 
               key={link.name} 
               href={link.href} 
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary" // Changed hover to primary accent
             >
               {link.name}
             </a>
@@ -75,7 +75,7 @@ const Header = () => {
                     <SheetClose asChild key={link.name}>
                       <a 
                         href={link.href} 
-                        className="text-2xl font-medium text-foreground transition-colors hover:text-primary"
+                        className="text-2xl font-medium text-foreground transition-colors hover:text-primary" // Changed hover to primary accent
                         onClick={() => setIsOpen(false)}
                       >
                         {link.name}

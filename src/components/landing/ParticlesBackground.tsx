@@ -39,10 +39,10 @@ const ParticlesBackground = () => {
     },
     particles: {
       color: {
-        value: "#000000", // Changed to black
+        value: "hsl(var(--primary))", // Changed to neon yellow
       },
       links: {
-        color: "#000000", // Changed to black
+        color: "hsl(var(--primary))", // Changed to neon yellow
         distance: 150,
         enable: true,
         opacity: 0.1,
@@ -97,7 +97,7 @@ const ParticlesBackground = () => {
             outModes: { default: "destroy" },
             speed: 40,
             straight: true,
-            trail: { enable: true, fillColor: "#000", length: 10 }, // Changed to black
+            trail: { enable: true, fillColor: "hsl(var(--primary))", length: 10 }, // Changed to neon yellow
           },
           size: { value: { min: 2, max: 4 } },
           opacity: {
@@ -127,7 +127,7 @@ const ParticlesBackground = () => {
             outModes: { default: "destroy" },
             speed: 40,
             straight: true,
-            trail: { enable: true, fillColor: "#000", length: 10 }, // Changed to black
+            trail: { enable: true, fillColor: "hsl(var(--primary))", length: 10 }, // Changed to neon yellow
           },
           size: { value: { min: 2, max: 4 } },
           opacity: {
