@@ -11,11 +11,11 @@ const Footer = () => {
           📩 inquiries@artificialyze.com
         </p>
         <div className="flex justify-center gap-6 mt-4">
-          <a href="https://x.com/Artificialyze" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://x.com/Artificialyze" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <FaTwitter className="h-6 w-6" />
             <span className="sr-only">Twitter</span>
           </a>
-          <a href="https://www.instagram.com/artificialyze/?__pwa=1" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://www.instagram.com/artificialyze/?__pwa=1" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
             <FaInstagram className="h-6 w-6" />
             <span className="sr-only">Instagram</span>
           </a>

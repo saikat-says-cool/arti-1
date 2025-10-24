@@ -38,7 +38,7 @@ const Header = () => {
             <a 
               key={link.name} 
               href={link.href} 
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary" // Changed hover to primary accent
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
               {link.name}
             </a>
@@ -48,7 +48,7 @@ const Header = () => {
         <div className="hidden md:block">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button>Book Your 3-Day Launch Call</Button>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Book Your 3-Day Launch Call</Button>
             </a>
           </motion.div>
         </div>
@@ -75,7 +75,7 @@ const Header = () => {
                     <SheetClose asChild key={link.name}>
                       <a 
                         href={link.href} 
-                        className="text-2xl font-medium text-foreground transition-colors hover:text-primary" // Changed hover to primary accent
+                        className="text-2xl font-medium text-foreground transition-colors hover:text-primary"
                         onClick={() => setIsOpen(false)}
                       >
                         {link.name}
@@ -85,7 +85,7 @@ const Header = () => {
                 </nav>
                 <div className="mt-auto">
                    <a href={ctaLink} target="_blank" rel="noopener noreferrer" className="w-full">
-                      <Button size="lg" className="w-full">Book Your 3-Day Launch Call</Button>
+                      <Button size="lg" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">Book Your 3-Day Launch Call</Button>
                    </a>
                 </div>
               </div>

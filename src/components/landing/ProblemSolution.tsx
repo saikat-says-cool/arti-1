@@ -55,7 +55,7 @@ const ProblemSolution = () => {
             <ul className="mt-6 space-y-4">
               {solutions.map((solution, index) => (
                 <li key={index} className="flex items-start">
-                  <span className="text-primary mr-3 -mt-1 flex-shrink-0">✓</span> {/* Changed to primary accent */}
+                  <span className="text-primary mr-3 -mt-1 flex-shrink-0">✓</span>
                   <div>
                     <h3 className="font-bold">{solution.title}</h3>
                     <p className="text-muted-foreground">{solution.description}</p>
@@ -68,7 +68,7 @@ const ProblemSolution = () => {
         <div className="text-center mt-12">
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <a href={ctaLink} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline">Discover Your Growth Potential → Book a Consultation</Button>
+              <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Discover Your Growth Potential → Book a Consultation</Button>
             </a>
           </motion.div>
         </div>
