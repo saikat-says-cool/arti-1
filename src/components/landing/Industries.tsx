@@ -6,11 +6,20 @@ import { motion } from "framer-motion";
 
 const Industries = () => {
   const mainIndustries = [
-    { title: "Marketing & Advertising Agencies", description: "Our core specialization—digital, creative, and full-service agencies ready for predictable, high-value client acquisition." },
-    { title: "Consulting & Professional Services", description: "For strategy, IT, and management consultants seeking more C-suite conversations through automated outreach." },
-    { title: "B2B SaaS Companies", description: "Skip SDR burnout. Fill demo calendars and drive MRR with qualified, context-rich meetings." },
+    { 
+      title: "Outreach Engine: B2B Service-Based Businesses", 
+      description: "For marketing agencies, financial services, and any B2B service-based business relying on client acquisition through outbound efforts, seeking predictable, high-value client pipelines." 
+    },
+    { 
+      title: "AI Appointment Setter: Local Service-Based Businesses", 
+      description: "Ideal for businesses like dentists, chiropractors, spas, clinics, real estate agents, and interior decor studios, where client engagement begins with an appointment or consultation, aiming to fill calendars efficiently." 
+    },
+    { 
+      title: "AI Customer Support & Sales Assistant: E-commerce & SaaS", 
+      description: "For e-commerce brands across various niches (health, fitness, etc.) and SaaS companies needing high-touch, conversion-oriented support and sales assistance to boost customer satisfaction and revenue." 
+    },
   ];
-  const otherIndustries = "Real Estate | Recruitment & Staffing | Healthcare | Education | Legal | Manufacturing | B2B E-Commerce";
+  const otherIndustries = "Real Estate | Recruitment & Staffing | Healthcare | Education | Legal | Manufacturing | B2B E-Commerce"; // Keeping this as is, but it can be updated if you have specific new content for it.
 
   return (
     <motion.section 
