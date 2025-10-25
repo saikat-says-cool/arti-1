@@ -22,10 +22,10 @@ const Hero = () => {
     >
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="max-w-4xl bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          AI-Powered Outreach That Fills Your Agency’s Pipeline—No SDRs Required
+          Artificialyze — AI Automation That Acquires, Engages & Converts
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          We partner with B2B marketing agencies to build a predictable client-acquisition engine. Your personalized, fully-managed AI outreach system delivers a consistent stream of high-value conversations—so your team can focus on strategy and delivery, not prospecting.
+          We build fully managed AI systems that generate leads, book appointments, and boost sales—all running 24/7 so your team can focus on strategy, delivery, and scaling. Predictable pipelines, higher conversions, and satisfied customers—without increasing headcount.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button

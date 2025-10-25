@@ -17,8 +17,8 @@ import Investment from "@/components/landing/Investment";
 import FAQ from "@/components/landing/FAQ";
 
 const Index = () => {
-  const pageTitle = "Artificialyze | AI Outreach Infrastructure for B2B Agencies";
-  const pageDescription = "We partner with B2B marketing agencies to build a predictable client-acquisition engine with a fully-managed AI outreach system. Book your free growth strategy call.";
+  const pageTitle = "Artificialyze | AI Automation That Acquires, Engages & Converts";
+  const pageDescription = "We build fully managed AI systems that generate leads, book appointments, and boost sales—all running 24/7 so your team can focus on strategy, delivery, and scaling. Predictable pipelines, higher conversions, and satisfied customers—without increasing headcount.";
   const pageUrl = "https://www.artificialyze.com";
 
   const structuredData = {

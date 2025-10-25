@@ -10,17 +10,17 @@ const HowItWorks = () => {
     {
       day: "1",
       title: "Day 1 – Infrastructure Setup",
-      description: "We build your automation architecture inside Make—AI modules for data collection, personalization, and outreach ready to run.",
+      description: "Build AI modules, integrations, and workflows for outreach, appointments, and support.",
     },
     {
       day: "2",
       title: "Day 2 – Client Onboarding Call",
-      description: "Together we connect Make, Instantly, OpenAI, Perplexity, ScrapeNinja, and Google accounts—all under your ownership for full control.",
+      description: "Connect accounts, calendars, websites, CRMs, and tools. You retain full ownership.",
     },
     {
       day: "3",
       title: "Day 3 – Activation & Calibration",
-      description: "We test deliverability and launch your first personalized campaign. Most clients see qualified replies within two weeks.",
+      description: "Test flows, optimize prompts, and launch. First measurable outcomes within weeks.",
     },
   ];
 
@@ -46,7 +46,7 @@ const HowItWorks = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The 3-Day Build Process</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Our proven 3-Day Build Process launches your self-sustaining client-acquisition machine. We orchestrate the entire system with our enterprise-level AI engineering layer, creating a cohesive, surgically-engineered infrastructure for mass-personalized outbound automation.
+            Launch your AI systems in just three days—fully managed and measurable. We orchestrate the entire system with our enterprise-level AI engineering layer, creating a cohesive, surgically-engineered infrastructure for mass-personalized outbound automation.
           </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
@@ -72,7 +72,7 @@ const HowItWorks = () => {
             </motion.div>
           ))}
         </div>
-        <p className="text-center mt-12 text-muted-foreground">Ongoing Optimization keeps your engine tuned for maximum response rates.</p>
+        <p className="text-center mt-12 text-muted-foreground">Ongoing Optimization: Weekly updates, prompt tuning, and monitoring to maximize performance.</p>
         
         <div className="max-w-3xl mx-auto mt-16">
           <Card className="bg-background/50">

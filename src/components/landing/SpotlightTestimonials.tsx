@@ -8,7 +8,7 @@ const spotlightTestimonials = [
   {
     name: "Chris Heria",
     brand: "Heria Pro (USA)",
-    quote: "Chris Heria’s fitness brand was struggling to scale client acquisition without burning through his team’s hours. We implemented a fully automated AI outreach system that personalized and sent outreach campaigns 24/7. Within weeks, Chris started seeing qualified replies coming in consistently, giving him a steady stream of new clients while freeing up his team to focus on coaching and content.",
+    quote: "Chris Heria’s fitness brand was struggling to scale client acquisition without burning through his team’s hours. We implemented a fully automated AI system that personalized and sent outreach campaigns 24/7. Within weeks, Chris started seeing qualified replies coming in consistently, giving him a steady stream of new clients while freeing up his team to focus on coaching and content.",
     keyPoints: ["Global brand", "High-volume client acquisition", "Results in weeks", "Automation replaces manual labor."],
   },
   {

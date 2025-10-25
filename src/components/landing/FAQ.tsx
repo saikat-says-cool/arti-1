@@ -16,16 +16,16 @@ const FAQ = () => {
       answer: "Virtually none—we manage everything post-onboarding.",
     },
     {
-      question: "How is this different from other lead-gen offers?",
-      answer: "It’s a permanent system, not a campaign; you own the assets.",
+      question: "How is this different from other AI solutions?",
+      answer: "Artificialyze builds and manages done-for-you AI systems that operate across outreach, appointments, and customer support—optimizing for efficiency, conversions, and satisfaction. You own the assets and infrastructure.",
     },
     {
-      question: "Who do you target?",
-      answer: "Decision-makers that match your ideal client profile, verified and enriched by AI.",
+      question: "Which offer is right for my business?",
+      answer: "We determine which AI system(s) suit your business best after a 3-day launch call, or you can book a deep-dive demo for each system.",
     },
     {
-      question: "How soon do results appear?",
-      answer: "System live in 3 days; first qualified replies within 7–14 days.",
+      question: "When will results be measurable?",
+      answer: "First measurable outcomes within weeks, with specific guarantees for each system (e.g., qualified replies within 2 weeks for Outreach Engine, 30%+ lift in booked meetings for Appointment Setter).",
     },
   ];
 

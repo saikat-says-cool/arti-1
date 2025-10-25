@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 const WhyChooseUs = () => {
   const reasons = [
-    { title: "Unified Growth Platform", description: "Replace a tangle of tools and costly SDRs with one reliable system." },
-    { title: "Fully Managed Service", description: "We operate as an extension of your team; you simply show up to the meetings." },
-    { title: "Authentic Personalization at Scale", description: "AI messaging that feels genuinely researched, not mail-merged." },
-    { title: "Scalable & Predictable Results", description: "Grow revenue without expanding payroll; your system scales as your pipeline grows." },
+    { title: "Unified Growth Platform", description: "Replace multiple tools and SDRs with one cohesive AI system." },
+    { title: "Fully Managed Service", description: "We operate as an extension of your team." },
+    { title: "Scalable & Predictable Results", description: "Grow revenue without expanding payroll." },
+    { title: "Authentic Personalization", description: "AI interactions feel human, persuasive, and on-brand." },
   ];
 
   return (
@@ -23,9 +23,9 @@ const WhyChooseUs = () => {
       <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">Why This Matters for Agencies</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Why Artificialyze Matters</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            When your team’s buried in client work, prospecting stops—and growth stalls. Artificialyze keeps your acquisition engine running, even when you’re fully booked.
+            We build fully managed AI systems that generate leads, book appointments, and boost sales—all running 24/7 so your team can focus on strategy, delivery, and scaling. Predictable pipelines, higher conversions, and satisfied customers—without increasing headcount.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
         <div className="mt-8 flex items-start gap-3 text-foreground/80 dark:text-foreground/70 max-w-4xl mx-auto p-4 bg-muted/50 rounded-lg">
           <Info className="h-5 w-5 mt-1 flex-shrink-0" />
           <p className="text-sm">
-            <strong>Insight:</strong> 71% of B2B buyers expect personalized interactions. AI-driven outreach meets this demand at a scale humans can't match, leading to higher engagement. (Source: McKinsey)
+            <strong>Insight:</strong> 71% of B2B buyers expect personalized interactions. AI-driven automation delivers at scale humans can’t match.
           </p>
         </div>
         <motion.div 
