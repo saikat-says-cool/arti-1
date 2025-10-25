@@ -10,26 +10,26 @@ const HowItWorks = () => {
     {
       day: "1",
       title: "Day 1 – Infrastructure Setup",
-      description: "Build AI modules, integrations, and workflows for outreach, appointments, and support.",
+      description: "Establish a robust foundation for automated outreach, appointments, and support.",
     },
     {
       day: "2",
       title: "Day 2 – Client Onboarding Call",
-      description: "Connect accounts, calendars, websites, CRMs, and tools. You retain full ownership.",
+      description: "Seamlessly integrate your existing tools for a unified, powerful system you fully control.",
     },
     {
       day: "3",
       title: "Day 3 – Activation & Calibration",
-      description: "Test flows, optimize prompts, and launch. First measurable outcomes within weeks.",
+      description: "Go live with confidence and see measurable results within weeks.",
     },
   ];
 
   const deliverables = [
-    "Make automation scenario connecting data, AI prompts, and sending tools",
-    "Integrated Instantly mail setup with warmed, verified domains",
-    "AI prompt library pre‑tuned for your agency niche",
-    "Enrichment & personalization modules using ScrapeNinja + Perplexity",
-    "Dashboard and monitoring sheet for ongoing optimization",
+    "Gain a powerful automation scenario that intelligently connects data, AI, and sending tools",
+    "Achieve high email deliverability with a fully warmed and verified mail setup",
+    "Leverage expert AI prompts specifically tuned for your agency's niche to maximize engagement",
+    "Deliver hyper-personalized outreach with advanced data enrichment and AI-driven insights",
+    "Maintain peak performance with a clear dashboard for continuous optimization",
   ];
 
   return (

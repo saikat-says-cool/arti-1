@@ -13,15 +13,15 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How much time will my team spend?",
-      answer: "Virtually none—we manage everything post-onboarding.",
+      answer: "Your team saves valuable time as we handle all post-onboarding management.",
     },
     {
       question: "How is this different from other AI solutions?",
-      answer: "Artificialyze builds and manages done-for-you AI systems that operate across outreach, appointments, and customer support—optimizing for efficiency, conversions, and satisfaction. You own the assets and infrastructure.",
+      answer: "Unlike others, Artificialyze delivers fully managed, outcome-driven AI systems for outreach, appointments, and support, ensuring efficiency, conversions, and satisfaction, all while you retain full ownership.",
     },
     {
       question: "Which offer is right for my business?",
-      answer: "We determine which AI system(s) suit your business best after a 3-day launch call, or you can book a deep-dive demo for each system.",
+      answer: "Discover the perfect AI system for your business through a personalized 3-day launch call, or explore deep-dive demos for each solution.",
     },
     {
       question: "When will results be measurable?",
