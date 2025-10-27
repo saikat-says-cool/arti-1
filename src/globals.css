@@ -4,65 +4,65 @@
 
 @layer base {
   :root {
-    --background: 30 20% 95%; /* Light Beige */
-    --foreground: 0 0% 0%; /* Black */
+    --background: 0 0% 98%; /* Very light off-white for a clean, crisp background */
+    --foreground: 0 0% 5%; /* Near black for strong, sophisticated text */
 
-    --card: 30 20% 95%; /* Light Beige */
-    --card-foreground: 0 0% 0%; /* Black */
+    --card: 0 0% 100%; /* Pure white for cards to stand out elegantly */
+    --card-foreground: 0 0% 5%; /* Near black */
 
-    --popover: 30 20% 95%; /* Light Beige */
-    --popover-foreground: 0 0% 0%; /* Black */
+    --popover: 0 0% 100%; /* Pure white */
+    --popover-foreground: 0 0% 5%; /* Near black */
 
-    --primary: 55 100% 50%; /* Neon Yellow */
-    --primary-foreground: 0 0% 0%; /* Black */
+    --primary: 55 100% 50%; /* Neon Yellow (unchanged) */
+    --primary-foreground: 0 0% 0%; /* Black (unchanged) */
 
-    --secondary: 0 0% 90%; /* Light Gray */
-    --secondary-foreground: 0 0% 0%; /* Black */
+    --secondary: 0 0% 90%; /* Light Gray (unchanged) */
+    --secondary-foreground: 0 0% 0%; /* Black (unchanged) */
 
-    --muted: 30 10% 90%; /* Slightly darker beige/light gray */
-    --muted-foreground: 0 0% 20%; /* Dark Gray */
+    --muted: 0 0% 75%; /* Richer light gray for subtle elements */
+    --muted-foreground: 0 0% 30%; /* Darker gray for better readability */
 
-    --accent: 55 100% 50%; /* Neon Yellow */
-    --accent-foreground: 0 0% 0%; /* Black */
+    --accent: 55 100% 50%; /* Neon Yellow (unchanged) */
+    --accent-foreground: 0 0% 0%; /* Black (unchanged) */
 
     --destructive: 0 84.2% 60.2%; /* Red (keeping for errors) */
     --destructive-foreground: 0 0% 100%; /* White */
 
-    --border: 0 0% 70%; /* Medium Gray border */
-    --input: 0 0% 90%; /* Light gray input background */
-    --ring: 55 100% 50%; /* Neon Yellow focus ring */
+    --border: 0 0% 85%; /* Sharper, more defined light gray border */
+    --input: 0 0% 95%; /* Lighter gray input background */
+    --ring: 55 100% 50%; /* Neon Yellow focus ring (unchanged) */
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 0 0% 0%; /* Black */
-    --foreground: 30 20% 95%; /* Light Beige */
+    --background: 240 10% 3.9%; /* Very dark charcoal for a deep, rich background */
+    --foreground: 30 20% 95%; /* Light Beige (unchanged) */
 
-    --card: 0 0% 0%; /* Black */
+    --card: 240 10% 8%; /* Slightly lighter dark gray for cards */
     --card-foreground: 30 20% 95%; /* Light Beige */
 
-    --popover: 0 0% 0%; /* Black */
+    --popover: 240 10% 8%; /* Slightly lighter dark gray */
     --popover-foreground: 30 20% 95%; /* Light Beige */
 
-    --primary: 55 100% 50%; /* Neon Yellow */
-    --primary-foreground: 0 0% 0%; /* Black */
+    --primary: 55 100% 50%; /* Neon Yellow (unchanged) */
+    --primary-foreground: 0 0% 0%; /* Black (unchanged) */
 
-    --secondary: 0 0% 10%; /* Dark Gray */
-    --secondary-foreground: 30 20% 95%; /* Light Beige */
+    --secondary: 0 0% 10%; /* Dark Gray (unchanged) */
+    --secondary-foreground: 30 20% 95%; /* Light Beige (unchanged) */
 
-    --muted: 0 0% 15%; /* Darker Gray */
-    --muted-foreground: 30 10% 70%; /* Lighter beige/gray */
+    --muted: 240 5% 15%; /* Darker gray for subtle elements */
+    --muted-foreground: 240 5% 65%; /* Lighter gray for readability */
 
-    --accent: 55 100% 50%; /* Neon Yellow */
-    --accent-foreground: 0 0% 0%; /* Black */
+    --accent: 55 100% 50%; /* Neon Yellow (unchanged) */
+    --accent-foreground: 0 0% 0%; /* Black (unchanged) */
 
-    --destructive: 0 62.8% 30.6%; /* Darker Red */
+    --destructive: 0 62.8% 30.6%; /* Darker Red (unchanged) */
     --destructive-foreground: 0 0% 100%; /* White */
 
-    --border: 0 0% 20%; /* Dark Gray border */
-    --input: 0 0% 10%; /* Dark gray input background */
-    --ring: 55 100% 50%; /* Neon Yellow focus ring */
+    --border: 240 5% 25%; /* Darker gray border */
+    --input: 240 5% 10%; /* Darker gray input background */
+    --ring: 55 100% 50%; /* Neon Yellow focus ring (unchanged) */
   }
 }
 
