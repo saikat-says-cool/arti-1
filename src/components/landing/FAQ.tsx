@@ -6,7 +6,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
 const FAQ = () => {
@@ -38,7 +37,7 @@ const FAQ = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6 max-w-3xl">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>

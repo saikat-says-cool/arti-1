@@ -1,6 +1,5 @@
 "use client";
 
-import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
@@ -41,7 +40,7 @@ const HowItWorks = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The 3-Day AI Deployment Protocol</h2>
@@ -61,7 +60,7 @@ const HowItWorks = () => {
             >
               <motion.div 
                 whileHover={{ scale: 1.1, rotate: 10 }}
-                className="flex-shrink-0 h-16 w-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-4xl mb-4" // Changed to primary accent
+                className="flex-shrink-0 h-16 w-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center font-bold text-4xl mb-4"
               >
                 {step.day}
               </motion.div>
@@ -84,7 +83,7 @@ const HowItWorks = () => {
               <ul className="space-y-3">
                 {deliverables.map((item, index) => (
                   <li key={index} className="flex items-start">
-                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" /> {/* Changed to primary accent */}
+                    <Check className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
                     <span className="text-muted-foreground">{item}</span>
                   </li>
                 ))}

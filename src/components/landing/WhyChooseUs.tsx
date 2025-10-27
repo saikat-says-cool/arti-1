@@ -1,7 +1,6 @@
 "use client";
 
 import { Check, Info } from "lucide-react";
-import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 
 const WhyChooseUs = () => {
@@ -20,7 +19,7 @@ const WhyChooseUs = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The Artificialyze Advantage: Redefining Growth</h2>
@@ -33,7 +32,7 @@ const WhyChooseUs = () => {
             <motion.div key={index} whileHover={{ x: 5 }} className="flex items-start gap-4">
               <motion.div 
                 whileHover={{ scale: 1.2, rotate: -15 }}
-                className="flex-shrink-0 h-8 w-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center" // Changed to primary accent
+                className="flex-shrink-0 h-8 w-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center"
               >
                 <Check className="h-5 w-5" />
               </motion.div>

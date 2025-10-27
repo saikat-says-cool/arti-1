@@ -5,7 +5,6 @@ import { Helmet } from "react-helmet-async";
 import Layout from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import ParticlesBackground from "@/components/landing/ParticlesBackground";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, X } from "lucide-react";
 
@@ -93,7 +92,7 @@ const OutreachEngine = () => {
       </Helmet>
       <Layout>
         <section className="relative py-12 md:py-20 bg-background overflow-hidden">
-          <ParticlesBackground />
+          {/* <ParticlesBackground /> Removed */}
           <div className="container mx-auto px-4 md:px-6 text-center relative z-10">
             <motion.h1
               initial={{ opacity: 0, y: -20 }}
@@ -122,7 +121,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Bleeding‑Neck Pain</CardTitle> {/* Changed to text-foreground */}
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Bleeding‑Neck Pain</CardTitle>
                     <p className="mt-2 text-lg text-muted-foreground">Agency owners waste time, effort, and payroll dollars trying to run SDR-led outreach campaigns:</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -153,7 +152,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Quantifiable Time‑Bound Outcome</CardTitle> {/* Changed to text-foreground */}
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Quantifiable Time‑Bound Outcome</CardTitle>
                     <p className="mt-2 text-lg text-muted-foreground">Outcome: Within 3 days of onboarding, clients receive a live Outreach Engine™ that:</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -181,7 +180,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 3 – Productized Scope (The IKEA Box)</CardTitle> {/* Changed to text-foreground */}
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 3 – Productized Scope (The IKEA Box)</CardTitle>
                     <p className="mt-2 text-lg text-muted-foreground">Outreach Engine™ – 3-Day Build Process</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -218,7 +217,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Hybrid Risk‑Reversal Guarantee</CardTitle> {/* Changed to text-foreground */}
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Hybrid Risk‑Reversal Guarantee</CardTitle>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -248,7 +247,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 5 – Pricing Anchored to Upside</CardTitle> {/* Changed to text-foreground */}
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 5 – Pricing Anchored to Upside</CardTitle>
                   </CardHeader>
                   <CardContent className="text-left">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm font-semibold text-foreground border-b pb-2 mb-4">
@@ -279,7 +278,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 6 – Zero‑Friction On‑Ramp</CardTitle> {/* Changed to text-foreground */}
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 6 – Zero‑Friction On‑Ramp</CardTitle>
                     <p className="mt-2 text-lg text-muted-foreground">Entry Point: Website and email CTAs direct prospects to a 15–30 min Launch Call via Cal.com.</p>
                   </CardHeader>
                   <CardContent className="text-left">
