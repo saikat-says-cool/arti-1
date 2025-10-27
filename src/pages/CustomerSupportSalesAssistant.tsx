@@ -111,7 +111,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 1 – Bleeding‑Neck Pain</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Bleeding‑Neck Pain</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">E‑commerce brands are burning payroll and missing revenue. 24/7 customer support teams are expensive, slow, and inconsistent. Standard chatbots answer FAQs but fail to convert visitors into paying customers.</p>
                     <p className="mt-2 text-lg text-muted-foreground">Your support system is either transactional or robotic, leaving sales opportunities on the table. SaaS brands face similar challenges: inbound queries go unanswered, leads slip away, and conversion drops.</p>
                   </CardHeader>
@@ -132,7 +132,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 2 – Quantifiable Time‑Bound Outcome</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Quantifiable Time‑Bound Outcome</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">Within 3 days of onboarding, your AI-powered assistant is live — engaging visitors, answering queries, and converting prospects automatically.</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -161,7 +161,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 3 – Productized Scope (The 3-Day Build)</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 3 – Productized Scope (The 3-Day Build)</CardTitle> {/* Changed to text-foreground */}
                   </CardHeader>
                   <CardContent className="text-left">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm font-semibold text-foreground border-b pb-2 mb-4">
@@ -197,7 +197,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 4 – Hybrid Risk‑Reversal Guarantee</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Hybrid Risk‑Reversal Guarantee</CardTitle> {/* Changed to text-foreground */}
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -224,7 +224,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 5 – Pricing Anchored to Upside</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 5 – Pricing Anchored to Upside</CardTitle> {/* Changed to text-foreground */}
                   </CardHeader>
                   <CardContent className="text-left">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm font-semibold text-foreground border-b pb-2 mb-4">
@@ -255,7 +255,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 6 – Zero‑Friction On‑Ramp</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 6 – Zero‑Friction On‑Ramp</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">Entry Point: All website and social media CTAs direct prospects to a Cal.com Launch Call (15–30 minutes).</p>
                   </CardHeader>
                   <CardContent className="text-left">

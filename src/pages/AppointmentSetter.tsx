@@ -110,7 +110,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 1 – Bleeding‑Neck Pain</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Bleeding‑Neck Pain</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">Service-based businesses struggle to convert inbound leads efficiently:</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -141,7 +141,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 2 – Quantifiable Time‑Bound Outcome</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Quantifiable Time‑Bound Outcome</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">Outcome: Once live, the AI Appointment Setter™:</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -169,7 +169,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 3 – Productized Scope (The IKEA Box)</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 3 – Productized Scope (The IKEA Box)</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">AI Appointment Setter™ – 3-Day Onboarding</p>
                   </CardHeader>
                   <CardContent className="text-left">
@@ -206,7 +206,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 4 – Hybrid Risk-Reversal Guarantee</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Hybrid Risk-Reversal Guarantee</CardTitle> {/* Changed to text-foreground */}
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -233,7 +233,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 5 – Pricing Anchored to Upside</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 5 – Pricing Anchored to Upside</CardTitle> {/* Changed to text-foreground */}
                   </CardHeader>
                   <CardContent className="text-left">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm font-semibold text-foreground border-b pb-2 mb-4">
@@ -264,7 +264,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-primary">Step 6 – Zero‑Friction On‑Ramp</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 6 – Zero‑Friction On‑Ramp</CardTitle> {/* Changed to text-foreground */}
                     <p className="mt-2 text-lg text-muted-foreground">Entry Point: All website and social CTAs direct prospects to a 15–30 min Launch Call via Cal.com.</p>
                   </CardHeader>
                   <CardContent className="text-left">

@@ -74,12 +74,12 @@ const ProblemSolution = () => {
               {solutionsSummary.map((solution, index) => (
                 <motion.div key={index} whileHover={{ y: -5, scale: 1.02 }} className="bg-muted/50 p-6 rounded-lg transition-transform duration-300">
                   <CardHeader className="p-0 pb-4">
-                    <CardTitle className="text-xl font-bold text-primary">{solution.title}</CardTitle>
+                    <CardTitle className="text-xl font-bold text-foreground">{solution.title}</CardTitle> {/* Changed to text-foreground */}
                     <p className="text-sm text-muted-foreground">Outcome: {solution.outcome}</p>
                   </CardHeader>
                   <CardContent className="p-0">
                     <p className="text-muted-foreground text-base">{solution.brief}</p>
-                    <Link to={solution.link} className="mt-4 inline-flex items-center text-primary hover:underline">
+                    <Link to={solution.link} className="mt-4 inline-flex items-center text-foreground hover:underline hover:text-primary"> {/* Changed to text-foreground, added hover:text-primary */}
                       Learn More →
                     </Link>
                   </CardContent>
