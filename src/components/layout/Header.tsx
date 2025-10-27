@@ -17,6 +17,9 @@ const Header = () => {
     { name: "Testimonials", href: "#testimonials" },
     { name: "Pricing", href: "#investment" },
     { name: "FAQ", href: "#faq" },
+    { name: "Outreach Engine", href: "/outreach-engine" }, // New link
+    { name: "Appointment Setter", href: "/appointment-setter" }, // New link
+    { name: "Support & Sales AI", href: "/customer-support-sales-assistant" }, // New link
   ];
 
   return (
@@ -35,13 +38,24 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
-            <a 
-              key={link.name} 
-              href={link.href} 
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
-            >
-              {link.name}
-            </a>
+            // Use Link for internal routes, a for external/hash links
+            link.href.startsWith('/') ? (
+              <Link 
+                key={link.name} 
+                to={link.href} 
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                {link.name}
+              </Link>
+            ) : (
+              <a 
+                key={link.name} 
+                href={link.href} 
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                {link.name}
+              </a>
+            )
           ))}
         </nav>
 
@@ -73,13 +87,23 @@ const Header = () => {
                 <nav className="flex flex-col items-center justify-center flex-grow gap-8">
                   {navLinks.map((link) => (
                     <SheetClose asChild key={link.name}>
-                      <a 
-                        href={link.href} 
-                        className="text-2xl font-medium text-foreground transition-colors hover:text-primary"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {link.name}
-                      </a>
+                      {link.href.startsWith('/') ? (
+                        <Link 
+                          to={link.href} 
+                          className="text-2xl font-medium text-foreground transition-colors hover:text-primary"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {link.name}
+                        </Link>
+                      ) : (
+                        <a 
+                          href={link.href} 
+                          className="text-2xl font-medium text-foreground transition-colors hover:text-primary"
+                          onClick={() => setIsOpen(false)}
+                        >
+                          {link.name}
+                        </a>
+                      )}
                     </SheetClose>
                   ))}
                 </nav>

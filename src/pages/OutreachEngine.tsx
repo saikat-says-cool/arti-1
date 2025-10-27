@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, X } from "lucide-react";
+import TypewriterEffect from "@/components/ui/TypewriterEffect"; // Import TypewriterEffect
 
 const OutreachEngine = () => {
   const pageTitle = "Artificialyze | The Outreach Engine™";
@@ -92,16 +93,8 @@ const OutreachEngine = () => {
       </Helmet>
       <Layout>
         <section className="relative py-12 md:py-20 bg-background overflow-hidden">
-          {/* <ParticlesBackground /> Removed */}
           <div className="container mx-auto px-4 md:px-6 text-center relative z-10">
-            <motion.h1
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="text-4xl md:text-6xl font-bold text-foreground mb-6"
-            >
-              The Outreach Engine™
-            </motion.h1>
+            <TypewriterEffect text="The Outreach Engine™" className="text-4xl md:text-6xl font-bold text-foreground mb-6" /> {/* Integrated TypewriterEffect */}
             <motion.p
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}

@@ -5,10 +5,12 @@ import Index from '@/pages/Index';
 import OutreachEngine from '@/pages/OutreachEngine';
 import AppointmentSetter from '@/pages/AppointmentSetter';
 import CustomerSupportSalesAssistant from '@/pages/CustomerSupportSalesAssistant';
+import ScrollToTop from '@/components/ScrollToTop'; // Import ScrollToTop
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* Add ScrollToTop here */}
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/outreach-engine" element={<OutreachEngine />} />

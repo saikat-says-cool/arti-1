@@ -45,9 +45,9 @@ const ProblemSolution = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid md:grid-cols-2 gap-12 items-start">
+        {/* Changed grid layout to always be single column */}
+        <div className="grid grid-cols-1 gap-12 items-start"> 
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-muted/50 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-foreground">The Strategic Imperative</h2>
             <p className="mt-4 text-muted-foreground">While your enterprise excels in client delivery, sustainable, predictable growth remains an elusive challenge.</p>
@@ -66,7 +66,8 @@ const ProblemSolution = () => {
               </p>
             </div>
           </motion.div>
-          <div className="md:col-span-1">
+          {/* Added margin-top for spacing between stacked sections */}
+          <div className="mt-12 md:mt-0"> 
             <h2 className="text-3xl font-bold text-foreground mb-6">The Artificialyze Solution — Autonomous AI Ecosystems</h2>
             <p className="mt-4 text-muted-foreground mb-8">Artificialyze architects and deploys fully managed, proprietary AI systems that seamlessly integrate across your outreach, appointment scheduling, and customer support functions—meticulously optimized for peak efficiency, unparalleled conversion rates, and elevated client satisfaction.</p>
             <div className="grid gap-8">
