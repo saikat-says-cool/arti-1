@@ -25,7 +25,7 @@ const Hero = () => {
           Pioneering AI Systems for Unrivaled Business Growth.
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          Artificialyze engineers bespoke AI ecosystems that autonomously drive client acquisition, optimize engagement, and elevate conversions. We empower elite agencies and enterprises to scale without constraint, transforming operational paradigms into predictable, high-yield revenue streams.
+          Artificialyze engineers bespoke AI ecosystems that autonomously drive client acquisition, optimize engagement, and elevate conversions. We empower elite agencies and enterprises to scale without constraint, transforming operational paradigms into predictable, high-yield revenue streams. We don't just add software; we replace effort, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button

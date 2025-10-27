@@ -109,7 +109,7 @@ const CustomerSupportSalesAssistant = () => {
                   </CardHeader>
                   <CardContent className="text-left">
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      Essence: Your brand loses money every hour a visitor goes unengaged. The AI Customer Support & Sales Assistant™ removes the trade-off between human-like support and sales conversions — working 24/7, perfectly on-brand, and always optimized for engagement and revenue.
+                      Essence: We don’t sell chatbots. We build AI systems that acquire, qualify, and convert — 24/7. While tools like Gorgias or Intercom give you another dashboard to manage, we build your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days. Fast-moving e-commerce brands work with Artificialyze because we don’t add software — we replace effort.
                     </p>
                   </CardContent>
                 </Card>

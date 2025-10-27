@@ -115,10 +115,7 @@ const AppointmentSetter = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      Essence: Businesses are losing revenue and wasting inbound traffic because current appointment booking solutions are inefficient, impersonal, or limited in availability.
-                    </p>
-                    <p className="mt-2 text-lg text-muted-foreground">
-                      Solution: The AI Appointment Setter™ delivers human-like, persuasive, 24/7 lead qualification and booking, ensuring every inbound lead is engaged effectively.
+                      Essence: We don't just offer booking tools. We build an autonomous AI Appointment Setter™ that replaces human effort, qualifying and converting leads 24/7. This proprietary AI layer talks like your brand, closes like your best salesperson, and goes live in 3 days, ensuring every inbound lead is engaged effectively.
                     </p>
                   </CardContent>
                 </Card>

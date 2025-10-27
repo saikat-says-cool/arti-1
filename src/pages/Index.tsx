@@ -18,7 +18,7 @@ import FAQ from "@/components/landing/FAQ";
 
 const Index = () => {
   const pageTitle = "Artificialyze | AI Automation That Acquires, Engages & Converts";
-  const pageDescription = "We build fully managed AI systems that generate leads, book appointments, and boost sales—all running 24/7 so your team can focus on strategy, delivery, and scaling. Predictable pipelines, higher conversions, and satisfied customers—without increasing headcount.";
+  const pageDescription = "Artificialyze builds fully managed AI systems that acquire, qualify, and convert 24/7. We don't add software; we replace effort, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days. Predictable pipelines, higher conversions, and satisfied customers—without increasing headcount.";
   const pageUrl = "https://www.artificialyze.com";
 
   const structuredData = {

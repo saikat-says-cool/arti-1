@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 
 const WhyChooseUs = () => {
   const reasons = [
-    { title: "Unified AI Growth Ecosystem", description: "Consolidate disparate tools and roles into a singular, intelligent AI platform, drastically reducing operational overhead and complexity." },
-    { title: "Fully Managed AI Orchestration", description: "Liberate your high-value team from operational burdens as we meticulously manage and optimize your advanced AI systems, ensuring peak performance." },
-    { title: "Predictable & Exponential Scalability", description: "Achieve consistent, scalable revenue growth and market penetration without the traditional constraints of increasing human capital." },
+    { title: "Unified AI Growth Ecosystem", description: "Consolidate disparate tools and roles into a singular, intelligent AI platform, drastically reducing operational overhead and complexity. We don't add software; we replace effort." },
+    { title: "Fully Managed AI Orchestration", description: "Liberate your high-value team from operational burdens as we meticulously manage and optimize your advanced AI systems, ensuring peak performance and brand-aligned conversion 24/7." },
+    { title: "Predictable & Exponential Scalability", description: "Achieve consistent, scalable revenue growth and market penetration without the traditional constraints of increasing human capital, by building your own AI layer that closes like your best salesperson." },
     { title: "Hyper-Authentic AI Personalization", description: "Forge deeper client relationships through AI interactions that are indistinguishable from human-level empathy and strategic insight, driving superior engagement." },
   ];
 
@@ -19,12 +19,11 @@ const WhyChooseUs = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The Artificialyze Advantage: Redefining Growth</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            We architect and deploy fully autonomous AI ecosystems that transcend conventional client acquisition, engagement, and conversion methodologies. Operating 24/7, these systems empower your strategic teams to focus exclusively on innovation and expansion, ensuring predictable pipelines, unprecedented conversion rates, and enduring client satisfaction—all without the burden of escalating headcount.
+            We architect and deploy fully autonomous AI ecosystems that transcend conventional client acquisition, engagement, and conversion methodologies. Operating 24/7, these systems empower your strategic teams to focus exclusively on innovation and expansion, ensuring predictable pipelines, unprecedented conversion rates, and enduring client satisfaction—all without the burden of escalating headcount. We don't sell chatbots or just another tool; we build your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days, replacing effort, not adding software.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">

@@ -127,10 +127,7 @@ const OutreachEngine = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      Essence: Agencies are leaving leads and revenue on the table because they cannot achieve both speed and personalization at scale.
-                    </p>
-                    <p className="mt-2 text-lg text-muted-foreground">
-                      Solution: The Outreach Engine™ removes this trade-off, delivering continuous, hands-free client acquisition with fresh, accurate data and AI-driven personalization.
+                      Essence: We don't just provide outreach tools. We build a fully autonomous AI system that replaces the entire SDR function, acquiring, qualifying, and converting leads 24/7. This proprietary AI layer talks like your brand, closes like your best salesperson, and goes live in 3 days, replacing effort, not adding software.
                     </p>
                   </CardContent>
                 </Card>

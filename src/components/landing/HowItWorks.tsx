@@ -9,17 +9,17 @@ const HowItWorks = () => {
     {
       day: "1",
       title: "Day 1 – Foundational AI Architecture",
-      description: "Establish a resilient, high-performance infrastructure for autonomous outreach, precision appointment setting, and intelligent support systems.",
+      description: "Establish a resilient, high-performance infrastructure for autonomous outreach, precision appointment setting, and intelligent support systems, building your proprietary AI layer.",
     },
     {
       day: "2",
       title: "Day 2 – Bespoke AI Integration",
-      description: "Seamlessly integrate your existing enterprise tools into a unified, proprietary AI ecosystem, ensuring complete control and data synergy.",
+      description: "Seamlessly integrate your existing enterprise tools into a unified, proprietary AI ecosystem, ensuring complete control and data synergy, and customizing your AI to talk like your brand.",
     },
     {
       day: "3",
       title: "Day 3 – Autonomous System Activation",
-      description: "Achieve full operational readiness with confidence, anticipating measurable, high-impact results within an accelerated timeframe.",
+      description: "Achieve full operational readiness with confidence, anticipating measurable, high-impact results within an accelerated timeframe, with your AI system live and converting.",
     },
   ];
 
@@ -40,12 +40,11 @@ const HowItWorks = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The 3-Day AI Deployment Protocol</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Launch your bespoke AI ecosystems in an unprecedented three days—fully managed, meticulously engineered, and demonstrably impactful. We orchestrate the entire deployment with our enterprise-grade AI engineering layer, forging a cohesive, surgically precise infrastructure for mass-personalized, autonomous outbound and inbound engagement.
+            Launch your bespoke AI ecosystems in an unprecedented three days—fully managed, meticulously engineered, and demonstrably impactful. We orchestrate the entire deployment with our enterprise-grade AI engineering layer, forging a cohesive, surgically precise infrastructure for mass-personalized, autonomous outbound and inbound engagement. We don't add software; we replace effort, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days.
           </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
