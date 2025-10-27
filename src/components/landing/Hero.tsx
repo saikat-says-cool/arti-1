@@ -22,10 +22,10 @@ const Hero = () => {
     >
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="max-w-4xl bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          AI Systems That Acquire. Engage. Convert.
+          Pioneering AI Systems for Unrivaled Business Growth.
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          The next generation of growth doesn’t hire — it automates. Artificialyze builds fully managed AI systems that run your outreach, appointments, and customer support — twenty-four seven — while your team focuses on scaling, not surviving. Predictable pipelines. Higher conversions. No extra headcount.
+          Artificialyze engineers bespoke AI ecosystems that autonomously drive client acquisition, optimize engagement, and elevate conversions. We empower elite agencies and enterprises to scale without constraint, transforming operational paradigms into predictable, high-yield revenue streams.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button
@@ -41,7 +41,7 @@ const Hero = () => {
             }}
             className="group relative flex w-fit items-center gap-1.5 rounded-full bg-background/10 px-6 py-3 text-foreground transition-colors hover:bg-background/50"
           >
-            👉 Book Your 3-Day Launch Call
+            → Initiate Your 3-Day AI Launch
           </motion.button>
         </a>
       </div>

@@ -9,27 +9,27 @@ const HowItWorks = () => {
   const steps = [
     {
       day: "1",
-      title: "Day 1 – Infrastructure Setup",
-      description: "Establish a robust foundation for automated outreach, appointments, and support.",
+      title: "Day 1 – Foundational AI Architecture",
+      description: "Establish a resilient, high-performance infrastructure for autonomous outreach, precision appointment setting, and intelligent support systems.",
     },
     {
       day: "2",
-      title: "Day 2 – Client Onboarding Call",
-      description: "Seamlessly integrate your existing tools for a unified, powerful system you fully control.",
+      title: "Day 2 – Bespoke AI Integration",
+      description: "Seamlessly integrate your existing enterprise tools into a unified, proprietary AI ecosystem, ensuring complete control and data synergy.",
     },
     {
       day: "3",
-      title: "Day 3 – Activation & Calibration",
-      description: "Go live with confidence and see measurable results within weeks.",
+      title: "Day 3 – Autonomous System Activation",
+      description: "Achieve full operational readiness with confidence, anticipating measurable, high-impact results within an accelerated timeframe.",
     },
   ];
 
   const deliverables = [
-    "Gain a powerful automation scenario that intelligently connects data, AI, and sending tools",
-    "Achieve high email deliverability with a fully warmed and verified mail setup",
-    "Leverage expert AI prompts specifically tuned for your agency's niche to maximize engagement",
-    "Deliver hyper-personalized outreach with advanced data enrichment and AI-driven insights",
-    "Maintain peak performance with a clear dashboard for continuous optimization",
+    "Acquire a sophisticated automation scenario that intelligently orchestrates data, advanced AI, and multi-channel communication platforms.",
+    "Attain elite email deliverability through a meticulously warmed and rigorously verified mail infrastructure.",
+    "Leverage proprietary AI prompts, precisely engineered for your agency's niche, to maximize engagement and conversion efficacy.",
+    "Execute hyper-personalized outreach campaigns, powered by advanced data enrichment and predictive AI insights.",
+    "Sustain peak operational performance with an intuitive, real-time analytics dashboard for continuous, data-driven optimization.",
   ];
 
   return (
@@ -44,9 +44,9 @@ const HowItWorks = () => {
       <ParticlesBackground />
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">The 3-Day Build Process</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">The 3-Day AI Deployment Protocol</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Launch your AI systems in just three days—fully managed and measurable. We orchestrate the entire system with our enterprise-level AI engineering layer, creating a cohesive, surgically-engineered infrastructure for mass-personalized outbound automation.
+            Launch your bespoke AI ecosystems in an unprecedented three days—fully managed, meticulously engineered, and demonstrably impactful. We orchestrate the entire deployment with our enterprise-grade AI engineering layer, forging a cohesive, surgically precise infrastructure for mass-personalized, autonomous outbound and inbound engagement.
           </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
@@ -72,15 +72,15 @@ const HowItWorks = () => {
             </motion.div>
           ))}
         </div>
-        <p className="text-center mt-12 text-muted-foreground">Ongoing Optimization: Weekly updates, prompt tuning, and monitoring to maximize performance.</p>
+        <p className="text-center mt-12 text-muted-foreground">Continuous Optimization: Weekly algorithmic updates, advanced prompt engineering, and real-time performance monitoring to ensure maximal ROI.</p>
         
         <div className="max-w-3xl mx-auto mt-16">
           <Card className="bg-background/50">
             <CardHeader>
-              <CardTitle className="text-2xl text-center">🎁 What You’ll Own After 3 Days</CardTitle>
+              <CardTitle className="text-2xl text-center">🎁 Your Autonomous AI Assets Post-Deployment</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-center text-muted-foreground mb-6">By the end of Day 3, your agency controls a fully configured Outreach Engine running inside your own accounts:</p>
+              <p className="text-center text-muted-foreground mb-6">Upon conclusion of Day 3, your enterprise will command a fully operational, custom-engineered AI ecosystem, residing securely within your own accounts:</p>
               <ul className="space-y-3">
                 {deliverables.map((item, index) => (
                   <li key={index} className="flex items-start">
@@ -89,7 +89,7 @@ const HowItWorks = () => {
                   </li>
                 ))}
               </ul>
-              <p className="text-center mt-6 font-semibold">Everything lives in your workspace—you retain full ownership and visibility.</p>
+              <p className="text-center mt-6 font-semibold">Every component of your AI infrastructure is exclusively yours—ensuring absolute ownership, transparency, and strategic control.</p>
             </CardContent>
           </Card>
         </div>
