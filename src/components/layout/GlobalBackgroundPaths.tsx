@@ -20,7 +20,7 @@ function FloatingPaths({ position }: { position: number }) {
         <div className="absolute inset-0 pointer-events-none">
             <svg
                 className="w-full h-full text-foreground opacity-10" // Using text-foreground for color, reduced opacity
-                viewBox="0 0 696 316"
+                // Removed viewBox="0 0 696 316" to allow paths to fill the entire area
                 fill="none"
             >
                 <title>Background Paths</title>
