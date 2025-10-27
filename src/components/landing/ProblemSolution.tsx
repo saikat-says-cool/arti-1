@@ -5,6 +5,7 @@ import ParticlesBackground from "./ParticlesBackground";
 import { motion } from "framer-motion";
 import { Info } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const ProblemSolution = () => {
   const ctaLink = "https://cal.com/saikat-artificialyze/15min";
@@ -16,41 +17,24 @@ const ProblemSolution = () => {
   ];
   const problemInsight = "Agencies and service businesses waste hundreds of hours and thousands of dollars juggling tools and manual workflows, leaving growth unpredictable.";
 
-  const solutions = [
+  const solutionsSummary = [
     {
       title: "The Outreach Engine™",
       outcome: "Predictable client acquisition at lower cost and higher efficiency",
-      description: [
-        { title: "Target the Right Prospects", text: "Secure meetings with decision-makers through verified data and true personalization." },
-        { title: "Personalized Multi-Step Campaigns", text: "Drive higher engagement with AI-crafted messages that resonate personally." },
-        { title: "Automation at Scale", text: "Achieve consistent deliverability and response rates with automated multi-channel campaigns." },
-        { title: "Ongoing Optimization", text: "Ensure continuous pipeline growth through constant optimization and fresh strategies." },
-      ],
-      idealFor: "B2B marketing agencies, consulting, professional services, and SaaS companies.",
+      brief: "Secure meetings with decision-makers through verified data and true personalization, driving higher engagement with AI-crafted messages.",
+      link: "/outreach-engine",
     },
     {
       title: "AI Appointment Setter",
       outcome: "24/7 engagement and higher booking conversion",
-      description: [
-        { title: "Omni-Channel Presence", text: "Never miss a lead with AI engaging prospects across all your communication channels." },
-        { title: "Human-Like, Persuasive AI", text: "Fill your calendar with qualified meetings as AI expertly guides prospects to booking." },
-        { title: "Dynamic Scheduling", text: "Streamline scheduling effortlessly by integrating with your existing calendar systems." },
-        { title: "Seamless Live Agent Handoff", text: "Maximize conversions with smooth transitions between AI and human agents." },
-      ],
-      idealFor: "Service-based businesses like marketing agencies, clinics, or consultancies, especially with inbound queries.",
+      brief: "Never miss a lead with AI engaging prospects across all channels, expertly guiding them to book qualified meetings.",
+      link: "/appointment-setter",
     },
     {
       title: "AI Customer Support & Sales Assistant",
       outcome: "Higher conversion, sales, and customer satisfaction",
-      description: [
-        { title: "Dynamic UI Engine", text: "Boost sales and engagement with interactive, conversion-optimized visual experiences." },
-        { title: "Native Website & CRM Integration", text: "Increase average order value and customer loyalty through personalized upsells and cross-sells." },
-        { title: "Omni-Channel Support", text: "Provide consistent, instant support wherever your customers are." },
-        { title: "Sales-Optimized AI", text: "Turn browsers into buyers by preventing abandonment and guiding them to purchase." },
-        { title: "Real-Time Knowledge & Emotional Context", text: "Deliver highly relevant and empathetic responses that adapt to real-time customer needs." },
-        { title: "Live Agent Handoff", text: "Ensure customer satisfaction with efficient human intervention when complex issues arise." },
-      ],
-      idealFor: "E-commerce brands, SaaS, and other businesses needing high-touch, conversion-oriented support.",
+      brief: "Boost sales and engagement with interactive UI, native CRM integration, and sales-optimized AI for instant, empathetic support.",
+      link: "/customer-support-sales-assistant",
     },
   ];
 
@@ -87,27 +71,17 @@ const ProblemSolution = () => {
             <h2 className="text-3xl font-bold text-foreground mb-6">The Solution — AI Systems That Work for You</h2>
             <p className="mt-4 text-muted-foreground mb-8">Artificialyze designs and manages done-for-you AI systems that operate across outreach, appointments, and customer support—optimizing for efficiency, conversions, and satisfaction.</p>
             <div className="grid gap-8">
-              {solutions.map((solution, index) => (
+              {solutionsSummary.map((solution, index) => (
                 <motion.div key={index} whileHover={{ y: -5, scale: 1.02 }} className="bg-muted/50 p-6 rounded-lg transition-transform duration-300">
                   <CardHeader className="p-0 pb-4">
                     <CardTitle className="text-xl font-bold text-primary">{solution.title}</CardTitle>
                     <p className="text-sm text-muted-foreground">Outcome: {solution.outcome}</p>
                   </CardHeader>
                   <CardContent className="p-0">
-                    <ul className="mt-4 space-y-3">
-                      {solution.description.map((item, i) => (
-                        <li key={i} className="flex items-start">
-                          <span className="text-primary mr-3 mt-1 flex-shrink-0">✓</span>
-                          <div>
-                            <h4 className="font-bold">{item.title}</h4>
-                            <p className="text-muted-foreground text-sm">{item.text}</p>
-                          </div>
-                        </li>
-                      ))}
-                    </ul>
-                    <p className="mt-4 text-sm text-muted-foreground">
-                      <span className="font-semibold text-foreground">Ideal For:</span> {solution.idealFor}
-                    </p>
+                    <p className="text-muted-foreground text-base">{solution.brief}</p>
+                    <Link to={solution.link} className="mt-4 inline-flex items-center text-primary hover:underline">
+                      Learn More →
+                    </Link>
                   </CardContent>
                 </motion.div>
               ))}
