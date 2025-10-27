@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The Artificialyze Advantage: Redefining Growth</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            We architect and deploy fully autonomous AI ecosystems that transcend conventional client acquisition, engagement, and conversion methodologies. Operating 24/7, these systems empower your strategic teams to focus exclusively on innovation and expansion, ensuring predictable pipelines, unprecedented conversion rates, and enduring client satisfaction—all without the burden of escalating headcount. We don't sell chatbots or just another tool; we build your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days, replacing effort, not adding software.
+            We architect and deploy fully autonomous AI ecosystems that transcend conventional methodologies. Operating 24/7, these systems empower your strategic teams to focus on innovation and expansion, ensuring predictable pipelines and unprecedented conversion rates.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">

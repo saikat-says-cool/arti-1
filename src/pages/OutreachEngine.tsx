@@ -127,7 +127,7 @@ const OutreachEngine = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      Essence: We don't just provide outreach tools. We build a fully autonomous AI system that replaces the entire SDR function, acquiring, qualifying, and converting leads 24/7. This proprietary AI layer talks like your brand, closes like your best salesperson, and goes live in 3 days, replacing effort, not adding software.
+                      Essence: We don't just provide outreach tools. We build a fully autonomous AI system that replaces the entire SDR function, acquiring, qualifying, and converting leads 24/7.
                     </p>
                   </CardContent>
                 </Card>

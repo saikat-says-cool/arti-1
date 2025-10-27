@@ -69,7 +69,9 @@ const ProblemSolution = () => {
           {/* Added margin-top for spacing between stacked sections */}
           <div className="mt-12 md:mt-0"> 
             <h2 className="text-3xl font-bold text-foreground mb-6">The Artificialyze Solution — Autonomous AI Ecosystems</h2>
-            <p className="mt-4 text-muted-foreground mb-8">Artificialyze architects and deploys fully managed, proprietary AI systems that seamlessly integrate across your outreach, appointment scheduling, and customer support functions—meticulously optimized for peak efficiency, unparalleled conversion rates, and elevated client satisfaction. We don't just add software; we replace effort, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days.</p>
+            <p className="mt-4 text-muted-foreground mb-8">
+              Artificialyze architects and deploys fully managed, proprietary AI systems. We replace effort, not add software, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days.
+            </p>
             <div className="grid gap-8">
               {solutionsSummary.map((solution, index) => (
                 <motion.div key={index} whileHover={{ y: -5, scale: 1.02 }} className="bg-muted/50 p-6 rounded-lg transition-transform duration-300">

@@ -44,7 +44,7 @@ const HowItWorks = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The 3-Day AI Deployment Protocol</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Launch your bespoke AI ecosystems in an unprecedented three days—fully managed, meticulously engineered, and demonstrably impactful. We orchestrate the entire deployment with our enterprise-grade AI engineering layer, forging a cohesive, surgically precise infrastructure for mass-personalized, autonomous outbound and inbound engagement. We don't add software; we replace effort, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in 3 days.
+            Launch your bespoke AI ecosystems in an unprecedented three days—fully managed and meticulously engineered. We replace effort, not add software, building your own AI layer that talks like your brand, closes like your best salesperson.
           </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
