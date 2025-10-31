@@ -15,12 +15,12 @@ const Investment = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">Investment</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Your Strategic Investment in Growth</h2>
         </div>
         <Card className="max-w-4xl mx-auto mt-12 bg-background/50 shadow-lg">
           <CardContent className="p-8 text-center">
             <p className="text-lg text-muted-foreground">
-              Custom pricing tailored to your business needs. Each system is built for maximum ROI, and your investment scales with your growth.
+              I believe in tailoring solutions that deliver maximum ROI for *your* unique business. Your investment with Artificialyze is custom-priced to your specific needs, designed to scale with *your* growth, ensuring every dollar you commit works hard for you.
             </p>
           </CardContent>
         </Card>

@@ -6,7 +6,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457";
 
   // Static black and white styling for minimalist theme
   const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--primary)) 100%)`; // Changed end color to primary accent
@@ -22,10 +22,10 @@ const Hero = () => {
     >
       <div className="relative z-10 flex flex-col items-center">
         <h1 className="max-w-4xl bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
-          Pioneering AI Systems for Unrivaled Business Growth.
+          Tired of the Growth Grind? Let's Build Your Autonomous AI Future.
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          Artificialyze engineers bespoke AI ecosystems that autonomously drive client acquisition, optimize engagement, and elevate conversions. We replace effort, not add software.
+          I founded Artificialyze because I saw too many brilliant agencies and enterprises trapped in manual cycles. You deserve predictable growth, not endless effort. My team and I engineer bespoke AI ecosystems that don't just add another tool; they replace the grind, becoming your 24/7 acquisition, engagement, and conversion engine.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button
@@ -41,7 +41,7 @@ const Hero = () => {
             }}
             className="group relative flex w-fit items-center gap-1.5 rounded-full bg-background/10 px-6 py-3 text-foreground transition-colors hover:bg-background/50"
           >
-            → Initiate Your 3-Day AI Launch
+            → Let's Talk: Your 3-Day AI Launch
           </motion.button>
         </a>
       </div>

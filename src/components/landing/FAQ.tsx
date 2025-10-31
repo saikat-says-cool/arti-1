@@ -11,20 +11,20 @@ import { motion } from "framer-motion";
 const FAQ = () => {
   const faqs = [
     {
-      question: "How much time will my team spend?",
-      answer: "Your team saves valuable time as we handle all post-onboarding management.",
+      question: "How much time will my team actually spend?",
+      answer: "My commitment to you is simple: your team saves valuable time. My team and I handle all post-onboarding management, so you can focus on what you do best.",
     },
     {
-      question: "How is this different from other AI solutions?",
-      answer: "Unlike others, Artificialyze delivers fully managed, outcome-driven AI systems for outreach, appointments, and support, ensuring efficiency, conversions, and satisfaction, all while you retain full ownership.",
+      question: "How is Artificialyze different from other AI solutions I've seen?",
+      answer: "Unlike generic tools, Artificialyze delivers fully managed, outcome-driven AI systems built specifically for *your* outreach, appointments, and support. We ensure efficiency, conversions, and satisfaction, all while *you* retain full ownership and control. We don't just add software; we replace effort.",
     },
     {
-      question: "Which offer is right for my business?",
-      answer: "Discover the perfect AI system for your business through a personalized 3-day launch call, or explore deep-dive demos for each solution.",
+      question: "Which Artificialyze solution is right for my business?",
+      answer: "That's a great question, and it's personal to *your* needs. Let's discover the perfect AI system for *your* business through a personalized 3-day launch call. Or, if you prefer, you can explore deep-dive demos for each solution first.",
     },
     {
-      question: "When will results be measurable?",
-      answer: "First measurable outcomes within weeks, with specific guarantees for each system (e.g., qualified replies within 2 weeks for Outreach Engine, 30%+ lift in booked meetings for Appointment Setter).",
+      question: "When will I see measurable results?",
+      answer: "You'll see your first measurable outcomes within weeks. I offer specific guarantees for each system: qualified replies within 2 weeks for your Outreach Engine, a 30%+ lift in booked meetings for your Appointment Setter, and so on. Your success is my priority.",
     },
   ];
 
@@ -37,10 +37,10 @@ const FAQ = () => {
       transition={{ duration: 0.6 }}
       className="relative py-12 md:py-20 bg-transparent overflow-hidden"
     >
-      {/* <ParticlesBackground /> Removed */}
       <div className="container mx-auto px-4 md:px-6 max-w-3xl">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Your Questions, My Answers.</h2>
+          <p className="mt-4 text-lg text-muted-foreground">I know you have questions, and I'm here to provide clear, direct answers about how Artificialyze can transform *your* business.</p>
         </div>
         <Accordion type="single" collapsible className="w-full mt-12">
           {faqs.map((faq, index) => (

@@ -54,10 +54,8 @@ const SpotlightTestimonials = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold">Spotlight Success Stories</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            See how Artificialyze has transformed client acquisition for diverse brands and agencies.
-          </p>
+          <h2 className="text-3xl md:text-4xl font-bold">Your Future Success: Spotlight on Our Client Transformations</h2>
+          <p className="mt-4 text-lg text-muted-foreground">I want you to see how Artificialyze has transformed client acquisition for diverse brands and agencies. These aren't just stories; they're a glimpse into what's possible for *your* business.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -78,7 +76,7 @@ const SpotlightTestimonials = () => {
                   <p className="text-foreground italic">"{testimonial.quote}"</p>
                   <Separator className="my-4 bg-border" />
                   <div className="text-sm text-muted-foreground">
-                    <p className="font-semibold text-foreground">Key Points:</p>
+                    <p className="font-semibold text-foreground">Key Points for Your Consideration:</p>
                     <ul className="list-disc list-inside mt-1 space-y-1">
                       {testimonial.keyPoints.map((point, i) => (
                         <li key={i}>{point}</li>

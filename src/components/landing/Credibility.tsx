@@ -36,6 +36,10 @@ const Credibility = () => {
       className="py-12 bg-transparent"
     >
       <div className="container mx-auto px-4 md:px-6">
+        <div className="text-center max-w-3xl mx-auto mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold">Why You Can Trust Artificialyze: Our Proven Track Record</h2>
+          <p className="mt-4 text-lg text-muted-foreground">I understand that trust is earned. That's why I want to share what independent platforms and real users say about the quality and impact of our work for businesses like yours.</p>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-8 gap-x-4 justify-items-center">
           {ratings.map((item, index) => (
             <div key={index} className="flex items-center gap-4 w-full justify-center sm:justify-start md:justify-center">
