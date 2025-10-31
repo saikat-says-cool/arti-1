@@ -12,7 +12,7 @@ import TypewriterEffect from "@/components/ui/TypewriterEffect"; // Import Typew
 const AppointmentSetter = () => {
   const pageTitle = "Artificialyze | AI Appointment Setter";
   const pageDescription = "Learn about Artificialyze's AI Appointment Setter for 24/7 engagement and higher booking conversion for service-based businesses.";
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
 
   const problems = [
     "Human receptionists or SDRs can only respond during office hours and often miss opportunities.",

@@ -6,7 +6,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
 
   // Static black and white styling for minimalist theme
   const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--primary)) 100%)`; // Changed end color to primary accent

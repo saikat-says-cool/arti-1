@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 
 const ProblemSolution = () => {
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
   const problems = [
     "Reliance on manual outreach, appointment setting, and customer support incurs prohibitive costs and resource drain.",
     "High turnover in SDR and support roles leads to perpetual training cycles and inconsistent performance.",

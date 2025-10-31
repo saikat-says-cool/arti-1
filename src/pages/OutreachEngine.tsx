@@ -12,7 +12,7 @@ import TypewriterEffect from "@/components/ui/TypewriterEffect"; // Import Typew
 const OutreachEngine = () => {
   const pageTitle = "Artificialyze | The Outreach Engine™";
   const pageDescription = "Discover how Artificialyze's Outreach Engine provides predictable client acquisition at lower cost and higher efficiency for B2B service-based businesses.";
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
 
   const problems = [
     "SDRs rely on outdated databases, missing career changes or updated contact info.",

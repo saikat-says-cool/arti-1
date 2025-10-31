@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const Header = () => {
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [

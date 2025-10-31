@@ -12,7 +12,7 @@ import TypewriterEffect from "@/components/ui/TypewriterEffect"; // Import Typew
 const CustomerSupportSalesAssistant = () => {
   const pageTitle = "Artificialyze | AI Customer Support & Sales Assistant";
   const pageDescription = "Explore Artificialyze's AI Customer Support & Sales Assistant for higher conversion, sales, and customer satisfaction for e-commerce and SaaS brands.";
-  const ctaLink = "https://cal.com/saikat-artificialyze/15min";
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
 
   const measurableResults = [
     "Increased conversion rates by 30%+",
