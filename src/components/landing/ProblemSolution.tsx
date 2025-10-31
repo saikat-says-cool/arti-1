@@ -14,7 +14,7 @@ const ProblemSolution = () => {
     "Your tech stack feels fragmented, leading to inefficiencies and unpredictable growth that keeps you up at night.",
     "Scaling your revenue feels like an uphill battle, always requiring more headcount, more stress, and more compromise.",
   ];
-  const problemInsight = "I know the frustration. You're a leader, but you're constantly managing disparate tools and antiquated manual workflows, making predictable growth feel like a distant dream.";
+  const problemInsight = "We know the frustration. You're a leader, but you're constantly managing disparate tools and antiquated manual workflows, making predictable growth feel like a distant dream.";
 
   const solutionsSummary = [
     {
@@ -50,7 +50,7 @@ const ProblemSolution = () => {
         <div className="grid grid-cols-1 gap-12 items-start"> 
           <motion.div whileHover={{ y: -5, scale: 1.02 }} className="bg-muted/50 p-8 rounded-lg transition-transform duration-300">
             <h2 className="text-3xl font-bold text-foreground">Your Strategic Imperative: Why Growth Feels Hard</h2>
-            <p className="mt-4 text-muted-foreground">You're brilliant at client delivery, but I know that sustainable, predictable growth often feels like an elusive challenge. Let's be honest about what's holding you back:</p>
+            <p className="mt-4 text-muted-foreground">You're brilliant at client delivery, but we know that sustainable, predictable growth often feels like an elusive challenge. Let's be honest about what's holding you back:</p>
             <ul className="mt-6 space-y-4">
               {problems.map((problem, index) => (
                 <li key={index} className="flex items-start">
@@ -62,15 +62,15 @@ const ProblemSolution = () => {
             <div className="mt-6 flex items-start gap-3 text-foreground/80">
               <Info className="h-5 w-5 mt-1 flex-shrink-0" />
               <p className="text-sm">
-                <strong>My Insight:</strong> {problemInsight}
+                <strong>Our Insight:</strong> {problemInsight}
               </p>
             </div>
           </motion.div>
           {/* Added margin-top for spacing between stacked sections */}
           <div className="mt-12 md:mt-0"> 
-            <h2 className="text-3xl font-bold text-foreground mb-6">My Solution for You — Autonomous AI Ecosystems</h2>
+            <h2 className="text-3xl font-bold text-foreground mb-6">Our Solution for You — Autonomous AI Ecosystems</h2>
             <p className="mt-4 text-muted-foreground mb-8">
-              At Artificialyze, I don't just offer tools. My team and I architect and deploy fully managed, proprietary AI systems tailored *for you*. We replace effort, not add software, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in just 3 days.
+              At Artificialyze, we don't just offer tools. Our team and we architect and deploy fully managed, proprietary AI systems tailored *for you*. We replace effort, not add software, building your own AI layer that talks like your brand, closes like your best salesperson, and goes live in just 3 days.
             </p>
             <div className="grid gap-8">
               {solutionsSummary.map((solution, index) => (

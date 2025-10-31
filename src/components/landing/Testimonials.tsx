@@ -41,7 +41,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">What Leaders Like You Are Saying About Their Growth</h2>
-          <p className="mt-4 text-lg text-muted-foreground">Don't just take my word for it. Hear directly from agency leaders who've transformed their businesses with Artificialyze. Their success is a blueprint for *your* potential.</p>
+          <p className="mt-4 text-lg text-muted-foreground">Don't just take our word for it. Hear directly from agency leaders who've transformed their businesses with Artificialyze. Their success is a blueprint for *your* potential.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
           {testimonials.map((testimonial, index) => (

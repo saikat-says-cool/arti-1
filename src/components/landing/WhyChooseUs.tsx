@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 const WhyChooseUs = () => {
   const reasons = [
-    { title: "Your Unified AI Growth Ecosystem", description: "I'll help you consolidate disparate tools and roles into a singular, intelligent AI platform, drastically reducing your operational overhead and complexity. We don't add software; we replace effort." },
-    { title: "My Fully Managed AI Orchestration", description: "Liberate your high-value team from operational burdens. My team meticulously manages and optimizes your advanced AI systems, ensuring peak performance and brand-aligned conversion 24/7, so you don't have to." },
+    { title: "Your Unified AI Growth Ecosystem", description: "We'll help you consolidate disparate tools and roles into a singular, intelligent AI platform, drastically reducing your operational overhead and complexity. We don't add software; we replace effort." },
+    { title: "Our Fully Managed AI Orchestration", description: "Liberate your high-value team from operational burdens. Our team meticulously manages and optimizes your advanced AI systems, ensuring peak performance and brand-aligned conversion 24/7, so you don't have to." },
     { title: "Predictable & Exponential Scalability for You", description: "Achieve consistent, scalable revenue growth and market penetration without the traditional constraints of increasing human capital. We build your own AI layer that closes like your best salesperson." },
     { title: "Hyper-Authentic AI Personalization, Your Way", description: "Forge deeper client relationships through AI interactions that are indistinguishable from human-level empathy and strategic insight, driving superior engagement that feels genuinely personal to your clients." },
   ];
@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">Why Choose Artificialyze? It's About Your Unfair Advantage.</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            I've seen what it takes to truly scale. My team and I architect and deploy fully autonomous AI ecosystems that transcend conventional client acquisition, engagement, and conversion methodologies. These systems operate 24/7, empowering your strategic teams to focus exclusively on innovation and expansion, ensuring predictable pipelines, unprecedented conversion rates, and enduring client satisfaction—all without the burden of escalating headcount.
+            We've seen what it takes to truly scale. Our team and we architect and deploy fully autonomous AI ecosystems that transcend conventional client acquisition, engagement, and conversion methodologies. These systems operate 24/7, empowering your strategic teams to focus exclusively on innovation and expansion, ensuring predictable pipelines, unprecedented conversion rates, and enduring client satisfaction—all without the burden of escalating headcount.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mt-12 max-w-4xl mx-auto">
@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
         <div className="mt-8 flex items-start gap-3 text-foreground/80 dark:text-foreground/70 max-w-4xl mx-auto p-4 bg-muted/50 rounded-lg">
           <Info className="h-5 w-5 mt-1 flex-shrink-0" />
           <p className="text-sm">
-            <strong>My Critical Insight for You:</strong> Industry data confirms 71% of B2B decision-makers demand hyper-personalized interactions. My AI-driven automation delivers this at a scale and precision unachievable by human teams, giving *you* the edge.
+            <strong>Our Critical Insight for You:</strong> Industry data confirms 71% of B2B decision-makers demand hyper-personalized interactions. Our AI-driven automation delivers this at a scale and precision unachievable by human teams, giving *you* the edge.
           </p>
         </div>
         <motion.div 

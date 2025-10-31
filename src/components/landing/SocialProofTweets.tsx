@@ -41,7 +41,7 @@ const SocialProofTweets = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Real Talk: What Your Peers Are Saying on Twitter</h2>
-          <p className="mt-4 text-lg text-muted-foreground">I want you to see the unfiltered feedback. These are real leaders, just like you, sharing their genuine experiences with Artificialyze.</p>
+          <p className="mt-4 text-lg text-muted-foreground">We want you to see the unfiltered feedback. These are real leaders, just like you, sharing their genuine experiences with Artificialyze.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {tweets.map((tweet, index) => (

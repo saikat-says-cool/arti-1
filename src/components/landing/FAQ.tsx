@@ -12,7 +12,7 @@ const FAQ = () => {
   const faqs = [
     {
       question: "How much time will my team actually spend?",
-      answer: "My commitment to you is simple: your team saves valuable time. My team and I handle all post-onboarding management, so you can focus on what you do best.",
+      answer: "Our commitment to you is simple: your team saves valuable time. Our team and we handle all post-onboarding management, so you can focus on what you do best.",
     },
     {
       question: "How is Artificialyze different from other AI solutions I've seen?",
@@ -24,7 +24,7 @@ const FAQ = () => {
     },
     {
       question: "When will I see measurable results?",
-      answer: "You'll see your first measurable outcomes within weeks. I offer specific guarantees for each system: qualified replies within 2 weeks for your Outreach Engine, a 30%+ lift in booked meetings for your Appointment Setter, and so on. Your success is my priority.",
+      answer: "You'll see your first measurable outcomes within weeks. We offer specific guarantees for each system: qualified replies within 2 weeks for your Outreach Engine, a 30%+ lift in booked meetings for your Appointment Setter, and so on. Your success is our priority.",
     },
   ];
 
@@ -39,8 +39,8 @@ const FAQ = () => {
     >
       <div className="container mx-auto px-4 md:px-6 max-w-3xl">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Your Questions, My Answers.</h2>
-          <p className="mt-4 text-lg text-muted-foreground">I know you have questions, and I'm here to provide clear, direct answers about how Artificialyze can transform *your* business.</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Your Questions, Our Answers.</h2>
+          <p className="mt-4 text-lg text-muted-foreground">We know you have questions, and we're here to provide clear, direct answers about how Artificialyze can transform *your* business.</p>
         </div>
         <Accordion type="single" collapsible className="w-full mt-12">
           {faqs.map((faq, index) => (

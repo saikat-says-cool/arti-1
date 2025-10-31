@@ -24,7 +24,7 @@ const Partners = () => {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">The Power Behind Your Artificialyze Systems</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            I want you to feel confident in the foundation of your AI. We build on the world’s most advanced AI ecosystems, ensuring the solutions we create for *you* are robust, cutting-edge, and designed to drive *your* results.
+            We want you to feel confident in the foundation of your AI. We build on the world’s most advanced AI ecosystems, ensuring the solutions we create for *you* are robust, cutting-edge, and designed to drive *your* results.
           </p>
         </div>
         <div className="mt-12">

@@ -20,7 +20,7 @@ const Investment = () => {
         <Card className="max-w-4xl mx-auto mt-12 bg-background/50 shadow-lg">
           <CardContent className="p-8 text-center">
             <p className="text-lg text-muted-foreground">
-              I believe in tailoring solutions that deliver maximum ROI for *your* unique business. Your investment with Artificialyze is custom-priced to your specific needs, designed to scale with *your* growth, ensuring every dollar you commit works hard for you.
+              We believe in tailoring solutions that deliver maximum ROI for *your* unique business. Your investment with Artificialyze is custom-priced to your specific needs, designed to scale with *your* growth, ensuring every dollar you commit works hard for you.
             </p>
           </CardContent>
         </Card>

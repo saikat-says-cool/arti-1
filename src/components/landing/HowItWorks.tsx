@@ -42,9 +42,9 @@ const HowItWorks = () => {
     >
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold">My 3-Day AI Deployment Protocol: Your Path to Autonomy</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Our 3-Day AI Deployment Protocol: Your Path to Autonomy</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            I've streamlined the process so you can launch your bespoke AI ecosystems in an unprecedented three days—fully managed, meticulously engineered, and demonstrably impactful. My team and I orchestrate the entire deployment with our enterprise-grade AI engineering layer, forging a cohesive, surgically precise infrastructure for mass-personalized, autonomous outbound and inbound engagement, all designed for *your* success.
+            We've streamlined the process so you can launch your bespoke AI ecosystems in an unprecedented three days—fully managed, meticulously engineered, and demonstrably impactful. Our team and we orchestrate the entire deployment with our enterprise-grade AI engineering layer, forging a cohesive, surgically precise infrastructure for mass-personalized, autonomous outbound and inbound engagement, all designed for *your* success.
           </p>
         </div>
         <div className="mt-16 grid md:grid-cols-3 gap-8">
@@ -70,7 +70,7 @@ const HowItWorks = () => {
             </motion.div>
           ))}
         </div>
-        <p className="text-center mt-12 text-muted-foreground">My Commitment to You: Continuous Optimization with weekly algorithmic updates, advanced prompt engineering, and real-time performance monitoring to ensure *your* maximal ROI.</p>
+        <p className="text-center mt-12 text-muted-foreground">Our Commitment to You: Continuous Optimization with weekly algorithmic updates, advanced prompt engineering, and real-time performance monitoring to ensure *your* maximal ROI.</p>
         
         <div className="max-w-3xl mx-auto mt-16">
           <Card className="bg-background/50">

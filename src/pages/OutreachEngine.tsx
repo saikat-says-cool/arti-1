@@ -30,13 +30,13 @@ const OutreachEngine = () => {
     {
       day: "1",
       phase: "Your Infrastructure Setup",
-      actions: "My team builds your Make-based automation; we configure your AI modules for lead generation, enrichment, and personalization.",
+      actions: "Our team builds your Make-based automation; we configure your AI modules for lead generation, enrichment, and personalization.",
       outcome: "You get a fully structured framework ready for your onboarding.",
     },
     {
       day: "2",
       phase: "Your Client Onboarding Call",
-      actions: "A guided session (~2 hrs) where we connect your Make, Instantly, ScrapeNinja, OpenAI, Perplexity, and Google Workspace accounts.",
+      actions: "We conduct a guided session (~2 hrs) where we connect your Make, Instantly, ScrapeNinja, OpenAI, Perplexity, and Google Workspace accounts.",
       outcome: "You own all assets; your AI flows are fully customized to your brand.",
     },
     {
@@ -49,7 +49,7 @@ const OutreachEngine = () => {
 
   const guaranteePoints = [
     "Your Outreach Engine™ goes live within 3 days of onboarding, or your setup fee is refunded.",
-    "If you do not receive at least seven qualified positive replies within 30 days, my team and I continue optimizing for you, free, until achieved.",
+    "If you do not receive at least seven qualified positive replies within 30 days, our team and we continue optimizing for you, free, until achieved.",
   ];
 
   const pricingComponents = [
@@ -72,7 +72,7 @@ const OutreachEngine = () => {
 
   const onRampFlow = [
     "Book Your Launch Call → instant confirmation, so you know we're ready.",
-    "Your Launch Call → a fit check, a demo tailored for you, and a clear overview of my guarantee.",
+    "Your Launch Call → a fit check, a demo tailored for you, and a clear overview of our guarantee.",
     "Your Post-Call Payment → a personalized Payoneer link for your setup fee.",
     "Your Payment Confirmation → your 3-day build timeline & a simple tool checklist.",
     "Your Day 2 Onboarding → a walkthrough and connections, made easy for you.",
@@ -115,7 +115,7 @@ const OutreachEngine = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Your Pain: The Outreach Grind</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">I know you, as an agency owner, are wasting precious time, effort, and payroll dollars trying to run SDR-led outreach campaigns:</p>
+                    <p className="mt-2 text-lg text-muted-foreground">We know you, as an agency owner, are wasting precious time, effort, and payroll dollars trying to run SDR-led outreach campaigns:</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -127,7 +127,7 @@ const OutreachEngine = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      My Essence: You're leaving leads and revenue on the table because you can't achieve both speed and personalization at scale. My Outreach Engine™ removes this trade-off, delivering continuous, hands-free client acquisition with fresh, accurate data and AI-driven personalization, all working for *your* growth.
+                      Our Essence: You're leaving leads and revenue on the table because you can't achieve both speed and personalization at scale. Our Outreach Engine™ removes this trade-off, delivering continuous, hands-free client acquisition with fresh, accurate data and AI-driven personalization, all working for *your* growth.
                     </p>
                   </CardContent>
                 </Card>
@@ -143,7 +143,7 @@ const OutreachEngine = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Your Quantifiable Outcome, Fast</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">My promise to you: Within 3 days of onboarding, you'll receive a live Outreach Engine™ that:</p>
+                    <p className="mt-2 text-lg text-muted-foreground">Our promise to you: Within 3 days of onboarding, you'll receive a live Outreach Engine™ that:</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -155,7 +155,7 @@ const OutreachEngine = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg text-muted-foreground">
-                      Proof for You: Most of my clients see their first qualified replies within 7–14 days, demonstrating speed, precision, and predictability for *your* pipeline.
+                      Proof for You: Most of our clients see their first qualified replies within 7–14 days, demonstrating speed, precision, and predictability for *your* pipeline.
                     </p>
                   </CardContent>
                 </Card>
@@ -171,7 +171,7 @@ const OutreachEngine = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 3 – Your 3-Day Build Process</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">Your Outreach Engine™ – My 3-Day Build Process for You</p>
+                    <p className="mt-2 text-lg text-muted-foreground">Your Outreach Engine™ – Our 3-Day Build Process for You</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm font-semibold text-foreground border-b pb-2 mb-4">
@@ -189,7 +189,7 @@ const OutreachEngine = () => {
                       </div>
                     ))}
                     <p className="mt-6 text-lg text-muted-foreground">
-                      My Ongoing Optimization for You: Weekly data refreshes, AI prompt tuning, and deliverability monitoring to maintain your high conversion rates.
+                      Our Ongoing Optimization for You: Weekly data refreshes, AI prompt tuning, and deliverability monitoring to maintain your high conversion rates.
                     </p>
                     <p className="mt-2 text-lg font-semibold text-foreground">
                       Your Value: A repeatable, three-phase build that transforms a technical automation into a tangible, high-performing client acquisition system, all for *your* benefit.
@@ -207,7 +207,7 @@ const OutreachEngine = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – My Hybrid Risk‑Reversal Guarantee to You</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Our Hybrid Risk‑Reversal Guarantee to You</CardTitle>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -219,10 +219,10 @@ const OutreachEngine = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg text-muted-foreground">
-                      My Conditions: This assumes your completion of onboarding tasks, active sending domains, and a minimum first-month campaign volume of 2,000 emails. We'll ensure you're set up for success.
+                      Our Conditions: This assumes your completion of onboarding tasks, active sending domains, and a minimum first-month campaign volume of 2,000 emails. We'll ensure you're set up for success.
                     </p>
                     <p className="mt-2 text-lg font-semibold text-foreground">
-                      Your Benefit: Your downside is zero; my team and I shoulder the performance risk until your results are provable.
+                      Your Benefit: Your downside is zero; our team and we shoulder the performance risk until your results are provable.
                     </p>
                   </CardContent>
                 </Card>

@@ -31,7 +31,7 @@ const AppointmentSetter = () => {
     {
       day: "1",
       phase: "Your Infrastructure Setup",
-      actions: "My team configures your AI agent across your website, social media, messaging apps, and phone/WhatsApp channels.",
+      actions: "Our team configures your AI agent across your website, social media, messaging apps, and phone/WhatsApp channels.",
       outcome: "Your AI is fully integrated with your omnichannel presence.",
     },
     {
@@ -50,7 +50,7 @@ const AppointmentSetter = () => {
 
   const guaranteePoints = [
     "Your AI Appointment Setter™ will convert >85% of your qualified inbound traffic into booked appointments.",
-    "If your performance falls below this threshold in the first 30 days, my team and I continue optimizing at no extra cost until your target is achieved.",
+    "If your performance falls below this threshold in the first 30 days, our team and we continue optimizing at no extra cost until your target is achieved.",
   ];
 
   const pricingComponents = [
@@ -63,7 +63,7 @@ const AppointmentSetter = () => {
 
   const onRampFlow = [
     "Book Your Launch Call → instant confirmation, so you know we're on it.",
-    "Your Launch Call → a demo tailored for you, qualification rules setup, and a clear guarantee overview.",
+    "Your Launch Call → a demo tailored for you, qualification rules setup, and a clear overview of our guarantee.",
     "Your Payment → your monthly subscription via Payoneer or your preferred method.",
     "Your AI Onboarding → a 3-day configuration, including your live agent dashboard setup.",
     "Your Activation → your AI Appointment Setter™ is live and booking for you 24/7.",
@@ -103,7 +103,7 @@ const AppointmentSetter = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Your Pain: Missed Opportunities</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">I know service-based businesses like yours struggle to convert inbound leads efficiently:</p>
+                    <p className="mt-2 text-lg text-muted-foreground">We know service-based businesses like yours struggle to convert inbound leads efficiently:</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -115,7 +115,7 @@ const AppointmentSetter = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      My Essence: You're losing revenue and wasting inbound traffic because current appointment booking solutions are inefficient, impersonal, or limited in availability. My AI Appointment Setter™ delivers human-like, persuasive, 24/7 lead qualification and booking, ensuring every inbound lead is engaged effectively for *your* business.
+                      Our Essence: You're losing revenue and wasting inbound traffic because current appointment booking solutions are inefficient, impersonal, or limited in availability. Our AI Appointment Setter™ delivers human-like, persuasive, 24/7 lead qualification and booking, ensuring every inbound lead is engaged effectively for *your* business.
                     </p>
                   </CardContent>
                 </Card>
@@ -131,7 +131,7 @@ const AppointmentSetter = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Your Quantifiable Outcome, Guaranteed</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">My promise to you: Once live, your AI Appointment Setter™ will deliver:</p>
+                    <p className="mt-2 text-lg text-muted-foreground">Our promise to you: Once live, your AI Appointment Setter™ will deliver:</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -159,7 +159,7 @@ const AppointmentSetter = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 3 – Your 3-Day Onboarding Process</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">Your AI Appointment Setter™ – My 3-Day Onboarding for You</p>
+                    <p className="mt-2 text-lg text-muted-foreground">Your AI Appointment Setter™ – Our 3-Day Onboarding for You</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-4 text-sm font-semibold text-foreground border-b pb-2 mb-4">
@@ -177,7 +177,7 @@ const AppointmentSetter = () => {
                       </div>
                     ))}
                     <p className="mt-6 text-lg text-muted-foreground">
-                      My Ongoing Optimization for You: Continuous AI tuning, live agent analytics, and workflow refinements to maximize your conversions.
+                      Our Ongoing Optimization for You: Continuous AI tuning, live agent analytics, and workflow refinements to maximize your conversions.
                     </p>
                     <p className="mt-2 text-lg font-semibold text-foreground">
                       Your Value: A complete, ready-to-run appointment booking system that acts as a world-class salesperson 24/7, all for *your* benefit.
@@ -195,7 +195,7 @@ const AppointmentSetter = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – My Hybrid Risk-Reversal Guarantee to You</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Our Hybrid Risk-Reversal Guarantee to You</CardTitle>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -207,7 +207,7 @@ const AppointmentSetter = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      Your Benefit: You face zero risk — my AI system delivers measurable booking outcomes or my team and I continue optimizing for you, free.
+                      Your Benefit: You face zero risk — our AI system delivers measurable booking outcomes or our team and we continue optimizing for you, free.
                     </p>
                   </CardContent>
                 </Card>

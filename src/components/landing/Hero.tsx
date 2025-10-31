@@ -25,7 +25,7 @@ const Hero = () => {
           Tired of the Growth Grind? Let's Build Your Autonomous AI Future.
         </h1>
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
-          I founded Artificialyze because I saw too many brilliant agencies and enterprises trapped in manual cycles. You deserve predictable growth, not endless effort. My team and I engineer bespoke AI ecosystems that don't just add another tool; they replace the grind, becoming your 24/7 acquisition, engagement, and conversion engine.
+          We founded Artificialyze because we saw too many brilliant agencies and enterprises trapped in manual cycles. You deserve predictable growth, not endless effort. Our team and we engineer bespoke AI ecosystems that don't just add another tool; they replace the grind, becoming your 24/7 acquisition, engagement, and conversion engine.
         </p>
         <a href={ctaLink} target="_blank" rel="noopener noreferrer">
           <motion.button

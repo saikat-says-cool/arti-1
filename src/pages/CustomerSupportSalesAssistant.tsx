@@ -24,13 +24,13 @@ const CustomerSupportSalesAssistant = () => {
     {
       day: "1",
       phase: "Your Infrastructure Setup",
-      actions: "My team builds your dynamic UI engine, integrates omnichannel (website, WhatsApp, social messaging), and configures your CRM & e-commerce connections.",
+      actions: "Our team builds your dynamic UI engine, integrates omnichannel (website, WhatsApp, social messaging), and configures your CRM & e-commerce connections.",
       outcome: "Your system is ready for onboarding; fully native integration.",
     },
     {
       day: "2",
       phase: "Your Client Onboarding Call",
-      actions: "A guided session (~2h) where you add team members to your dashboard, review your AI persona, set qualification rules, and define handoff preferences.",
+      actions: "We conduct a guided session (~2h) where you add team members to your dashboard, review your AI persona, set qualification rules, and define handoff preferences.",
       outcome: "You get a client-owned dashboard and team access; your AI is tailored to your brand voice and sales strategy.",
     },
     {
@@ -43,7 +43,7 @@ const CustomerSupportSalesAssistant = () => {
 
   const guaranteePoints = [
     "Your AI system is live within 3 days of onboarding, or your setup fee is refunded.",
-    "You'll achieve at least 30% measurable lift in conversions/engagement within 30 days, or my team and I continue optimizing for you, free, until results are achieved.",
+    "You'll achieve at least 30% measurable lift in conversions/engagement within 30 days, or our team and we continue optimizing for you, free, until results are achieved.",
   ];
 
   const pricingComponents = [
@@ -55,7 +55,7 @@ const CustomerSupportSalesAssistant = () => {
     {
       component: "Your Optional Performance Bonus",
       range: "Variable per additional conversion",
-      purpose: "This encourages shared upside; it aligns your AI's success directly with your revenue.",
+      purpose: "This aligns our incentives and fosters a true partnership mentality for your success.",
     },
   ];
 
@@ -104,12 +104,12 @@ const CustomerSupportSalesAssistant = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 1 – Your Pain: Burning Payroll, Missing Revenue</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">I know e‑commerce brands like yours are burning payroll and missing revenue. Your 24/7 customer support teams are expensive, slow, and inconsistent. Standard chatbots answer FAQs but fail to convert your visitors into paying customers.</p>
+                    <p className="mt-2 text-lg text-muted-foreground">We know e‑commerce brands like yours are burning payroll and missing revenue. Your 24/7 customer support teams are expensive, slow, and inconsistent. Standard chatbots answer FAQs but fail to convert your visitors into paying customers.</p>
                     <p className="mt-2 text-lg text-muted-foreground">Your support system is either transactional or robotic, leaving sales opportunities on the table. SaaS brands face similar challenges: your inbound queries go unanswered, your leads slip away, and your conversion drops.</p>
                   </CardHeader>
                   <CardContent className="text-left">
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      My Essence: Your brand loses money every hour a visitor goes unengaged. My AI Customer Support & Sales Assistant™ removes the trade-off between human-like support and sales conversions — working 24/7, perfectly on-brand, and always optimized for *your* engagement and revenue. We don’t sell chatbots. We build AI systems that acquire, qualify, and convert — 24/7. We replace effort, not add software.
+                      Our Essence: Your brand loses money every hour a visitor goes unengaged. Our AI Customer Support & Sales Assistant™ removes the trade-off between human-like support and sales conversions — working 24/7, perfectly on-brand, and always optimized for *your* engagement and revenue. We don’t sell chatbots. We build AI systems that acquire, qualify, and convert — 24/7. We replace effort, not add software.
                     </p>
                   </CardContent>
                 </Card>
@@ -125,10 +125,10 @@ const CustomerSupportSalesAssistant = () => {
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
                     <CardTitle className="text-3xl font-bold text-foreground">Step 2 – Your Quantifiable Outcome, Fast</CardTitle>
-                    <p className="mt-2 text-lg text-muted-foreground">My promise to you: Within 3 days of onboarding, your AI-powered assistant is live — engaging your visitors, answering your queries, and converting your prospects automatically.</p>
+                    <p className="mt-2 text-lg text-muted-foreground">Our promise to you: Within 3 days of onboarding, your AI-powered assistant is live — engaging your visitors, answering your queries, and converting your prospects automatically.</p>
                   </CardHeader>
                   <CardContent className="text-left">
-                    <p className="text-lg text-muted-foreground mb-3">Most of my clients see measurable results within 2–4 weeks:</p>
+                    <p className="text-lg text-muted-foreground mb-3">Most of our clients see measurable results within 2–4 weeks:</p>
                     <ul className="space-y-3 text-muted-foreground">
                       {measurableResults.map((point, index) => (
                         <li key={index} className="flex items-start">
@@ -138,7 +138,7 @@ const CustomerSupportSalesAssistant = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      My Promise to You: Speed, human-like interactions, and measurable revenue impact — all automated for *your* business.
+                      Our Promise to You: Speed, human-like interactions, and measurable revenue impact — all automated for *your* business.
                     </p>
                   </CardContent>
                 </Card>
@@ -171,7 +171,7 @@ const CustomerSupportSalesAssistant = () => {
                       </div>
                     ))}
                     <p className="mt-6 text-lg text-muted-foreground">
-                      My Ongoing Optimization for You: Weekly analytics refresh, prompt tuning, dynamic UI adjustments, and conversion tracking to ensure *your* continuous success.
+                      Our Ongoing Optimization for You: Weekly analytics refresh, prompt tuning, dynamic UI adjustments, and conversion tracking to ensure *your* continuous success.
                     </p>
                     <p className="mt-2 text-lg font-semibold text-foreground">
                       Your Value: A repeatable, 3-step process transforms a complex technical system into a tangible, revenue-generating product, all for *your* benefit.
@@ -189,7 +189,7 @@ const CustomerSupportSalesAssistant = () => {
               >
                 <Card className="bg-card/50 p-8 shadow-lg">
                   <CardHeader className="text-center">
-                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – My Hybrid Risk‑Reversal Guarantee to You</CardTitle>
+                    <CardTitle className="text-3xl font-bold text-foreground">Step 4 – Our Hybrid Risk‑Reversal Guarantee to You</CardTitle>
                   </CardHeader>
                   <CardContent className="text-left">
                     <ul className="space-y-3 text-muted-foreground">
@@ -201,7 +201,7 @@ const CustomerSupportSalesAssistant = () => {
                       ))}
                     </ul>
                     <p className="mt-6 text-lg font-semibold text-foreground">
-                      My Meaning for You: Your downside is zero; my team and I assume full responsibility for *your* measurable ROI.
+                      Our Meaning for You: Your downside is zero; our team and we assume full responsibility for *your* measurable ROI.
                     </p>
                   </CardContent>
                 </Card>

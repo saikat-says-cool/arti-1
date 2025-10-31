@@ -7,7 +7,7 @@ const Industries = () => {
   const mainIndustries = [
     { 
       title: "Your Outreach Engine: For B2B Service-Based Businesses", 
-      description: "If you're a marketing agency, financial service provider, or any B2B service-based business relying on client acquisition through outbound efforts, I'll build you a predictable, high-value client pipeline." 
+      description: "If you're a marketing agency, financial service provider, or any B2B service-based business relying on client acquisition through outbound efforts, we'll build you a predictable, high-value client pipeline." 
     },
     { 
       title: "Your AI Appointment Setter: For Local Service-Based Businesses", 
@@ -15,7 +15,7 @@ const Industries = () => {
     },
     { 
       title: "Your AI Customer Support & Sales Assistant: For E-commerce & SaaS", 
-      description: "If you're an e-commerce brand across various niches (health, fitness, etc.) or a SaaS company, you need high-touch, conversion-oriented support and sales assistance. I'll boost your customer satisfaction and revenue." 
+      description: "If you're an e-commerce brand across various niches (health, fitness, etc.) or a SaaS company, you need high-touch, conversion-oriented support and sales assistance. We'll boost your customer satisfaction and revenue." 
     },
   ];
   const otherIndustries = "Real Estate | Recruitment & Staffing | Healthcare | Education | Legal | Manufacturing | B2B E-Commerce";
@@ -32,7 +32,7 @@ const Industries = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold">Is Artificialyze Right for Your Industry?</h2>
-          <p className="mt-4 text-lg text-muted-foreground">I've designed Artificialyze to be adaptable and powerful across a wide range of sectors. Let's see where *your* business fits in:</p>
+          <p className="mt-4 text-lg text-muted-foreground">We've designed Artificialyze to be adaptable and powerful across a wide range of sectors. Let's see where *your* business fits in:</p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 mt-12">
           {mainIndustries.map((industry, index) => (
