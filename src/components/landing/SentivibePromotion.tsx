@@ -42,7 +42,7 @@ const SentivibePromotion = () => {
                 Don't just get a report, start a conversation. Get dynamic AI insights.
               </p>
               <Button variant="outline" className="mt-6" asChild>
-                <a href={`${sentivibeLink}/analyze`} target="_blank" rel="noopener noreferrer">
+                <a href={`${sentivibeLink}/analyze-video`} target="_blank" rel="noopener noreferrer">
                   Start Analyzing
                 </a>
               </Button>
@@ -60,7 +60,7 @@ const SentivibePromotion = () => {
                 See the full picture by comparing sentiment across multiple videos.
               </p>
               <Button variant="outline" className="mt-6" asChild>
-                <a href={`${sentivibeLink}/compare`} target="_blank" rel="noopener noreferrer">
+                <a href={`${sentivibeLink}/create-multi-comparison`} target="_blank" rel="noopener noreferrer">
                   Start Comparing
                 </a>
               </Button>
@@ -96,7 +96,7 @@ const SentivibePromotion = () => {
                 Browse and review past comparative video analyses.
               </p>
               <Button variant="link" className="mt-4" asChild>
-                <a href={`${sentivibeLink}/comparison-library`} target="_blank" rel="noopener noreferrer">
+                <a href={`${sentivibeLink}/multi-comparison-library`} target="_blank" rel="noopener noreferrer">
                   View Comparison Library
                 </a>
               </Button>
