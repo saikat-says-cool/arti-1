@@ -8,12 +8,13 @@ import Partners from "@/components/landing/Partners";
 import Credibility from "@/components/landing/Credibility";
 import Industries from "@/components/landing/Industries";
 import WhyChooseUs from "@/components/landing/WhyChooseUs";
-import SpotlightTestimonials from "@/components/landing/SpotlightTestimonials"; // New import
+import SpotlightTestimonials from "@/components/landing/SpotlightTestimonials";
 import Testimonials from "@/components/landing/Testimonials";
 import SocialProofTweets from "@/components/landing/SocialProofTweets";
 import HowItWorks from "@/components/landing/HowItWorks";
 import Guarantee from "@/components/landing/Guarantee";
 import Investment from "@/components/landing/Investment";
+import SentivibePromotion from "@/components/landing/SentivibePromotion"; // New import
 import FAQ from "@/components/landing/FAQ";
 
 const Index = () => {
@@ -52,12 +53,13 @@ const Index = () => {
         <Credibility />
         <Industries />
         <WhyChooseUs />
-        <SpotlightTestimonials /> {/* New component added here */}
+        <SpotlightTestimonials />
         <Testimonials />
         <SocialProofTweets />
         <HowItWorks />
         <Guarantee />
         <Investment />
+        <SentivibePromotion /> {/* New component added here */}
         <FAQ />
       </Layout>
     </>
