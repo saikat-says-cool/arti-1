@@ -2,8 +2,16 @@
 
 import { Stars } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+
+// Map of referrer hostnames to their associated brand names
+const domainBrandMap: { [key: string]: string } = {
+  "sentivibe.online": "SentiVibe",
+  "sentivibe.info": "SentiVibe",
+  "peekanalyst.xyz": "PeekAnalyst",
+  "demovoice.xyz": "Demovoice",
+};
 
 const Hero = () => {
   const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457";
@@ -12,6 +20,30 @@ const Hero = () => {
   const backgroundImage = `radial-gradient(125% 125% at 50% 0%, hsl(var(--background)) 50%, hsl(var(--primary)) 100%)`; // Changed end color to primary accent
   const border = `1px solid hsl(var(--foreground))`;
   const boxShadow = `0px 4px 24px hsl(var(--primary))`; // Changed shadow color to primary accent
+
+  const [showRedirectMessage, setShowRedirectMessage] = useState(false);
+  const [redirectBrandName, setRedirectBrandName] = useState<string | null>(null);
+
+  useEffect(() => {
+    const currentHostname = window.location.hostname;
+    const referrer = document.referrer;
+
+    // Only show the message if the current host is artificialyze.com
+    // and there's a referrer from one of the other brand domains.
+    if (currentHostname === "artificialyze.com" && referrer) {
+      try {
+        const referrerUrl = new URL(referrer);
+        const referrerHostname = referrerUrl.hostname;
+
+        if (domainBrandMap[referrerHostname]) {
+          setRedirectBrandName(domainBrandMap[referrerHostname]);
+          setShowRedirectMessage(true);
+        }
+      } catch (error) {
+        console.error("Error parsing referrer URL in Hero:", error);
+      }
+    }
+  }, []);
 
   return (
     <motion.section
@@ -24,6 +56,18 @@ const Hero = () => {
         <h1 className="max-w-4xl bg-gradient-to-br from-foreground to-muted-foreground bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight">
           Tired of the Growth Grind? Let's Build Your Autonomous AI Future.
         </h1>
+
+        {showRedirectMessage && redirectBrandName && (
+          <motion.p
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="mt-4 text-center text-base md:text-lg text-primary font-semibold"
+          >
+            You were looking for <span className="underline">{redirectBrandName}</span>. You've been redirected to Artificialyze.com, our main site. You're in the right place!
+          </motion.p>
+        )}
+
         <p className="my-6 max-w-3xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
           We founded Artificialyze because we saw too many brilliant agencies and enterprises trapped in manual cycles. You deserve predictable growth, not endless effort. Our team and we engineer bespoke AI ecosystems that don't just add another tool; they replace the grind, becoming your 24/7 acquisition, engagement, and conversion engine.
         </p>
