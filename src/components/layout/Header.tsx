@@ -8,18 +8,19 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const Header = () => {
-  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457"; // Updated CTA link
+  const ctaLink = "https://cal.id/forms/b6aa9349-5d4b-413a-87d2-038a2e6fe457";
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
+    { name: "Our Products", href: "/our-products" }, // New link for Our Products
     { name: "Industries", href: "#industries" },
     { name: "How It Works", href: "#how-it-works" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Pricing", href: "#investment" },
     { name: "FAQ", href: "#faq" },
-    { name: "Outreach Engine", href: "/outreach-engine" }, // New link
-    { name: "Appointment Setter", href: "/appointment-setter" }, // New link
-    { name: "Support & Sales AI", href: "/customer-support-sales-assistant" }, // New link
+    { name: "Outreach Engine", href: "/outreach-engine" },
+    { name: "Appointment Setter", href: "/appointment-setter" },
+    { name: "Support & Sales AI", href: "/customer-support-sales-assistant" },
   ];
 
   return (
@@ -38,7 +39,6 @@ const Header = () => {
 
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
-            // Use Link for internal routes, a for external/hash links
             link.href.startsWith('/') ? (
               <Link 
                 key={link.name} 
